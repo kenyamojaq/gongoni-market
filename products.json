@@ -1,0 +1,962 @@
+[
+  {
+    "id": 1,
+    "batch": "Batch 1",
+    "name": "Stackable Plastic Chair Set",
+    "price": 750,
+    "category": "Furniture & chairs",
+    "image": "assets/batches/batch-01/batch01_001.jpg",
+    "caption": "@750/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_001.webp"
+  },
+  {
+    "id": 2,
+    "batch": "Batch 1",
+    "name": "Stackable Plastic Chair Set",
+    "price": 530,
+    "category": "Furniture & chairs",
+    "image": "assets/batches/batch-01/batch01_002.jpg",
+    "caption": "@530/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_002.webp"
+  },
+  {
+    "id": 3,
+    "batch": "Batch 1",
+    "name": "Stackable Plastic Chair Set",
+    "price": 850,
+    "category": "Furniture & chairs",
+    "image": "assets/batches/batch-01/batch01_003.jpg",
+    "caption": "@850/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_003.webp"
+  },
+  {
+    "id": 4,
+    "batch": "Batch 1",
+    "name": "Plastic Arm Chair",
+    "price": 550,
+    "category": "Furniture & chairs",
+    "image": "assets/batches/batch-01/batch01_004.jpg",
+    "caption": "@550/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_004.webp"
+  },
+  {
+    "id": 5,
+    "batch": "Batch 1",
+    "name": "Stackable Plastic Chair Set",
+    "price": 530,
+    "category": "Furniture & chairs",
+    "image": "assets/batches/batch-01/batch01_005.jpg",
+    "caption": "@530/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_005.webp"
+  },
+  {
+    "id": 6,
+    "batch": "Batch 1",
+    "name": "Plastic Arm Chair Set",
+    "price": 1000,
+    "category": "Furniture & chairs",
+    "image": "assets/batches/batch-01/batch01_006.jpg",
+    "caption": "@1000/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_006.webp"
+  },
+  {
+    "id": 7,
+    "batch": "Batch 1",
+    "name": "Brown Plastic Arm Chair",
+    "price": 850,
+    "category": "Furniture & chairs",
+    "image": "assets/batches/batch-01/batch01_007.jpg",
+    "caption": "@850/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_007.webp"
+  },
+  {
+    "id": 8,
+    "batch": "Batch 1",
+    "name": "Red Plastic Arm Chair",
+    "price": 300,
+    "category": "Furniture & chairs",
+    "image": "assets/batches/batch-01/batch01_008.jpg",
+    "caption": "@300/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_008.webp"
+  },
+  {
+    "id": 9,
+    "batch": "Batch 1",
+    "name": "Blue Plastic Arm Chair",
+    "price": 400,
+    "category": "Furniture & chairs",
+    "image": "assets/batches/batch-01/batch01_009.jpg",
+    "caption": "@400/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_009.webp"
+  },
+  {
+    "id": 10,
+    "batch": "Batch 1",
+    "name": "Pink Plastic Arm Chair",
+    "price": 800,
+    "category": "Furniture & chairs",
+    "image": "assets/batches/batch-01/batch01_010.jpg",
+    "caption": "@800/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_010.webp"
+  },
+  {
+    "id": 11,
+    "batch": "Batch 1",
+    "name": "Blue Plastic Armless Chair",
+    "price": 700,
+    "category": "Furniture & chairs",
+    "image": "assets/batches/batch-01/batch01_011.jpg",
+    "caption": "@700/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_011.webp"
+  },
+  {
+    "id": 12,
+    "batch": "Batch 1",
+    "name": "Stackable Children Plastic Chairs",
+    "price": 350,
+    "category": "Furniture & chairs",
+    "image": "assets/batches/batch-01/batch01_012.jpg",
+    "caption": "@350/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_012.webp"
+  },
+  {
+    "id": 13,
+    "batch": "Batch 1",
+    "name": "Yellow Children Plastic Chair",
+    "price": 360,
+    "category": "Furniture & chairs",
+    "image": "assets/batches/batch-01/batch01_013.jpg",
+    "caption": "@360/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_013.webp"
+  },
+  {
+    "id": 14,
+    "batch": "Batch 1",
+    "name": "Doormat",
+    "price": 300,
+    "category": "Home & bedding",
+    "image": "assets/batches/batch-01/batch01_014.jpg",
+    "caption": "D00rmat@300/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_014.webp"
+  },
+  {
+    "id": 15,
+    "batch": "Batch 1",
+    "name": "Doormat",
+    "price": 250,
+    "category": "Home & bedding",
+    "image": "assets/batches/batch-01/batch01_015.jpg",
+    "caption": "Do0rmat@250/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_015.webp"
+  },
+  {
+    "id": 16,
+    "batch": "Batch 1",
+    "name": "Tri-Cycle Bicycle D 209",
+    "price": 4000,
+    "category": "Baby & kids",
+    "image": "assets/batches/batch-01/batch01_016.jpg",
+    "caption": "Tri-cycle bicycle D209 @4,000/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_016.webp"
+  },
+  {
+    "id": 17,
+    "batch": "Batch 1",
+    "name": "General Goods Item 017",
+    "price": null,
+    "category": "General goods",
+    "image": "assets/batches/batch-01/batch01_017.jpg",
+    "caption": "",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_017.webp"
+  },
+  {
+    "id": 18,
+    "batch": "Batch 1",
+    "name": "Tri-Cycle Bicycle D 022",
+    "price": 4400,
+    "category": "Baby & kids",
+    "image": "assets/batches/batch-01/batch01_018.jpg",
+    "caption": "Tri-cyclebicycle D022@4,400/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_018.webp"
+  },
+  {
+    "id": 19,
+    "batch": "Batch 1",
+    "name": "General Goods Item 019",
+    "price": null,
+    "category": "General goods",
+    "image": "assets/batches/batch-01/batch01_019.jpg",
+    "caption": "",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_019.webp"
+  },
+  {
+    "id": 20,
+    "batch": "Batch 1",
+    "name": "Tri-Cycle Bicycle 028",
+    "price": 4000,
+    "category": "Baby & kids",
+    "image": "assets/batches/batch-01/batch01_020.jpg",
+    "caption": "Tri-cyclebicycle028 @4000/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_020.webp"
+  },
+  {
+    "id": 21,
+    "batch": "Batch 1",
+    "name": "General Goods Item 021",
+    "price": null,
+    "category": "General goods",
+    "image": "assets/batches/batch-01/batch01_021.jpg",
+    "caption": "",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_021.webp"
+  },
+  {
+    "id": 22,
+    "batch": "Batch 1",
+    "name": "Tri-Cycle Bicycle 015",
+    "price": 3700,
+    "category": "Baby & kids",
+    "image": "assets/batches/batch-01/batch01_022.jpg",
+    "caption": "Tri-cycle bicycle 015 @3,700/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_022.webp"
+  },
+  {
+    "id": 23,
+    "batch": "Batch 1",
+    "name": "General Goods Item 023",
+    "price": null,
+    "category": "General goods",
+    "image": "assets/batches/batch-01/batch01_023.jpg",
+    "caption": "",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_023.webp"
+  },
+  {
+    "id": 24,
+    "batch": "Batch 1",
+    "name": "Bicycle TC-170",
+    "price": 6300,
+    "category": "Baby & kids",
+    "image": "assets/batches/batch-01/batch01_024.jpg",
+    "caption": "Bicycle TC-170 @6,300/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_024.webp"
+  },
+  {
+    "id": 25,
+    "batch": "Batch 1",
+    "name": "General Goods Item 025",
+    "price": null,
+    "category": "General goods",
+    "image": "assets/batches/batch-01/batch01_025.jpg",
+    "caption": "",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_025.webp"
+  },
+  {
+    "id": 26,
+    "batch": "Batch 1",
+    "name": "TC-169 12 Inch",
+    "price": 6800,
+    "category": "Baby & kids",
+    "image": "assets/batches/batch-01/batch01_026.jpg",
+    "caption": "TC-169 12INCH@6,800/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_026.webp"
+  },
+  {
+    "id": 27,
+    "batch": "Batch 1",
+    "name": "TC-170 16 Inch",
+    "price": 7300,
+    "category": "Baby & kids",
+    "image": "assets/batches/batch-01/batch01_027.jpg",
+    "caption": "TC-17016inch@7,300/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_027.webp"
+  },
+  {
+    "id": 28,
+    "batch": "Batch 1",
+    "name": "TC-170 20\"",
+    "price": 7800,
+    "category": "Baby & kids",
+    "image": "assets/batches/batch-01/batch01_028.jpg",
+    "caption": "TC-170 20\"@7,800/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_028.webp"
+  },
+  {
+    "id": 29,
+    "batch": "Batch 1",
+    "name": "TC-169 20 Inch",
+    "price": 8300,
+    "category": "Baby & kids",
+    "image": "assets/batches/batch-01/batch01_029.jpg",
+    "caption": "TC-169 20lnch@8.300/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_029.webp"
+  },
+  {
+    "id": 30,
+    "batch": "Batch 1",
+    "name": "Tri-Cycle Bicycle TC-D 022-1",
+    "price": 4200,
+    "category": "Baby & kids",
+    "image": "assets/batches/batch-01/batch01_030.jpg",
+    "caption": "Tri-cycle bicycle TC-D022-1 @4,200/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_030.webp"
+  },
+  {
+    "id": 31,
+    "batch": "Batch 1",
+    "name": "General Goods Item 031",
+    "price": null,
+    "category": "General goods",
+    "image": "assets/batches/batch-01/batch01_031.jpg",
+    "caption": "",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_031.webp"
+  },
+  {
+    "id": 32,
+    "batch": "Batch 1",
+    "name": "Oscar Multipurpose Set 0 M-025",
+    "price": 250,
+    "category": "General goods",
+    "image": "assets/batches/batch-01/batch01_032.jpg",
+    "caption": "0scarmultipurposeset0M-025@250/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_032.webp"
+  },
+  {
+    "id": 33,
+    "batch": "Batch 1",
+    "name": "General Goods Item 033",
+    "price": null,
+    "category": "General goods",
+    "image": "assets/batches/batch-01/batch01_033.jpg",
+    "caption": "",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_033.webp"
+  },
+  {
+    "id": 34,
+    "batch": "Batch 1",
+    "name": "General Goods Item 034",
+    "price": null,
+    "category": "General goods",
+    "image": "assets/batches/batch-01/batch01_034.jpg",
+    "caption": "",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_034.webp"
+  },
+  {
+    "id": 35,
+    "batch": "Batch 1",
+    "name": "Starcruzy Multipurpose Set ScM-030",
+    "price": 300,
+    "category": "General goods",
+    "image": "assets/batches/batch-01/batch01_035.jpg",
+    "caption": "StarcruzymultipurposesetscM-030@300/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_035.webp"
+  },
+  {
+    "id": 36,
+    "batch": "Batch 1",
+    "name": "General Goods Item 036",
+    "price": null,
+    "category": "General goods",
+    "image": "assets/batches/batch-01/batch01_036.jpg",
+    "caption": "",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_036.webp"
+  },
+  {
+    "id": 37,
+    "batch": "Batch 1",
+    "name": "Chapati Board CB-005",
+    "price": 500,
+    "category": "Kitchenware",
+    "image": "assets/batches/batch-01/batch01_037.jpg",
+    "caption": "ChapatiboardCB-005@500/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_037.webp"
+  },
+  {
+    "id": 38,
+    "batch": "Batch 1",
+    "name": "General Goods Item 038",
+    "price": null,
+    "category": "General goods",
+    "image": "assets/batches/batch-01/batch01_038.jpg",
+    "caption": "",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_038.webp"
+  },
+  {
+    "id": 39,
+    "batch": "Batch 1",
+    "name": "Chapati Board No. 035",
+    "price": 350,
+    "category": "Kitchenware",
+    "image": "assets/batches/batch-01/batch01_039.jpg",
+    "caption": "Chapati boardno.035@350/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_039.webp"
+  },
+  {
+    "id": 41,
+    "batch": "Batch 1",
+    "name": "Chapati Board CB-004",
+    "price": 400,
+    "category": "Kitchenware",
+    "image": "assets/batches/batch-01/batch01_041.jpg",
+    "caption": "ChapatiboardCB-004@400/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_041.webp"
+  },
+  {
+    "id": 42,
+    "batch": "Batch 1",
+    "name": "Chapati Board",
+    "price": 350,
+    "category": "Kitchenware",
+    "image": "assets/batches/batch-01/batch01_042.jpg",
+    "caption": "Chapatiboard@350/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_042.webp"
+  },
+  {
+    "id": 43,
+    "batch": "Batch 1",
+    "name": "Bamboo Mwiko Set 035",
+    "price": 350,
+    "category": "Kitchenware",
+    "image": "assets/batches/batch-01/batch01_043.jpg",
+    "caption": "Bamboomwikoset035@350/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_043.webp"
+  },
+  {
+    "id": 44,
+    "batch": "Batch 1",
+    "name": "Local Chopping Board S/S",
+    "price": 350,
+    "category": "Kitchenware",
+    "image": "assets/batches/batch-01/batch01_044.jpg",
+    "caption": "Localchoppingboards/s@350/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_044.webp"
+  },
+  {
+    "id": 45,
+    "batch": "Batch 1",
+    "name": "Local Chopping Board B/S",
+    "price": 450,
+    "category": "Kitchenware",
+    "image": "assets/batches/batch-01/batch01_045.jpg",
+    "caption": "LocalchoppingboardB/S@450/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_045.webp"
+  },
+  {
+    "id": 46,
+    "batch": "Batch 1",
+    "name": "Ash Tray",
+    "price": 200,
+    "category": "Kitchenware",
+    "image": "assets/batches/batch-01/batch01_046.jpg",
+    "caption": "Ash tray @200/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_046.webp"
+  },
+  {
+    "id": 47,
+    "batch": "Batch 1",
+    "name": "Wooden Mortar And Pestle S/S",
+    "price": 200,
+    "category": "Kitchenware",
+    "image": "assets/batches/batch-01/batch01_047.jpg",
+    "caption": "WoodenmotorandpistleS/s@200/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_047.webp"
+  },
+  {
+    "id": 48,
+    "batch": "Batch 1",
+    "name": "Wooden Mortar And Pestle B/S",
+    "price": 250,
+    "category": "Kitchenware",
+    "image": "assets/batches/batch-01/batch01_048.jpg",
+    "caption": "WoodenmotorandpistleB/S@250/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_048.webp"
+  },
+  {
+    "id": 49,
+    "batch": "Batch 1",
+    "name": "Mortar And Pestle A 08",
+    "price": 450,
+    "category": "Kitchenware",
+    "image": "assets/batches/batch-01/batch01_049.jpg",
+    "caption": "Motorand pistleA08@450/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_049.webp"
+  },
+  {
+    "id": 50,
+    "batch": "Batch 1",
+    "name": "Melamine Calabash X-22586",
+    "price": 100,
+    "category": "Kitchenware",
+    "image": "assets/batches/batch-01/batch01_050.jpg",
+    "caption": "Melaminecalabashx-22586@100/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_050.webp"
+  },
+  {
+    "id": 51,
+    "batch": "Batch 1",
+    "name": "Ceramic Bowl CB-015",
+    "price": 150,
+    "category": "Kitchenware",
+    "image": "assets/batches/batch-01/batch01_051.jpg",
+    "caption": "CeramicbowlCB-015@150/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_051.webp"
+  },
+  {
+    "id": 52,
+    "batch": "Batch 1",
+    "name": "General Goods Item 052",
+    "price": null,
+    "category": "General goods",
+    "image": "assets/batches/batch-01/batch01_052.jpg",
+    "caption": "",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_052.webp"
+  },
+  {
+    "id": 53,
+    "batch": "Batch 1",
+    "name": "Melamine Plate B 7",
+    "price": 60,
+    "category": "Kitchenware",
+    "image": "assets/batches/batch-01/batch01_053.jpg",
+    "caption": "MelamineplateB7@60/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_053.webp"
+  },
+  {
+    "id": 54,
+    "batch": "Batch 1",
+    "name": "Ceramic Bowl",
+    "price": 100,
+    "category": "Kitchenware",
+    "image": "assets/batches/batch-01/batch01_054.jpg",
+    "caption": "Ceramicbowl@100/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_054.webp"
+  },
+  {
+    "id": 55,
+    "batch": "Batch 1",
+    "name": "Ceramic Bowl CB-012",
+    "price": 120,
+    "category": "Kitchenware",
+    "image": "assets/batches/batch-01/batch01_055.jpg",
+    "caption": "CeramicbowlCB-012@120/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_055.webp"
+  },
+  {
+    "id": 56,
+    "batch": "Batch 1",
+    "name": "Ceramic Bowl CB-010",
+    "price": 100,
+    "category": "Kitchenware",
+    "image": "assets/batches/batch-01/batch01_056.jpg",
+    "caption": "CeramicbowlcB-010@100/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_056.webp"
+  },
+  {
+    "id": 59,
+    "batch": "Batch 1",
+    "name": "Ceramic Plate 311009639",
+    "price": 1000,
+    "category": "Kitchenware",
+    "image": "assets/batches/batch-01/batch01_059.jpg",
+    "caption": "Ceramic plate311009639@1,000/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_059.webp"
+  },
+  {
+    "id": 60,
+    "batch": "Batch 1",
+    "name": "Cutlery Set With Stand 24 Pcs",
+    "price": 1000,
+    "category": "Kitchenware",
+    "image": "assets/batches/batch-01/batch01_060.jpg",
+    "caption": "Cutleryset with stand 24pcs@1,000/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_060.webp"
+  },
+  {
+    "id": 61,
+    "batch": "Batch 1",
+    "name": "General Goods Item 061",
+    "price": null,
+    "category": "General goods",
+    "image": "assets/batches/batch-01/batch01_061.jpg",
+    "caption": "",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_061.webp"
+  },
+  {
+    "id": 62,
+    "batch": "Batch 1",
+    "name": "General Goods Item 062",
+    "price": null,
+    "category": "General goods",
+    "image": "assets/batches/batch-01/batch01_062.jpg",
+    "caption": "",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_062.webp"
+  },
+  {
+    "id": 63,
+    "batch": "Batch 1",
+    "name": "Melamine Bowl A 034",
+    "price": 100,
+    "category": "Kitchenware",
+    "image": "assets/batches/batch-01/batch01_063.jpg",
+    "caption": "MelaminebowlA034@100/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_063.webp"
+  },
+  {
+    "id": 64,
+    "batch": "Batch 1",
+    "name": "General Goods Item 064",
+    "price": null,
+    "category": "General goods",
+    "image": "assets/batches/batch-01/batch01_064.jpg",
+    "caption": "",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_064.webp"
+  },
+  {
+    "id": 65,
+    "batch": "Batch 1",
+    "name": "Melamine Portion Plate F-23760",
+    "price": 150,
+    "category": "Kitchenware",
+    "image": "assets/batches/batch-01/batch01_065.jpg",
+    "caption": "MelamineportionplateF-23760@150/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_065.webp"
+  },
+  {
+    "id": 66,
+    "batch": "Batch 1",
+    "name": "Stargift Stainless Glass",
+    "price": 100,
+    "category": "Kitchenware",
+    "image": "assets/batches/batch-01/batch01_066.jpg",
+    "caption": "Stargift stainless glass @100/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_066.webp"
+  },
+  {
+    "id": 67,
+    "batch": "Batch 1",
+    "name": "General Goods Item 067",
+    "price": null,
+    "category": "General goods",
+    "image": "assets/batches/batch-01/batch01_067.jpg",
+    "caption": "",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_067.webp"
+  },
+  {
+    "id": 68,
+    "batch": "Batch 1",
+    "name": "Melamine Bowl GPW 2202",
+    "price": 60,
+    "category": "Kitchenware",
+    "image": "assets/batches/batch-01/batch01_068.jpg",
+    "caption": "MelaminebowlGPW2202@60/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_068.webp"
+  },
+  {
+    "id": 69,
+    "batch": "Batch 1",
+    "name": "Melamine Bowl W-3245",
+    "price": 40,
+    "category": "Kitchenware",
+    "image": "assets/batches/batch-01/batch01_069.jpg",
+    "caption": "Melaminebowlw-3245@40/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_069.webp"
+  },
+  {
+    "id": 70,
+    "batch": "Batch 1",
+    "name": "Melamine Bowl W-23303",
+    "price": 60,
+    "category": "Kitchenware",
+    "image": "assets/batches/batch-01/batch01_070.jpg",
+    "caption": "MelaminebowlW-23303 @60/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_070.webp"
+  },
+  {
+    "id": 71,
+    "batch": "Batch 1",
+    "name": "Melamine Bowl W-21318",
+    "price": 50,
+    "category": "Kitchenware",
+    "image": "assets/batches/batch-01/batch01_071.jpg",
+    "caption": "MelaminebowlW-21318 @50/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_071.webp"
+  },
+  {
+    "id": 72,
+    "batch": "Batch 1",
+    "name": "Ascot Sugar Dish As-34",
+    "price": 120,
+    "category": "Cleaning",
+    "image": "assets/batches/batch-01/batch01_072.jpg",
+    "caption": "AscotsugardishAs-34 @120/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_072.webp"
+  },
+  {
+    "id": 73,
+    "batch": "Batch 1",
+    "name": "Melamine Bowl A 030 0",
+    "price": 70,
+    "category": "Kitchenware",
+    "image": "assets/batches/batch-01/batch01_073.jpg",
+    "caption": "MelaminebowlA030 0@70/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_073.webp"
+  },
+  {
+    "id": 74,
+    "batch": "Batch 1",
+    "name": "GP Melamine Plate P-2223",
+    "price": 100,
+    "category": "Kitchenware",
+    "image": "assets/batches/batch-01/batch01_074.jpg",
+    "caption": "GPMelamineplateP-2223 @100/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_074.webp"
+  },
+  {
+    "id": 75,
+    "batch": "Batch 1",
+    "name": "Melamine Plate LG-2050",
+    "price": 180,
+    "category": "Kitchenware",
+    "image": "assets/batches/batch-01/batch01_075.jpg",
+    "caption": "MelamineplateLG-2050 @180/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_075.webp"
+  },
+  {
+    "id": 76,
+    "batch": "Batch 1",
+    "name": "Melamine Plate LG-2065",
+    "price": 200,
+    "category": "Kitchenware",
+    "image": "assets/batches/batch-01/batch01_076.jpg",
+    "caption": "MelamineplateLG-2065 @200/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_076.webp"
+  },
+  {
+    "id": 77,
+    "batch": "Batch 1",
+    "name": "Melamine Serving Bowl A 005",
+    "price": 160,
+    "category": "Kitchenware",
+    "image": "assets/batches/batch-01/batch01_077.jpg",
+    "caption": "Melamine servingbowlA005 @160/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_077.webp"
+  },
+  {
+    "id": 78,
+    "batch": "Batch 1",
+    "name": "Melamine Hotpot A 008",
+    "price": 300,
+    "category": "Kitchenware",
+    "image": "assets/batches/batch-01/batch01_078.jpg",
+    "caption": "Melaminehotpot A008 @300/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_078.webp"
+  },
+  {
+    "id": 79,
+    "batch": "Batch 1",
+    "name": "General Goods Item 079",
+    "price": null,
+    "category": "General goods",
+    "image": "assets/batches/batch-01/batch01_079.jpg",
+    "caption": "",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_079.webp"
+  },
+  {
+    "id": 80,
+    "batch": "Batch 1",
+    "name": "Oasisbowl Bo-01",
+    "price": 60,
+    "category": "Kitchenware",
+    "image": "assets/batches/batch-01/batch01_080.jpg",
+    "caption": "Oasisbowl Bo-01 @60/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_080.webp"
+  },
+  {
+    "id": 81,
+    "batch": "Batch 1",
+    "name": "Melamine Bowl A 07",
+    "price": 250,
+    "category": "Kitchenware",
+    "image": "assets/batches/batch-01/batch01_081.jpg",
+    "caption": "MelaminebowlA07@250/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_081.webp"
+  },
+  {
+    "id": 82,
+    "batch": "Batch 1",
+    "name": "General Goods Item 082",
+    "price": null,
+    "category": "General goods",
+    "image": "assets/batches/batch-01/batch01_082.jpg",
+    "caption": "",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_082.webp"
+  },
+  {
+    "id": 83,
+    "batch": "Batch 1",
+    "name": "Melamine Servingpot G-1660",
+    "price": 260,
+    "category": "Kitchenware",
+    "image": "assets/batches/batch-01/batch01_083.jpg",
+    "caption": "Melamine servingpot G-1660 @260/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_083.webp"
+  },
+  {
+    "id": 84,
+    "batch": "Batch 1",
+    "name": "General Goods Item 084",
+    "price": null,
+    "category": "General goods",
+    "image": "assets/batches/batch-01/batch01_084.jpg",
+    "caption": "",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_084.webp"
+  },
+  {
+    "id": 85,
+    "batch": "Batch 1",
+    "name": "Melamine Hotpot G-19816652",
+    "price": 250,
+    "category": "Kitchenware",
+    "image": "assets/batches/batch-01/batch01_085.jpg",
+    "caption": "MelaminehotpotG-19816652@250/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_085.webp"
+  },
+  {
+    "id": 86,
+    "batch": "Batch 1",
+    "name": "General Goods Item 086",
+    "price": null,
+    "category": "General goods",
+    "image": "assets/batches/batch-01/batch01_086.jpg",
+    "caption": "",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_086.webp"
+  },
+  {
+    "id": 87,
+    "batch": "Batch 1",
+    "name": "Melamine Bowl A 003",
+    "price": 220,
+    "category": "Kitchenware",
+    "image": "assets/batches/batch-01/batch01_087.jpg",
+    "caption": "MelaminebowlA003@220/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_087.webp"
+  },
+  {
+    "id": 88,
+    "batch": "Batch 1",
+    "name": "General Goods Item 088",
+    "price": null,
+    "category": "General goods",
+    "image": "assets/batches/batch-01/batch01_088.jpg",
+    "caption": "",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_088.webp"
+  },
+  {
+    "id": 89,
+    "batch": "Batch 1",
+    "name": "Melamine Bowl A 023",
+    "price": 300,
+    "category": "Kitchenware",
+    "image": "assets/batches/batch-01/batch01_089.jpg",
+    "caption": "MelaminebowlA023@300/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_089.webp"
+  },
+  {
+    "id": 90,
+    "batch": "Batch 1",
+    "name": "General Goods Item 090",
+    "price": null,
+    "category": "General goods",
+    "image": "assets/batches/batch-01/batch01_090.jpg",
+    "caption": "",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_090.webp"
+  },
+  {
+    "id": 91,
+    "batch": "Batch 1",
+    "name": "MelamineservingbowlA 028",
+    "price": 250,
+    "category": "Kitchenware",
+    "image": "assets/batches/batch-01/batch01_091.jpg",
+    "caption": "MelamineservingbowlA028@250/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_091.webp"
+  },
+  {
+    "id": 92,
+    "batch": "Batch 1",
+    "name": "General Goods Item 092",
+    "price": null,
+    "category": "General goods",
+    "image": "assets/batches/batch-01/batch01_092.jpg",
+    "caption": "",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_092.webp"
+  },
+  {
+    "id": 93,
+    "batch": "Batch 1",
+    "name": "ASCOTSERVINGDISHAS-21",
+    "price": null,
+    "category": "Cleaning",
+    "image": "assets/batches/batch-01/batch01_093.jpg",
+    "caption": "ASCOTSERVINGDISHAS-21",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_093.webp"
+  },
+  {
+    "id": 94,
+    "batch": "Batch 1",
+    "name": "General Goods Item 094",
+    "price": null,
+    "category": "General goods",
+    "image": "assets/batches/batch-01/batch01_094.jpg",
+    "caption": "",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_094.webp"
+  },
+  {
+    "id": 95,
+    "batch": "Batch 1",
+    "name": "Melamine Bowl G-198087003",
+    "price": 150,
+    "category": "Kitchenware",
+    "image": "assets/batches/batch-01/batch01_095.jpg",
+    "caption": "MelaminebowlG-198087003@150/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_095.webp"
+  },
+  {
+    "id": 96,
+    "batch": "Batch 1",
+    "name": "General Goods Item 096",
+    "price": null,
+    "category": "General goods",
+    "image": "assets/batches/batch-01/batch01_096.jpg",
+    "caption": "",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_096.webp"
+  },
+  {
+    "id": 97,
+    "batch": "Batch 1",
+    "name": "Flamingo 2 In",
+    "price": 150,
+    "category": "General goods",
+    "image": "assets/batches/batch-01/batch01_097.jpg",
+    "caption": "Flamingo2in@150/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_097.webp"
+  },
+  {
+    "id": 98,
+    "batch": "Batch 1",
+    "name": "Flamingo 3 In 190 G",
+    "price": 150,
+    "category": "General goods",
+    "image": "assets/batches/batch-01/batch01_098.jpg",
+    "caption": "Flamingo3in190g@150/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_098.webp"
+  },
+  {
+    "id": 99,
+    "batch": "Batch 1",
+    "name": "Geisha Soap 200 G",
+    "price": 120,
+    "category": "Beauty & care",
+    "image": "assets/batches/batch-01/batch01_099.jpg",
+    "caption": "Geishasoap200g @120/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_099.webp"
+  }
+]

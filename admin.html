@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gongoni Admin</title>
+    <link rel="stylesheet" href="styles.css?v=admin-01" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">G</span>
+        <span>
+          <strong>Gongoni Admin</strong>
+          <small>Edit shop names, prices, and categories</small>
+        </span>
+      </a>
+      <nav>
+        <a href="index.html">Shop</a>
+        <a href="index.html#checkout">Checkout</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="admin-hero">
+        <div>
+          <p class="eyebrow">Local editor</p>
+          <h1>Update products before customers see them.</h1>
+          <p>Search an item, edit it, then save. Changes are saved on this browser and applied to the shop preview.</p>
+        </div>
+        <div class="admin-export">
+          <strong data-admin-count>Loading products...</strong>
+          <button class="primary" type="button" data-export>Export edits</button>
+          <button class="secondary" type="button" data-clear-edits>Clear saved edits</button>
+        </div>
+      </section>
+
+      <section class="toolbar admin-toolbar" aria-label="Admin product search">
+        <label>
+          Search item
+          <input data-admin-search type="search" placeholder="Search name, category, id..." />
+        </label>
+        <label>
+          Category
+          <select data-admin-category></select>
+        </label>
+        <label>
+          Status
+          <select data-admin-status>
+            <option value="all">All items</option>
+            <option value="ask">Ask price only</option>
+            <option value="priced">Priced only</option>
+          </select>
+        </label>
+      </section>
+
+      <section class="admin-layout">
+        <div class="admin-list" data-admin-list></div>
+        <form class="admin-editor" data-admin-form>
+          <p class="eyebrow">Selected item</p>
+          <img data-edit-image alt="" />
+          <label>
+            Product name
+            <input data-edit-name type="text" />
+          </label>
+          <label>
+            Price
+            <input data-edit-price type="number" min="0" step="1" placeholder="Leave blank for Ask price" />
+          </label>
+          <label>
+            Category
+            <select data-edit-category></select>
+          </label>
+          <div class="admin-actions">
+            <button class="add-action" type="submit">Save item</button>
+            <button class="secondary" type="button" data-reset-item>Reset item</button>
+          </div>
+          <strong data-edit-status></strong>
+        </form>
+      </section>
+    </main>
+
+    <script src="admin.js?v=admin-01"></script>
+  </body>
+</html>
