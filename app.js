@@ -7,11 +7,12 @@ const DELIVERY_AREAS = [
   { area: "Watamu", fee: 300 },
   { area: "Marereni", fee: 300 },
   { area: "Adu", fee: 450 },
+  { area: "Malindi", fee: 500 },
   { area: "Marafa", fee: 500 },
   { area: "Lango Baya", fee: 600 },
 ];
 const DELIVERY_NOTE =
-  "Home delivery to your doorstep in Kilifi County and its environs. Delivery starts from KSh 100 in Gongoni, KSh 300 to Watamu/Marereni, KSh 450 to Adu, KSh 500 to Marafa, and KSh 600 to Lango Baya. Parcel drop locations are available in Adu and Malindi. Bulky furniture or heavy orders are confirmed before dispatch.";
+  "Home delivery to your doorstep in Kilifi County and its environs. Delivery starts from KSh 100 in Gongoni, KSh 300 to Watamu/Marereni, KSh 450 to Adu, KSh 500 to Malindi/Marafa, and KSh 600 to Lango Baya. Bulky furniture or heavy orders are confirmed before dispatch.";
 
 const productGrid = document.querySelector("#productGrid");
 const photoGrid = document.querySelector("#photoGrid");
@@ -134,7 +135,7 @@ function itemDescription(item) {
     Kitchenware: `${name} is a kitchen item for cooking, serving, storage, or dining at home.`,
   };
 
-  return `${categoryDescriptions[category] || `${name} is available under ${category}.`} ${priceLine} Delivery is available to Gongoni, Watamu, Marereni, Adu, Marafa, Lango Baya, and nearby areas. Parcel drop locations are available in Adu and Malindi.`;
+  return `${categoryDescriptions[category] || `${name} is available under ${category}.`} ${priceLine} Delivery is available to Gongoni, Watamu, Marereni, Adu, Malindi, Marafa, Lango Baya, and nearby areas.`;
 }
 
 function whatsappUrl(message) {
@@ -909,8 +910,8 @@ document.querySelectorAll("[data-category-chip]").forEach((button) => {
 loadMore.addEventListener("click", () => renderPhotos());
 
 Promise.all([
-  fetch("products.json?v=shop-contact-locations-01").then((res) => res.json()),
-  fetch("all-photos-data.json?v=shop-contact-locations-01").then((res) => res.json()),
+  fetch("products.json?v=delivery-prices-01").then((res) => res.json()),
+  fetch("all-photos-data.json?v=delivery-prices-01").then((res) => res.json()),
 ])
   .then(([products, photos]) => {
     state.products = groupSimilarItems(applyAdminOverrides(products));
