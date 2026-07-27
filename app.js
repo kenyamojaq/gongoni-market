@@ -3,16 +3,17 @@ const PAYBILL = "222111";
 const ACCOUNT = "3072428";
 const BUSINESS_NAME = "GONGONI FURNITURE SHOP";
 const DELIVERY_AREAS = [
+  { area: "Malindi Shop Pickup", fee: 0 },
+  { area: "Malindi Town Delivery", fee: 100 },
   { area: "Gongoni", fee: 100 },
   { area: "Watamu", fee: 300 },
   { area: "Marereni", fee: 300 },
   { area: "Adu", fee: 450 },
-  { area: "Malindi", fee: 500 },
   { area: "Marafa", fee: 500 },
   { area: "Lango Baya", fee: 600 },
 ];
 const DELIVERY_NOTE =
-  "Home delivery to your doorstep in Kilifi County and its environs. Delivery starts from KSh 100 in Gongoni, KSh 300 to Watamu/Marereni, KSh 450 to Adu, KSh 500 to Malindi/Marafa, and KSh 600 to Lango Baya. Bulky furniture or heavy orders are confirmed before dispatch.";
+  "Free shop pickup is available in Malindi town. Malindi town delivery starts from KSh 100. Other delivery charges start from KSh 100 to Gongoni, KSh 300 to Watamu/Marereni, KSh 450 to Adu, KSh 500 to Marafa, and KSh 600 to Lango Baya. Bulky furniture or heavy orders are confirmed before dispatch.";
 
 const productGrid = document.querySelector("#productGrid");
 const photoGrid = document.querySelector("#photoGrid");
@@ -55,9 +56,13 @@ function money(value) {
   return Number.isFinite(Number(value)) ? `KSh ${Number(value).toLocaleString()}` : "Ask price";
 }
 
+function deliveryPrice(fee) {
+  return Number(fee) === 0 ? "Free" : `From ${money(fee)}`;
+}
+
 function deliveryLabel(area) {
   const option = DELIVERY_AREAS.find((item) => item.area === area) || DELIVERY_AREAS[0];
-  return `${option.area} - from ${money(option.fee)}`;
+  return `${option.area} - ${deliveryPrice(option.fee)}`;
 }
 
 function brandName(item) {
@@ -135,7 +140,7 @@ function itemDescription(item) {
     Kitchenware: `${name} is a kitchen item for cooking, serving, storage, or dining at home.`,
   };
 
-  return `${categoryDescriptions[category] || `${name} is available under ${category}.`} ${priceLine} Delivery is available to Gongoni, Watamu, Marereni, Adu, Malindi, Marafa, Lango Baya, and nearby areas.`;
+  return `${categoryDescriptions[category] || `${name} is available under ${category}.`} ${priceLine} Free shop pickup and local delivery are available in Malindi town. Delivery is also available to Gongoni, Watamu, Marereni, Adu, Marafa, Lango Baya, and nearby areas.`;
 }
 
 function whatsappUrl(message) {
@@ -483,7 +488,7 @@ function basketMessage() {
     ...lines,
     `Items total: ${money(subtotal)}`,
     `Delivery area: ${delivery.area}`,
-    `Delivery fee: from ${money(delivery.fee)}`,
+    `Delivery fee: ${deliveryPrice(delivery.fee)}`,
     `Estimated total: ${hasAskPrice ? "Confirm ask-price items first" : money(subtotal + delivery.fee)}`,
     DELIVERY_NOTE,
     `Paybill: ${PAYBILL}`,
@@ -534,7 +539,7 @@ function renderBasket() {
   const subtotal = basketSubtotal();
   const hasAskPrice = entries.some((entry) => !Number.isFinite(Number(entry.item.price)));
   document.querySelector("[data-basket-subtotal]").textContent = money(subtotal);
-  document.querySelector("[data-basket-delivery]").textContent = `From ${money(delivery.fee)}`;
+  document.querySelector("[data-basket-delivery]").textContent = deliveryPrice(delivery.fee);
   document.querySelector("[data-basket-total]").textContent =
     entries.length && !hasAskPrice ? `${money(subtotal + delivery.fee)} estimate` : "Confirm prices first";
   document.querySelector("[data-basket-whatsapp]").href = whatsappUrl(basketMessage());
@@ -613,7 +618,7 @@ function renderCheckout() {
   const hasAskPrice = entries.some((entry) => !Number.isFinite(Number(entry.item.price)));
   document.querySelector("[data-checkout-count]").textContent = `${basketCount()} items`;
   document.querySelector("[data-checkout-subtotal]").textContent = money(subtotal);
-  document.querySelector("[data-checkout-delivery]").textContent = `From ${money(delivery.fee)}`;
+  document.querySelector("[data-checkout-delivery]").textContent = deliveryPrice(delivery.fee);
   document.querySelector("[data-checkout-total]").textContent =
     entries.length && !hasAskPrice ? `${money(subtotal + delivery.fee)} estimate` : "Confirm prices first";
   document.querySelector("[data-checkout-empty]").textContent = entries.length
@@ -760,7 +765,7 @@ function updatePaybillTotal() {
   const delivery = DELIVERY_AREAS.find((item) => item.area === area) || DELIVERY_AREAS[0];
   const itemPrice = Number(state.activeItem.price);
   const hasPrice = Number.isFinite(itemPrice);
-  paybillModal.querySelector("[data-delivery-fee]").textContent = `From ${money(delivery.fee)}`;
+  paybillModal.querySelector("[data-delivery-fee]").textContent = deliveryPrice(delivery.fee);
   paybillModal.querySelector("[data-pay-total]").textContent = hasPrice
     ? `${money(itemPrice + delivery.fee)} estimate`
     : "Confirm item price first";
@@ -768,7 +773,7 @@ function updatePaybillTotal() {
     `Hello Gongoni, I want to confirm payment for: ${state.activeItem.name}`,
     `Item price: ${money(state.activeItem.price)}`,
     `Delivery area: ${delivery.area}`,
-    `Delivery fee: from ${money(delivery.fee)}`,
+    `Delivery fee: ${deliveryPrice(delivery.fee)}`,
     `Estimated total: ${hasPrice ? money(itemPrice + delivery.fee) : "Confirm item price first"}`,
     `Paybill: ${PAYBILL}`,
     `Account No: ${ACCOUNT}`,
@@ -910,8 +915,8 @@ document.querySelectorAll("[data-category-chip]").forEach((button) => {
 loadMore.addEventListener("click", () => renderPhotos());
 
 Promise.all([
-  fetch("products.json?v=delivery-prices-01").then((res) => res.json()),
-  fetch("all-photos-data.json?v=delivery-prices-01").then((res) => res.json()),
+  fetch("products.json?v=malindi-local-delivery-01").then((res) => res.json()),
+  fetch("all-photos-data.json?v=malindi-local-delivery-01").then((res) => res.json()),
 ])
   .then(([products, photos]) => {
     state.products = groupSimilarItems(applyAdminOverrides(products));
