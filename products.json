@@ -1160,5 +1160,205 @@
       "assets/batches/batch-05/batch05_033.jpg",
       "assets/batches/batch-05/batch05_034.jpg"
     ]
+  },
+  {
+    "id": 114,
+    "batch": "Batch 5",
+    "name": "Double Stainless Vacuum Pot 1000ml",
+    "price": 900,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-05/batch05_035.jpg",
+    "caption": "Double Stainless Vacuum Pot 1000ml @KSh 900/=",
+    "thumb": "assets/thumbs/batches/batch-05/batch05_035.webp",
+    "images": [
+      "assets/batches/batch-05/batch05_035.jpg",
+      "assets/batches/batch-05/batch05_036.jpg",
+      "assets/batches/batch-05/batch05_037.jpg"
+    ]
+  },
+  {
+    "id": 115,
+    "batch": "Batch 5",
+    "name": "Double Walled YKS 800ml Flask",
+    "price": 850,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-05/batch05_038.jpg",
+    "caption": "Double Walled YKS 800ml Flask @KSh 850/=",
+    "thumb": "assets/thumbs/batches/batch-05/batch05_038.webp",
+    "images": [
+      "assets/batches/batch-05/batch05_038.jpg",
+      "assets/batches/batch-05/batch05_039.jpg"
+    ]
+  },
+  {
+    "id": 116,
+    "batch": "Batch 5",
+    "name": "Double Walled YKS 1000ml Flask",
+    "price": 900,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-05/batch05_040.jpg",
+    "caption": "Double Walled YKS 1000ml Flask @KSh 900/=",
+    "thumb": "assets/thumbs/batches/batch-05/batch05_040.webp",
+    "images": [
+      "assets/batches/batch-05/batch05_040.jpg",
+      "assets/batches/batch-05/batch05_041.jpg"
+    ]
+  },
+  {
+    "id": 117,
+    "batch": "Batch 5",
+    "name": "Fashion SUS 316 Flask 1.3Ltr",
+    "price": 1000,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-05/batch05_042.jpg",
+    "caption": "Fashion SUS 316 Flask 1.3Ltr @KSh 1,000/=",
+    "thumb": "assets/thumbs/batches/batch-05/batch05_042.webp",
+    "images": [
+      "assets/batches/batch-05/batch05_042.jpg",
+      "assets/batches/batch-05/batch05_043.jpg",
+      "assets/batches/batch-05/batch05_044.jpg"
+    ]
+  },
+  {
+    "id": 118,
+    "batch": "Batch 5",
+    "name": "Fashion Vacuum Sports Flask 1Ltr",
+    "price": 900,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-05/batch05_045.jpg",
+    "caption": "Fashion Vacuum Sports Flask 1Ltr @KSh 900/=",
+    "thumb": "assets/thumbs/batches/batch-05/batch05_045.webp",
+    "images": [
+      "assets/batches/batch-05/batch05_045.jpg",
+      "assets/batches/batch-05/batch05_046.jpg",
+      "assets/batches/batch-05/batch05_047.jpg"
+    ]
+  },
+  {
+    "id": 119,
+    "batch": "Batch 5",
+    "name": "Marble Flask 800ml",
+    "price": 850,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-05/batch05_048.jpg",
+    "caption": "Marble Flask 800ml @KSh 850/=",
+    "thumb": "assets/thumbs/batches/batch-05/batch05_048.webp",
+    "images": [
+      "assets/batches/batch-05/batch05_048.jpg",
+      "assets/batches/batch-05/batch05_049.jpg"
+    ]
+  },
+  {
+    "id": 120,
+    "batch": "Batch 5",
+    "name": "Marble Flask 1000ml",
+    "price": 900,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-05/batch05_050.jpg",
+    "caption": "Marble Flask 1000ml @KSh 900/=",
+    "thumb": "assets/thumbs/batches/batch-05/batch05_050.webp",
+    "images": [
+      "assets/batches/batch-05/batch05_050.jpg",
+      "assets/batches/batch-05/batch05_051.jpg"
+    ]
+  },
+  {
+    "id": 121,
+    "batch": "Batch 5",
+    "name": "Nice One Flask VFP-048",
+    "price": 750,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-05/batch05_052.jpg",
+    "caption": "Nice One Flask VFP-048 @KSh 750/=",
+    "thumb": "assets/thumbs/batches/batch-05/batch05_052.webp",
+    "images": [
+      "assets/batches/batch-05/batch05_052.jpg",
+      "assets/batches/batch-05/batch05_053.jpg"
+    ]
+  },
+  {
+    "id": 122,
+    "batch": "Batch 5",
+    "name": "Nice One Thermos 521-G 2Ltr",
+    "price": 600,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-05/batch05_054.jpg",
+    "caption": "Nice One Thermos 521-G 2Ltr @KSh 600/=",
+    "thumb": "assets/thumbs/batches/batch-05/batch05_054.webp",
+    "images": [
+      "assets/batches/batch-05/batch05_054.jpg",
+      "assets/batches/batch-05/batch05_055.jpg"
+    ]
+  },
+  {
+    "id": 123,
+    "batch": "Batch 5",
+    "name": "Nice One Thermos HLL868 3.2Ltr",
+    "price": 1200,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-05/batch05_056.jpg",
+    "caption": "Nice One Thermos HLL868 3.2Ltr @KSh 1,200/=",
+    "thumb": "assets/thumbs/batches/batch-05/batch05_056.webp",
+    "images": [
+      "assets/batches/batch-05/batch05_056.jpg",
+      "assets/batches/batch-05/batch05_057.jpg"
+    ]
+  },
+  {
+    "id": 124,
+    "batch": "Batch 5",
+    "name": "Nice One Thermos VFP008 2Ltr",
+    "price": 1000,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-05/batch05_058.jpg",
+    "caption": "Nice One Thermos VFP008 2Ltr @KSh 1,000/=",
+    "thumb": "assets/thumbs/batches/batch-05/batch05_058.webp",
+    "images": [
+      "assets/batches/batch-05/batch05_058.jpg",
+      "assets/batches/batch-05/batch05_059.jpg",
+      "assets/batches/batch-05/batch05_060.jpg"
+    ]
+  },
+  {
+    "id": 125,
+    "batch": "Batch 5",
+    "name": "Nice One Vacuum Flask VFP-038",
+    "price": 900,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-05/batch05_061.jpg",
+    "caption": "Nice One Vacuum Flask VFP-038 @KSh 900/=",
+    "thumb": "assets/thumbs/batches/batch-05/batch05_061.webp",
+    "images": [
+      "assets/batches/batch-05/batch05_061.jpg",
+      "assets/batches/batch-05/batch05_062.jpg"
+    ]
+  },
+  {
+    "id": 126,
+    "batch": "Batch 5",
+    "name": "Nice One VFS-018 Flask 1.8Ltr",
+    "price": 850,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-05/batch05_063.jpg",
+    "caption": "Nice One VFS-018 Flask 1.8Ltr @KSh 850/=",
+    "thumb": "assets/thumbs/batches/batch-05/batch05_063.webp",
+    "images": [
+      "assets/batches/batch-05/batch05_063.jpg",
+      "assets/batches/batch-05/batch05_064.jpg"
+    ]
+  },
+  {
+    "id": 127,
+    "batch": "Batch 5",
+    "name": "Redberry RSF-133 Flask 1000ml",
+    "price": 800,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-05/batch05_065.jpg",
+    "caption": "Redberry RSF-133 Flask 1000ml @KSh 800/=",
+    "thumb": "assets/thumbs/batches/batch-05/batch05_065.webp",
+    "images": [
+      "assets/batches/batch-05/batch05_065.jpg",
+      "assets/batches/batch-05/batch05_066.jpg"
+    ]
   }
 ]
