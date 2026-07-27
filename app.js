@@ -1,17 +1,17 @@
-const WHATSAPP_NUMBER = "254735325516";
+const WHATSAPP_NUMBER = "254789872543";
 const PAYBILL = "222111";
 const ACCOUNT = "3072428";
-const BUSINESS_NAME = "GONGONI FURNITURE";
+const BUSINESS_NAME = "GONGONI FURNITURE SHOP";
 const DELIVERY_AREAS = [
   { area: "Gongoni", fee: 100 },
   { area: "Watamu", fee: 300 },
   { area: "Marereni", fee: 300 },
-  { area: "Aadu", fee: 450 },
+  { area: "Adu", fee: 450 },
   { area: "Marafa", fee: 500 },
   { area: "Lango Baya", fee: 600 },
 ];
 const DELIVERY_NOTE =
-  "Home delivery to your doorstep in Kilifi County and its environs. Delivery starts from KSh 100 in Gongoni, KSh 300 to Watamu/Marereni, KSh 450 to Aadu, KSh 500 to Marafa, and KSh 600 to Lango Baya. Bulky furniture or heavy orders are confirmed before dispatch.";
+  "Home delivery to your doorstep in Kilifi County and its environs. Delivery starts from KSh 100 in Gongoni, KSh 300 to Watamu/Marereni, KSh 450 to Adu, KSh 500 to Marafa, and KSh 600 to Lango Baya. Parcel drop locations are available in Adu and Malindi. Bulky furniture or heavy orders are confirmed before dispatch.";
 
 const productGrid = document.querySelector("#productGrid");
 const photoGrid = document.querySelector("#photoGrid");
@@ -128,13 +128,13 @@ function itemDescription(item) {
     Cleaning: `${name} is a cleaning product for keeping the home, kitchen, clothes, or shoes neat.`,
     "Flasks & bottles": `${name} is suitable for carrying or serving drinks and helping keep them ready for use.`,
     "Furniture & chairs": `${name} is a furniture item for seating, home use, or shop use.`,
-    "General goods": `${name} is available at Gongoni Furniture & Market for everyday household shopping.`,
+    "General goods": `${name} is available at Gongoni Furniture Shop for everyday household shopping.`,
     "Grocery & food": `${name} is a grocery item for everyday home use and quick restocking.`,
     "Home & bedding": `${name} is a home item for comfort, furniture, or household arrangement.`,
     Kitchenware: `${name} is a kitchen item for cooking, serving, storage, or dining at home.`,
   };
 
-  return `${categoryDescriptions[category] || `${name} is available under ${category}.`} ${priceLine} Delivery is available to Gongoni, Watamu, Marereni, Aadu, Marafa, Lango Baya, and nearby areas.`;
+  return `${categoryDescriptions[category] || `${name} is available under ${category}.`} ${priceLine} Delivery is available to Gongoni, Watamu, Marereni, Adu, Marafa, Lango Baya, and nearby areas. Parcel drop locations are available in Adu and Malindi.`;
 }
 
 function whatsappUrl(message) {
@@ -159,10 +159,10 @@ function orderMessage(item) {
 
 function shareMessage(item) {
   return [
-    `${item.name} at Gongoni Furniture & Market`,
+    `${item.name} at Gongoni Furniture Shop`,
     `Price: ${money(item.price)}`,
     "Delivery available in Kilifi County and environs.",
-    `WhatsApp: 0735325516`,
+    `WhatsApp: 0789872543`,
   ].join("\n");
 }
 
@@ -909,8 +909,8 @@ document.querySelectorAll("[data-category-chip]").forEach((button) => {
 loadMore.addEventListener("click", () => renderPhotos());
 
 Promise.all([
-  fetch("products.json?v=orient-sufuria-01").then((res) => res.json()),
-  fetch("all-photos-data.json?v=orient-sufuria-01").then((res) => res.json()),
+  fetch("products.json?v=shop-contact-locations-01").then((res) => res.json()),
+  fetch("all-photos-data.json?v=shop-contact-locations-01").then((res) => res.json()),
 ])
   .then(([products, photos]) => {
     state.products = groupSimilarItems(applyAdminOverrides(products));

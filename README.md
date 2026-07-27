@@ -1,4 +1,4 @@
-# Gongoni Furniture & Market Website
+# Gongoni Furniture Shop Website
 
 This folder is ready for GitHub Pages.
 
