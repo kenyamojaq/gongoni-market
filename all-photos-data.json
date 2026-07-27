@@ -9053,5 +9053,260 @@
     "images": [
       "assets/batches/batch-05/batch05_099.jpg"
     ]
+  },
+  {
+    "id": 888,
+    "batch": "Batch 6",
+    "name": "Nice One Vacuum Flask Assorted Colours",
+    "price": null,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-06/batch06_001.jpg",
+    "caption": "",
+    "thumb": "assets/thumbs/batches/batch-06/batch06_001.webp",
+    "images": ["assets/batches/batch-06/batch06_001.jpg"]
+  },
+  {
+    "id": 889,
+    "batch": "Batch 6",
+    "name": "Vacuum Flask NP-1 2Ltr",
+    "price": null,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-06/batch06_002.jpg",
+    "caption": "",
+    "thumb": "assets/thumbs/batches/batch-06/batch06_002.webp",
+    "images": ["assets/batches/batch-06/batch06_002.jpg"]
+  },
+  {
+    "id": 890,
+    "batch": "Batch 6",
+    "name": "Vacuum Flask NP-1 2Ltr Assorted Colours",
+    "price": null,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-06/batch06_003.jpg",
+    "caption": "",
+    "thumb": "assets/thumbs/batches/batch-06/batch06_003.webp",
+    "images": ["assets/batches/batch-06/batch06_003.jpg"]
+  },
+  {
+    "id": 891,
+    "batch": "Batch 6",
+    "name": "Vacuum Flask NP-1 Assorted Sizes",
+    "price": null,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-06/batch06_004.jpg",
+    "caption": "",
+    "thumb": "assets/thumbs/batches/batch-06/batch06_004.webp",
+    "images": ["assets/batches/batch-06/batch06_004.jpg"]
+  },
+  {
+    "id": 892,
+    "batch": "Batch 6",
+    "name": "Adix Vacuum Flask Assorted Colours",
+    "price": 400,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-06/batch06_005.jpg",
+    "caption": "Ksh.400/=",
+    "thumb": "assets/thumbs/batches/batch-06/batch06_005.webp",
+    "images": ["assets/batches/batch-06/batch06_005.jpg"]
+  },
+  {
+    "id": 893,
+    "batch": "Batch 6",
+    "name": "Adix Vacuum Flask 1Ltr",
+    "price": 450,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-06/batch06_006.jpg",
+    "caption": "Ksh.450/=",
+    "thumb": "assets/thumbs/batches/batch-06/batch06_006.webp",
+    "images": ["assets/batches/batch-06/batch06_006.jpg"]
+  },
+  {
+    "id": 894,
+    "batch": "Batch 6",
+    "name": "Adix Vacuum Flask Assorted Designs",
+    "price": 400,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-06/batch06_007.jpg",
+    "caption": "Ksh.400/=",
+    "thumb": "assets/thumbs/batches/batch-06/batch06_007.webp",
+    "images": ["assets/batches/batch-06/batch06_007.jpg"]
+  },
+  {
+    "id": 895,
+    "batch": "Batch 6",
+    "name": "Nice One Vacuum Flask",
+    "price": 450,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-06/batch06_008.jpg",
+    "caption": "Ksh.450/=",
+    "thumb": "assets/thumbs/batches/batch-06/batch06_008.webp",
+    "images": [
+      "assets/batches/batch-06/batch06_008.jpg",
+      "assets/batches/batch-06/batch06_009.jpg"
+    ]
+  },
+  {
+    "id": 896,
+    "batch": "Batch 6",
+    "name": "Adix Vacuum Flask Large",
+    "price": null,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-06/batch06_010.jpg",
+    "caption": "",
+    "thumb": "assets/thumbs/batches/batch-06/batch06_010.webp",
+    "images": ["assets/batches/batch-06/batch06_010.jpg"]
+  },
+  {
+    "id": 897,
+    "batch": "Batch 6",
+    "name": "Vacuum Flask Coffee Design",
+    "price": 450,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-06/batch06_011.jpg",
+    "caption": "Ksh.450/=",
+    "thumb": "assets/thumbs/batches/batch-06/batch06_011.webp",
+    "images": ["assets/batches/batch-06/batch06_011.jpg"]
+  },
+  {
+    "id": 898,
+    "batch": "Batch 6",
+    "name": "Nice One Vacuum Flask Assorted Designs",
+    "price": null,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-06/batch06_012.jpg",
+    "caption": "",
+    "thumb": "assets/thumbs/batches/batch-06/batch06_012.webp",
+    "images": ["assets/batches/batch-06/batch06_012.jpg"]
+  },
+  {
+    "id": 899,
+    "batch": "Batch 6",
+    "name": "Plastic Vacuum Jug",
+    "price": 800,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-06/batch06_013.jpg",
+    "caption": "Ksh.800/=",
+    "thumb": "assets/thumbs/batches/batch-06/batch06_013.webp",
+    "images": ["assets/batches/batch-06/batch06_013.jpg"]
+  },
+  {
+    "id": 900,
+    "batch": "Batch 6",
+    "name": "Vacuum Flask NP-1 1Ltr",
+    "price": null,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-06/batch06_014.jpg",
+    "caption": "",
+    "thumb": "assets/thumbs/batches/batch-06/batch06_014.webp",
+    "images": ["assets/batches/batch-06/batch06_014.jpg"]
+  },
+  {
+    "id": 901,
+    "batch": "Batch 6",
+    "name": "Vacuum Flask Premium Assorted Colours",
+    "price": null,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-06/batch06_015.jpg",
+    "caption": "",
+    "thumb": "assets/thumbs/batches/batch-06/batch06_015.webp",
+    "images": ["assets/batches/batch-06/batch06_015.jpg"]
+  },
+  {
+    "id": 902,
+    "batch": "Batch 6",
+    "name": "Vacuum Flask Ribbed Design",
+    "price": 450,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-06/batch06_016.jpg",
+    "caption": "Ksh.450/=",
+    "thumb": "assets/thumbs/batches/batch-06/batch06_016.webp",
+    "images": ["assets/batches/batch-06/batch06_016.jpg"]
+  },
+  {
+    "id": 903,
+    "batch": "Batch 6",
+    "name": "Vacuum Flask NP-1 1.2Ltr",
+    "price": 450,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-06/batch06_017.jpg",
+    "caption": "Ksh.450/=",
+    "thumb": "assets/thumbs/batches/batch-06/batch06_017.webp",
+    "images": ["assets/batches/batch-06/batch06_017.jpg"]
+  },
+  {
+    "id": 904,
+    "batch": "Batch 6",
+    "name": "Adix Captain Vacuum Flask",
+    "price": null,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-06/batch06_018.jpg",
+    "caption": "",
+    "thumb": "assets/thumbs/batches/batch-06/batch06_018.webp",
+    "images": ["assets/batches/batch-06/batch06_018.jpg"]
+  },
+  {
+    "id": 905,
+    "batch": "Batch 6",
+    "name": "Adix Thermal Vacuum Flask",
+    "price": null,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-06/batch06_019.jpg",
+    "caption": "",
+    "thumb": "assets/thumbs/batches/batch-06/batch06_019.webp",
+    "images": ["assets/batches/batch-06/batch06_019.jpg"]
+  },
+  {
+    "id": 906,
+    "batch": "Batch 6",
+    "name": "Vacuum Flask NP-1 1Ltr Assorted Colours",
+    "price": 450,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-06/batch06_020.jpg",
+    "caption": "Ksh.450/=",
+    "thumb": "assets/thumbs/batches/batch-06/batch06_020.webp",
+    "images": ["assets/batches/batch-06/batch06_020.jpg"]
+  },
+  {
+    "id": 907,
+    "batch": "Batch 6",
+    "name": "Sundabests Stainless Beverage Dispenser",
+    "price": null,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-06/batch06_021.jpg",
+    "caption": "",
+    "thumb": "assets/thumbs/batches/batch-06/batch06_021.webp",
+    "images": [
+      "assets/batches/batch-06/batch06_021.jpg",
+      "assets/batches/batch-06/batch06_022.jpg",
+      "assets/batches/batch-06/batch06_023.jpg"
+    ]
+  },
+  {
+    "id": 908,
+    "batch": "Batch 6",
+    "name": "Sundabests White Beverage Dispenser",
+    "price": null,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-06/batch06_024.jpg",
+    "caption": "",
+    "thumb": "assets/thumbs/batches/batch-06/batch06_024.webp",
+    "images": [
+      "assets/batches/batch-06/batch06_024.jpg",
+      "assets/batches/batch-06/batch06_025.jpg"
+    ]
+  },
+  {
+    "id": 909,
+    "batch": "Batch 6",
+    "name": "Nice One Stainless Beverage Dispenser",
+    "price": null,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-06/batch06_026.jpg",
+    "caption": "",
+    "thumb": "assets/thumbs/batches/batch-06/batch06_026.webp",
+    "images": [
+      "assets/batches/batch-06/batch06_026.jpg",
+      "assets/batches/batch-06/batch06_027.jpg"
+    ]
   }
 ]
