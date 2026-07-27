@@ -8438,5 +8438,207 @@
     "image": "assets/batches/batch-04/batch04_037.jpg",
     "caption": "Winning star 4 in 1 Blender ST-5557 @5,500=.jpeg",
     "thumb": "assets/thumbs/batches/batch-04/batch04_037.webp"
+  },
+  {
+    "id": 845,
+    "batch": "Batch 5",
+    "name": "Adix Sunflower Vacuum Flask 3.2Ltr",
+    "price": 850,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-05/batch05_001.jpg",
+    "caption": "Adix Sunflower Vacuum Flask 3.2Ltr @KSh 850/=",
+    "thumb": "assets/thumbs/batches/batch-05/batch05_001.webp",
+    "images": [
+      "assets/batches/batch-05/batch05_001.jpg",
+      "assets/batches/batch-05/batch05_002.jpg",
+      "assets/batches/batch-05/batch05_003.jpg"
+    ]
+  },
+  {
+    "id": 846,
+    "batch": "Batch 5",
+    "name": "Adix Tausi Pink Vacuum Flask 1.8Ltr",
+    "price": 550,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-05/batch05_004.jpg",
+    "caption": "Adix Tausi Pink Vacuum Flask 1.8Ltr @KSh 550/=",
+    "thumb": "assets/thumbs/batches/batch-05/batch05_004.webp",
+    "images": [
+      "assets/batches/batch-05/batch05_004.jpg",
+      "assets/batches/batch-05/batch05_005.jpg"
+    ]
+  },
+  {
+    "id": 847,
+    "batch": "Batch 5",
+    "name": "Adix Tausi Vacuum Flask 1.8Ltr",
+    "price": 500,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-05/batch05_006.jpg",
+    "caption": "Adix Tausi Vacuum Flask 1.8Ltr @KSh 500/=",
+    "thumb": "assets/thumbs/batches/batch-05/batch05_006.webp",
+    "images": [
+      "assets/batches/batch-05/batch05_006.jpg",
+      "assets/batches/batch-05/batch05_007.jpg",
+      "assets/batches/batch-05/batch05_008.jpg"
+    ]
+  },
+  {
+    "id": 848,
+    "batch": "Batch 5",
+    "name": "Adix Twiga Vacuum Flask 1.8Ltr",
+    "price": 550,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-05/batch05_009.jpg",
+    "caption": "Adix Twiga Vacuum Flask 1.8Ltr @KSh 550/=",
+    "thumb": "assets/thumbs/batches/batch-05/batch05_009.webp",
+    "images": [
+      "assets/batches/batch-05/batch05_009.jpg",
+      "assets/batches/batch-05/batch05_010.jpg"
+    ]
+  },
+  {
+    "id": 849,
+    "batch": "Batch 5",
+    "name": "Adix Vacuum Flask 1804 1.8Ltr",
+    "price": 500,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-05/batch05_011.jpg",
+    "caption": "Adix Vacuum Flask 1804 1.8Ltr @KSh 500/=",
+    "thumb": "assets/thumbs/batches/batch-05/batch05_011.webp",
+    "images": [
+      "assets/batches/batch-05/batch05_011.jpg",
+      "assets/batches/batch-05/batch05_012.jpg"
+    ]
+  },
+  {
+    "id": 850,
+    "batch": "Batch 5",
+    "name": "Adix Vacuum Flask 3201 3.2Ltr",
+    "price": 850,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-05/batch05_013.jpg",
+    "caption": "Adix Vacuum Flask 3201 3.2Ltr @KSh 850/=",
+    "thumb": "assets/thumbs/batches/batch-05/batch05_013.webp",
+    "images": [
+      "assets/batches/batch-05/batch05_013.jpg",
+      "assets/batches/batch-05/batch05_014.jpg"
+    ]
+  },
+  {
+    "id": 851,
+    "batch": "Batch 5",
+    "name": "Adix Vacuum Flask 3202 3.2Ltr",
+    "price": 850,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-05/batch05_015.jpg",
+    "caption": "Adix Vacuum Flask 3202 3.2Ltr @KSh 850/=",
+    "thumb": "assets/thumbs/batches/batch-05/batch05_015.webp",
+    "images": [
+      "assets/batches/batch-05/batch05_015.jpg",
+      "assets/batches/batch-05/batch05_016.jpg"
+    ]
+  },
+  {
+    "id": 852,
+    "batch": "Batch 5",
+    "name": "Always Flask 3760",
+    "price": 1000,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-05/batch05_017.jpg",
+    "caption": "Always Flask 3760 @KSh 1,000/=",
+    "thumb": "assets/thumbs/batches/batch-05/batch05_017.webp",
+    "images": [
+      "assets/batches/batch-05/batch05_017.jpg",
+      "assets/batches/batch-05/batch05_018.jpg"
+    ]
+  },
+  {
+    "id": 853,
+    "batch": "Batch 5",
+    "name": "Always Flask 55510",
+    "price": 1400,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-05/batch05_019.jpg",
+    "caption": "Always Flask 55510 @KSh 1,400/=",
+    "thumb": "assets/thumbs/batches/batch-05/batch05_019.webp",
+    "images": [
+      "assets/batches/batch-05/batch05_019.jpg",
+      "assets/batches/batch-05/batch05_020.jpg"
+    ]
+  },
+  {
+    "id": 854,
+    "batch": "Batch 5",
+    "name": "Always Flask AL15810",
+    "price": 1400,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-05/batch05_021.jpg",
+    "caption": "Always Flask AL15810 @KSh 1,400/=",
+    "thumb": "assets/thumbs/batches/batch-05/batch05_021.webp",
+    "images": [
+      "assets/batches/batch-05/batch05_021.jpg",
+      "assets/batches/batch-05/batch05_022.jpg",
+      "assets/batches/batch-05/batch05_023.jpg"
+    ]
+  },
+  {
+    "id": 855,
+    "batch": "Batch 5",
+    "name": "Always Flask AL31511AB",
+    "price": 1400,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-05/batch05_024.jpg",
+    "caption": "Always Flask AL31511AB @KSh 1,400/=",
+    "thumb": "assets/thumbs/batches/batch-05/batch05_024.webp",
+    "images": [
+      "assets/batches/batch-05/batch05_024.jpg",
+      "assets/batches/batch-05/batch05_025.jpg"
+    ]
+  },
+  {
+    "id": 856,
+    "batch": "Batch 5",
+    "name": "Baby Walker",
+    "price": 2500,
+    "category": "Baby & kids",
+    "image": "assets/batches/batch-05/batch05_026.jpg",
+    "caption": "Baby Walker @KSh 2,500/=",
+    "thumb": "assets/thumbs/batches/batch-05/batch05_026.webp",
+    "images": [
+      "assets/batches/batch-05/batch05_026.jpg",
+      "assets/batches/batch-05/batch05_027.jpg",
+      "assets/batches/batch-05/batch05_028.jpg"
+    ]
+  },
+  {
+    "id": 857,
+    "batch": "Batch 5",
+    "name": "Baby Walker Deluxe",
+    "price": 4500,
+    "category": "Baby & kids",
+    "image": "assets/batches/batch-05/batch05_029.jpg",
+    "caption": "Baby Walker Deluxe @KSh 4,500/=",
+    "thumb": "assets/thumbs/batches/batch-05/batch05_029.webp",
+    "images": [
+      "assets/batches/batch-05/batch05_029.jpg",
+      "assets/batches/batch-05/batch05_030.jpg",
+      "assets/batches/batch-05/batch05_031.jpg"
+    ]
+  },
+  {
+    "id": 858,
+    "batch": "Batch 5",
+    "name": "Double Stainless Vacuum Pot 800ml",
+    "price": 850,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-05/batch05_032.jpg",
+    "caption": "Double Stainless Vacuum Pot 800ml @KSh 850/=",
+    "thumb": "assets/thumbs/batches/batch-05/batch05_032.webp",
+    "images": [
+      "assets/batches/batch-05/batch05_032.jpg",
+      "assets/batches/batch-05/batch05_033.jpg",
+      "assets/batches/batch-05/batch05_034.jpg"
+    ]
   }
 ]
