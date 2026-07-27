@@ -728,8 +728,16 @@ function updateViewerImage() {
 
 function updateViewerZoom() {
   const image = viewer.querySelector("img");
-  image.style.transform = `scale(${state.viewerZoom})`;
+  const layout = viewer.querySelector(".viewer-layout");
+  const isZoomed = state.viewerZoom > 1;
+  layout.classList.toggle("is-zoomed", isZoomed);
+  image.style.transform = "none";
   image.style.transformOrigin = "center center";
+  image.style.width = isZoomed
+    ? `${Math.min(100, 70 + (state.viewerZoom - 1) * 75)}%`
+    : "auto";
+  image.style.maxWidth = isZoomed ? "calc(100% - 24px)" : "100%";
+  image.style.maxHeight = isZoomed ? "calc(100vh - 170px)" : "";
   viewer.querySelectorAll("[data-zoom]").forEach((button) => {
     const selected = Number(button.dataset.zoom) === state.viewerZoom;
     button.classList.toggle("active", selected);
@@ -915,8 +923,8 @@ document.querySelectorAll("[data-category-chip]").forEach((button) => {
 loadMore.addEventListener("click", () => renderPhotos());
 
 Promise.all([
-  fetch("products.json?v=malindi-local-delivery-01").then((res) => res.json()),
-  fetch("all-photos-data.json?v=malindi-local-delivery-01").then((res) => res.json()),
+  fetch("products.json?v=contained-screen-zoom-01").then((res) => res.json()),
+  fetch("all-photos-data.json?v=contained-screen-zoom-01").then((res) => res.json()),
 ])
   .then(([products, photos]) => {
     state.products = groupSimilarItems(applyAdminOverrides(products));

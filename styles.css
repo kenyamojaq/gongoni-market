@@ -848,6 +848,27 @@ select {
   transition: transform 0.18s ease;
 }
 
+.viewer-layout.is-zoomed {
+  grid-template-columns: minmax(0, 1fr);
+  width: min(1500px, 96vw);
+  max-height: 96vh;
+}
+
+.viewer-layout.is-zoomed .viewer-photo-wrap {
+  width: 100%;
+  min-height: calc(100vh - 150px);
+  max-height: calc(100vh - 150px);
+  overflow: hidden;
+}
+
+.viewer-layout.is-zoomed .viewer-details {
+  display: none;
+}
+
+.viewer-layout.is-zoomed img {
+  object-fit: contain;
+}
+
 .viewer-nav {
   position: absolute;
   top: 50%;
@@ -1329,6 +1350,16 @@ select {
 
   .viewer-details {
     max-height: none;
+  }
+
+  .viewer-layout.is-zoomed {
+    width: 96vw;
+    overflow: visible;
+  }
+
+  .viewer-layout.is-zoomed .viewer-photo-wrap {
+    min-height: calc(100vh - 150px);
+    max-height: calc(100vh - 150px);
   }
 
   .notice {
