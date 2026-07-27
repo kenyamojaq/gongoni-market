@@ -8840,5 +8840,218 @@
       "assets/batches/batch-05/batch05_065.jpg",
       "assets/batches/batch-05/batch05_066.jpg"
     ]
+  },
+  {
+    "id": 873,
+    "batch": "Batch 5",
+    "name": "Redberry RSF-511 Flask 500ml",
+    "price": 500,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-05/batch05_067.jpg",
+    "caption": "Ksh.500/=",
+    "thumb": "assets/thumbs/batches/batch-05/batch05_067.webp",
+    "images": [
+      "assets/batches/batch-05/batch05_067.jpg",
+      "assets/batches/batch-05/batch05_068.jpg"
+    ]
+  },
+  {
+    "id": 874,
+    "batch": "Batch 5",
+    "name": "Redberry RSF-515 Flask 500ml",
+    "price": 650,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-05/batch05_069.jpg",
+    "caption": "Ksh.650/=",
+    "thumb": "assets/thumbs/batches/batch-05/batch05_069.webp",
+    "images": [
+      "assets/batches/batch-05/batch05_069.jpg",
+      "assets/batches/batch-05/batch05_070.jpg"
+    ]
+  },
+  {
+    "id": 875,
+    "batch": "Batch 5",
+    "name": "Redberry RSF-517 Flask 500ml",
+    "price": 600,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-05/batch05_071.jpg",
+    "caption": "Ksh.600/=",
+    "thumb": "assets/thumbs/batches/batch-05/batch05_071.webp",
+    "images": [
+      "assets/batches/batch-05/batch05_071.jpg",
+      "assets/batches/batch-05/batch05_072.jpg"
+    ]
+  },
+  {
+    "id": 876,
+    "batch": "Batch 5",
+    "name": "Redberry RSF-823 Flask 750ml",
+    "price": 750,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-05/batch05_073.jpg",
+    "caption": "Ksh.750/=",
+    "thumb": "assets/thumbs/batches/batch-05/batch05_073.webp",
+    "images": [
+      "assets/batches/batch-05/batch05_073.jpg",
+      "assets/batches/batch-05/batch05_074.jpg"
+    ]
+  },
+  {
+    "id": 877,
+    "batch": "Batch 5",
+    "name": "Redberry RSF-824 Flask 800ml",
+    "price": 750,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-05/batch05_075.jpg",
+    "caption": "Ksh.750/=",
+    "thumb": "assets/thumbs/batches/batch-05/batch05_075.webp",
+    "images": [
+      "assets/batches/batch-05/batch05_075.jpg",
+      "assets/batches/batch-05/batch05_076.jpg",
+      "assets/batches/batch-05/batch05_077.jpg"
+    ]
+  },
+  {
+    "id": 878,
+    "batch": "Batch 5",
+    "name": "Redberry RSF-825 Flask 750ml",
+    "price": 750,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-05/batch05_078.jpg",
+    "caption": "Ksh.750/=",
+    "thumb": "assets/thumbs/batches/batch-05/batch05_078.webp",
+    "images": [
+      "assets/batches/batch-05/batch05_078.jpg",
+      "assets/batches/batch-05/batch05_079.jpg"
+    ]
+  },
+  {
+    "id": 879,
+    "batch": "Batch 5",
+    "name": "Redberry RSF-826 Flask 750ml",
+    "price": 700,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-05/batch05_080.jpg",
+    "caption": "Ksh.700/=",
+    "thumb": "assets/thumbs/batches/batch-05/batch05_080.webp",
+    "images": [
+      "assets/batches/batch-05/batch05_080.jpg",
+      "assets/batches/batch-05/batch05_081.jpg",
+      "assets/batches/batch-05/batch05_082.jpg"
+    ]
+  },
+  {
+    "id": 880,
+    "batch": "Batch 5",
+    "name": "Sundabest Stainless Vacuum Flask 1.7Ltr",
+    "price": 900,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-05/batch05_083.jpg",
+    "caption": "Ksh.900/=",
+    "thumb": "assets/thumbs/batches/batch-05/batch05_083.webp",
+    "images": [
+      "assets/batches/batch-05/batch05_083.jpg",
+      "assets/batches/batch-05/batch05_084.jpg",
+      "assets/batches/batch-05/batch05_085.jpg"
+    ]
+  },
+  {
+    "id": 881,
+    "batch": "Batch 5",
+    "name": "Sundabest Vacuum Flask 1298 3.2Ltr",
+    "price": 900,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-05/batch05_086.jpg",
+    "caption": "Ksh.900/=",
+    "thumb": "assets/thumbs/batches/batch-05/batch05_086.webp",
+    "images": [
+      "assets/batches/batch-05/batch05_086.jpg",
+      "assets/batches/batch-05/batch05_087.jpg"
+    ]
+  },
+  {
+    "id": 882,
+    "batch": "Batch 5",
+    "name": "Sundabest Vacuum Flask 6171 1.8Ltr",
+    "price": 550,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-05/batch05_088.jpg",
+    "caption": "Ksh.550/=",
+    "thumb": "assets/thumbs/batches/batch-05/batch05_088.webp",
+    "images": [
+      "assets/batches/batch-05/batch05_088.jpg",
+      "assets/batches/batch-05/batch05_089.jpg"
+    ]
+  },
+  {
+    "id": 883,
+    "batch": "Batch 5",
+    "name": "Sundabest Vacuum Flask 9996 3.2Ltr",
+    "price": 900,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-05/batch05_090.jpg",
+    "caption": "Ksh.900/=",
+    "thumb": "assets/thumbs/batches/batch-05/batch05_090.webp",
+    "images": [
+      "assets/batches/batch-05/batch05_090.jpg",
+      "assets/batches/batch-05/batch05_091.jpg"
+    ]
+  },
+  {
+    "id": 884,
+    "batch": "Batch 5",
+    "name": "Sundabest Vacuum Flask 9436 1.8Ltr",
+    "price": 550,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-05/batch05_092.jpg",
+    "caption": "Ksh.550/=",
+    "thumb": "assets/thumbs/batches/batch-05/batch05_092.webp",
+    "images": [
+      "assets/batches/batch-05/batch05_092.jpg",
+      "assets/batches/batch-05/batch05_093.jpg"
+    ]
+  },
+  {
+    "id": 885,
+    "batch": "Batch 5",
+    "name": "Sundabest Vacuum Flask VFP-091 2Ltr",
+    "price": 650,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-05/batch05_094.jpg",
+    "caption": "Ksh.650/=",
+    "thumb": "assets/thumbs/batches/batch-05/batch05_094.webp",
+    "images": [
+      "assets/batches/batch-05/batch05_094.jpg",
+      "assets/batches/batch-05/batch05_095.jpg"
+    ]
+  },
+  {
+    "id": 886,
+    "batch": "Batch 5",
+    "name": "TF Vacuum Cup 600",
+    "price": 650,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-05/batch05_096.jpg",
+    "caption": "Ksh.650/=",
+    "thumb": "assets/thumbs/batches/batch-05/batch05_096.webp",
+    "images": [
+      "assets/batches/batch-05/batch05_096.jpg",
+      "assets/batches/batch-05/batch05_097.jpg",
+      "assets/batches/batch-05/batch05_098.jpg"
+    ]
+  },
+  {
+    "id": 887,
+    "batch": "Batch 5",
+    "name": "TF Vacuum Cup 800",
+    "price": 800,
+    "category": "Flasks & bottles",
+    "image": "assets/batches/batch-05/batch05_099.jpg",
+    "caption": "Ksh.800/=",
+    "thumb": "assets/thumbs/batches/batch-05/batch05_099.webp",
+    "images": [
+      "assets/batches/batch-05/batch05_099.jpg"
+    ]
   }
 ]
