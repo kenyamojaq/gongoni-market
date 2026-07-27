@@ -909,8 +909,8 @@ document.querySelectorAll("[data-category-chip]").forEach((button) => {
 loadMore.addEventListener("click", () => renderPhotos());
 
 Promise.all([
-  fetch("products.json?v=batch-06-flasks-02").then((res) => res.json()),
-  fetch("all-photos-data.json?v=batch-06-flasks-02").then((res) => res.json()),
+  fetch("products.json?v=orient-sufuria-01").then((res) => res.json()),
+  fetch("all-photos-data.json?v=orient-sufuria-01").then((res) => res.json()),
 ])
   .then(([products, photos]) => {
     state.products = groupSimilarItems(applyAdminOverrides(products));
