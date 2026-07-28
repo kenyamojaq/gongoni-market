@@ -8,7 +8,7 @@
       name="description"
       content="Gongoni Furniture Shop products with doorstep delivery across Kilifi County and its environs."
     />
-    <link rel="stylesheet" href="styles.css?v=contained-screen-zoom-01" />
+    <link rel="stylesheet" href="styles.css?v=marketplace-product-view-01" />
   </head>
   <body>
     <div class="top-strip">
@@ -270,10 +270,34 @@
             <button type="button" data-zoom="1.4">+40</button>
           </div>
           <div class="viewer-slides" aria-live="polite"></div>
+          <div class="viewer-thumbs" data-viewer-thumbs aria-label="Product photo gallery"></div>
         </div>
         <aside class="viewer-details">
+          <div class="viewer-breadcrumb" data-viewer-breadcrumb></div>
           <strong></strong>
+          <div class="viewer-rating">
+            <span aria-hidden="true">★★★★★</span>
+            <small>No customer reviews yet</small>
+          </div>
+          <div class="viewer-price" data-viewer-price></div>
           <div class="viewer-meta"></div>
+          <div class="viewer-services">
+            <article><b>✓</b><span><strong>Local stock</strong><small>Ready for confirmation</small></span></article>
+            <article><b>✓</b><span><strong>WhatsApp support</strong><small>Order directly</small></span></article>
+            <article><b>✓</b><span><strong>Paybill available</strong><small>222111 / 3072428</small></span></article>
+          </div>
+          <label class="viewer-delivery">
+            <span>Delivery or pickup</span>
+            <select data-viewer-delivery></select>
+          </label>
+          <div class="viewer-quantity">
+            <span>Quantity</span>
+            <div>
+              <button type="button" data-viewer-qty="-1" aria-label="Reduce quantity">−</button>
+              <strong data-viewer-quantity>1</strong>
+              <button type="button" data-viewer-qty="1" aria-label="Increase quantity">+</button>
+            </div>
+          </div>
           <p></p>
           <div class="viewer-share">
             <span>Share this product</span>
@@ -362,6 +386,6 @@
       </form>
     </div>
 
-  <script src="app.js?v=contained-screen-zoom-01"></script>
+  <script src="app.js?v=marketplace-product-view-01"></script>
   </body>
 </html>

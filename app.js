@@ -45,6 +45,7 @@ const state = {
   viewerImages: [],
   viewerIndex: 0,
   viewerZoom: 1,
+  viewerQuantity: 1,
   accountMode: "signup",
   pendingOtp: null,
   pendingAccount: null,
@@ -454,10 +455,10 @@ function selectedDelivery() {
   return DELIVERY_AREAS.find((item) => item.area === area) || DELIVERY_AREAS[0];
 }
 
-function addToBasket(item) {
+function addToBasket(item, quantity = 1) {
   const key = basketKey(item);
   if (!state.basket[key]) state.basket[key] = { item, qty: 0 };
-  state.basket[key].qty += 1;
+  state.basket[key].qty += Math.max(1, Number(quantity) || 1);
   saveBasket();
   renderBasket();
   openBasket();
@@ -698,19 +699,27 @@ function openViewer(src, title, description, item) {
   state.viewerImages = itemImages(item);
   state.viewerIndex = Math.max(0, state.viewerImages.indexOf(src));
   state.viewerZoom = 1;
+  state.viewerQuantity = 1;
   updateViewerImage();
   updateViewerZoom();
   viewer.querySelector("img").alt = title;
   viewer.querySelector("strong").textContent = title;
+  viewer.querySelector("[data-viewer-breadcrumb]").textContent =
+    `Home / ${item.category || "Products"} / Product ${item.id || ""}`;
+  viewer.querySelector("[data-viewer-price]").textContent = money(item.price);
   viewer.querySelector(".viewer-meta").innerHTML = `
     <span>Brand: ${escapeHtml(brandName(item))}</span>
     <span>In stock</span>
-    <span>+ shipping from KSh 100</span>
-    <span>No ratings yet</span>
+    <span>SKU: GM-${escapeHtml(item.id || "ITEM")}</span>
+    <span>${itemImages(item).length} photo${itemImages(item).length === 1 ? "" : "s"}</span>
   `;
+  const deliverySelect = viewer.querySelector("[data-viewer-delivery]");
+  deliverySelect.innerHTML = DELIVERY_AREAS.map(
+    (area) => `<option value="${escapeHtml(area.area)}">${escapeHtml(deliveryLabel(area.area))}</option>`
+  ).join("");
   viewer.querySelector("p").textContent = description;
-  viewer.querySelector(".whatsapp-action").href = whatsappUrl(orderMessage(item));
   viewer.querySelector("[data-viewer-share-whatsapp]").href = whatsappUrl(shareMessage(item));
+  updateViewerPurchasePanel();
   viewer.classList.add("open");
   viewer.setAttribute("aria-hidden", "false");
 }
@@ -724,6 +733,40 @@ function updateViewerImage() {
   viewer.querySelector(".viewer-slides").textContent = total > 1 ? `${state.viewerIndex + 1} / ${total}` : "";
   viewer.querySelector("[data-viewer-prev]").hidden = total < 2;
   viewer.querySelector("[data-viewer-next]").hidden = total < 2;
+  const thumbs = viewer.querySelector("[data-viewer-thumbs]");
+  thumbs.innerHTML = images
+    .map(
+      (src, index) => `
+        <button type="button" data-viewer-thumb="${index}" class="${index === state.viewerIndex ? "active" : ""}" aria-label="View photo ${index + 1}">
+          <img src="${escapeHtml(src)}" alt="">
+        </button>
+      `
+    )
+    .join("");
+}
+
+function updateViewerPurchasePanel() {
+  if (!state.activeItem) return;
+  const quantity = Math.max(1, state.viewerQuantity);
+  state.viewerQuantity = quantity;
+  viewer.querySelector("[data-viewer-quantity]").textContent = quantity;
+  const area = viewer.querySelector("[data-viewer-delivery]")?.value || DELIVERY_AREAS[0].area;
+  const delivery = DELIVERY_AREAS.find((item) => item.area === area) || DELIVERY_AREAS[0];
+  const price = Number(state.activeItem.price);
+  const hasPrice = Number.isFinite(price);
+  const message = [
+    `Hello Gongoni, I want to order: ${state.activeItem.name}`,
+    `Quantity: ${quantity}`,
+    `Price each: ${money(state.activeItem.price)}`,
+    `Items total: ${hasPrice ? money(price * quantity) : "Confirm price"}`,
+    `Delivery or pickup: ${delivery.area}`,
+    `Delivery fee: ${deliveryPrice(delivery.fee)}`,
+    `Estimated total: ${hasPrice ? money(price * quantity + delivery.fee) : "Confirm price first"}`,
+    `Paybill: ${PAYBILL}`,
+    `Account No: ${ACCOUNT}`,
+    `Name: ${BUSINESS_NAME}`,
+  ].join("\n");
+  viewer.querySelector(".whatsapp-action").href = whatsappUrl(message);
 }
 
 function updateViewerZoom() {
@@ -810,6 +853,8 @@ document.addEventListener("click", (event) => {
   const decItem = event.target.closest("[data-basket-dec]");
   const viewerPrev = event.target.closest("[data-viewer-prev]");
   const viewerNext = event.target.closest("[data-viewer-next]");
+  const viewerThumb = event.target.closest("[data-viewer-thumb]");
+  const viewerQty = event.target.closest("[data-viewer-qty]");
   const zoomButton = event.target.closest("[data-zoom]");
   if (addItem) {
     const item = readItem(addItem.dataset.addItem);
@@ -819,7 +864,9 @@ document.addEventListener("click", (event) => {
     const item = readItem(open.dataset.item);
     if (item) openViewer(open.dataset.open, open.dataset.title, open.dataset.description, item);
   }
-  if (event.target.closest("[data-viewer-add]") && state.activeItem) addToBasket(state.activeItem);
+  if (event.target.closest("[data-viewer-add]") && state.activeItem) {
+    addToBasket(state.activeItem, state.viewerQuantity);
+  }
   if (event.target.closest("[data-copy-share]") && state.activeItem) {
     navigator.clipboard?.writeText(shareMessage(state.activeItem));
   }
@@ -830,6 +877,14 @@ document.addEventListener("click", (event) => {
   if (viewerNext && state.activeItem) {
     state.viewerIndex += 1;
     updateViewerImage();
+  }
+  if (viewerThumb && state.activeItem) {
+    state.viewerIndex = Number(viewerThumb.dataset.viewerThumb) || 0;
+    updateViewerImage();
+  }
+  if (viewerQty && state.activeItem) {
+    state.viewerQuantity = Math.max(1, state.viewerQuantity + Number(viewerQty.dataset.viewerQty || 0));
+    updateViewerPurchasePanel();
   }
   if (zoomButton && state.activeItem) {
     state.viewerZoom = Number(zoomButton.dataset.zoom) || 1;
@@ -870,6 +925,7 @@ document.addEventListener("click", (event) => {
 
 paybillModal.querySelector("[data-delivery-area]").addEventListener("change", updatePaybillTotal);
 basketDeliveryArea.addEventListener("change", renderBasket);
+viewer.querySelector("[data-viewer-delivery]").addEventListener("change", updateViewerPurchasePanel);
 accountModal.querySelector("[data-account-area]").innerHTML = DELIVERY_AREAS.map(
   (area) => `<option value="${area.area}">${deliveryLabel(area.area)}</option>`
 ).join("");
@@ -923,8 +979,8 @@ document.querySelectorAll("[data-category-chip]").forEach((button) => {
 loadMore.addEventListener("click", () => renderPhotos());
 
 Promise.all([
-  fetch("products.json?v=contained-screen-zoom-01").then((res) => res.json()),
-  fetch("all-photos-data.json?v=contained-screen-zoom-01").then((res) => res.json()),
+  fetch("products.json?v=marketplace-product-view-01").then((res) => res.json()),
+  fetch("all-photos-data.json?v=marketplace-product-view-01").then((res) => res.json()),
 ])
   .then(([products, photos]) => {
     state.products = groupSimilarItems(applyAdminOverrides(products));
