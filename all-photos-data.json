@@ -714,7 +714,7 @@
     "batch": "Batch 1",
     "name": "Ascot Sugar Dish As-34",
     "price": 120,
-    "category": "Cleaning",
+    "category": "Kitchenware",
     "image": "assets/batches/batch-01/batch01_072.jpg",
     "caption": "AscotsugardishAs-34 @120/=",
     "thumb": "assets/thumbs/batches/batch-01/batch01_072.webp"
@@ -923,10 +923,10 @@
     "id": 93,
     "batch": "Batch 1",
     "name": "Ascot Serving Dish AS-21",
-    "price": 150,
+    "price": 120,
     "category": "Kitchenware",
     "image": "assets/batches/batch-01/batch01_093.jpg",
-    "caption": "Ascot Serving Dish AS-21 @150",
+    "caption": "Ascot Serving Dish AS-21 @120",
     "thumb": "assets/thumbs/batches/batch-01/batch01_093.webp"
   },
   {
