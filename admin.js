@@ -7,6 +7,9 @@ const editImage = document.querySelector("[data-edit-image]");
 const editName = document.querySelector("[data-edit-name]");
 const editPrice = document.querySelector("[data-edit-price]");
 const editCategory = document.querySelector("[data-edit-category]");
+const editStockStatus = document.querySelector("[data-edit-stock-status]");
+const editStockQty = document.querySelector("[data-edit-stock-qty]");
+const editGroupId = document.querySelector("[data-edit-group-id]");
 const editStatus = document.querySelector("[data-edit-status]");
 const adminCount = document.querySelector("[data-admin-count]");
 
@@ -14,7 +17,9 @@ let products = [];
 let selected = null;
 
 function money(value) {
-  return Number.isFinite(Number(value)) ? `KSh ${Number(value).toLocaleString()}` : "Ask price";
+  return value !== null && value !== undefined && value !== "" && Number.isFinite(Number(value))
+    ? `KSh ${Number(value).toLocaleString()}`
+    : "Ask price";
 }
 
 function overrides() {
@@ -33,6 +38,9 @@ function applyOverride(item) {
     name: edit.name || item.name,
     category: edit.category || item.category,
     price: edit.price === "" || edit.price === null ? null : Number(edit.price),
+    stockStatus: edit.stockStatus || item.stockStatus || "in",
+    stockQty: edit.stockQty === "" || edit.stockQty === null ? null : Number(edit.stockQty),
+    groupId: edit.groupId || item.groupId || "",
   };
 }
 
@@ -82,7 +90,7 @@ function renderList() {
           <img src="${itemImage(item)}" alt="">
           <span>
             <strong>${item.name}</strong>
-            <small>#${item.id} - ${item.category} - ${money(item.price)}</small>
+            <small>#${item.id} - ${item.category} - ${money(item.price)} - ${item.stockStatus === "out" ? "Out of stock" : "In stock"}</small>
           </span>
         </button>
       `
@@ -99,6 +107,9 @@ function selectItem(id) {
   editName.value = item.name;
   editPrice.value = item.price === null || item.price === undefined ? "" : item.price;
   editCategory.value = item.category;
+  editStockStatus.value = item.stockStatus || "in";
+  editStockQty.value = item.stockQty === null || item.stockQty === undefined ? "" : item.stockQty;
+  editGroupId.value = item.groupId || "";
   editStatus.textContent = `Editing #${item.id}`;
 }
 
@@ -110,6 +121,9 @@ function saveSelected(event) {
     name: editName.value.trim(),
     price: editPrice.value.trim(),
     category: editCategory.value,
+    stockStatus: editStockStatus.value,
+    stockQty: editStockQty.value.trim(),
+    groupId: editGroupId.value.trim(),
   };
   saveOverrides(current);
   editStatus.textContent = "Saved. Go back to Shop and refresh to see it.";
@@ -138,6 +152,14 @@ function exportEdits() {
   URL.revokeObjectURL(url);
 }
 
+function renderStats() {
+  const stats = JSON.parse(localStorage.getItem("gongoniShopStats") || "{}");
+  document.querySelector("[data-stat-views]").textContent = Number(stats.views || 0).toLocaleString();
+  document.querySelector("[data-stat-adds]").textContent = Number(stats.adds || 0).toLocaleString();
+  document.querySelector("[data-stat-whatsapp]").textContent = Number(stats.whatsapp || 0).toLocaleString();
+  document.querySelector("[data-stat-searches]").textContent = Number(stats.searches || 0).toLocaleString();
+}
+
 Promise.all([fetch("all-photos-data.json").then((res) => res.json())]).then(([data]) => {
   products = data;
   renderFilters();
@@ -156,6 +178,11 @@ document.addEventListener("click", (event) => {
     renderFilters();
     renderList();
   }
+  if (event.target.closest("[data-clear-stats]")) {
+    localStorage.removeItem("gongoniShopStats");
+    renderStats();
+    editStatus.textContent = "Shop statistics cleared on this device.";
+  }
   if (event.target.closest("[data-reset-item]")) resetSelected();
 });
 
@@ -163,3 +190,4 @@ form.addEventListener("submit", saveSelected);
 searchInput.addEventListener("input", renderList);
 categorySelect.addEventListener("change", renderList);
 statusSelect.addEventListener("change", renderList);
+renderStats();

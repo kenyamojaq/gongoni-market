@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Gongoni Admin</title>
-    <link rel="stylesheet" href="styles.css?v=admin-01" />
+    <link rel="stylesheet" href="styles.css?v=shop-upgrade-01" />
   </head>
   <body>
     <header class="topbar">
@@ -12,7 +12,7 @@
         <span class="brand-mark">G</span>
         <span>
           <strong>Gongoni Admin</strong>
-          <small>Edit shop names, prices, and categories</small>
+          <small>Edit products, stock and photo grouping</small>
         </span>
       </a>
       <nav>
@@ -33,6 +33,14 @@
           <button class="primary" type="button" data-export>Export edits</button>
           <button class="secondary" type="button" data-clear-edits>Clear saved edits</button>
         </div>
+      </section>
+
+      <section class="admin-stats" aria-label="Shop statistics">
+        <article><span>Product views</span><strong data-stat-views>0</strong></article>
+        <article><span>Basket additions</span><strong data-stat-adds>0</strong></article>
+        <article><span>WhatsApp clicks</span><strong data-stat-whatsapp>0</strong></article>
+        <article><span>Searches</span><strong data-stat-searches>0</strong></article>
+        <button class="secondary" type="button" data-clear-stats>Clear statistics</button>
       </section>
 
       <section class="toolbar admin-toolbar" aria-label="Admin product search">
@@ -71,6 +79,22 @@
             Category
             <select data-edit-category></select>
           </label>
+          <label>
+            Stock status
+            <select data-edit-stock-status>
+              <option value="in">In stock</option>
+              <option value="out">Out of stock</option>
+            </select>
+          </label>
+          <label>
+            Quantity available
+            <input data-edit-stock-qty type="number" min="0" step="1" placeholder="Leave blank if unknown" />
+          </label>
+          <label>
+            Gallery group ID
+            <input data-edit-group-id type="text" placeholder="Use the same ID on photos of one product" />
+          </label>
+          <small>To combine duplicates, give each matching product the same Gallery group ID, such as the main product number.</small>
           <div class="admin-actions">
             <button class="add-action" type="submit">Save item</button>
             <button class="secondary" type="button" data-reset-item>Reset item</button>
@@ -80,6 +104,6 @@
       </section>
     </main>
 
-    <script src="admin.js?v=admin-01"></script>
+    <script src="admin.js?v=shop-upgrade-01"></script>
   </body>
 </html>

@@ -8,7 +8,7 @@
       name="description"
       content="Gongoni Furniture Shop products with doorstep delivery across Kilifi County and its environs."
     />
-    <link rel="stylesheet" href="styles.css?v=marketplace-product-view-01" />
+    <link rel="stylesheet" href="styles.css?v=shop-upgrade-01" />
   </head>
   <body>
     <div class="top-strip">
@@ -22,7 +22,7 @@
         <span class="brand-mark">G</span>
         <span>
           <strong>Gongoni Furniture Shop</strong>
-          <small>Kilifi County doorstep delivery</small>
+          <small>Malindi town shop · Kilifi County delivery</small>
         </span>
       </a>
       <nav>
@@ -119,18 +119,18 @@
         <div class="checkout-actions">
           <button class="secondary" type="button" data-basket-open>Open basket</button>
           <a class="primary" data-checkout-whatsapp href="#" target="_blank" rel="noopener">Send order</a>
-          <button class="secondary" type="button" disabled title="Will be activated after live hosting">M-Pesa STK Push soon</button>
+          <button class="secondary" type="button" data-basket-open>Review and pay by Paybill</button>
         </div>
       </section>
 
-      <section class="live-services" aria-label="Live service readiness">
+      <section class="live-services" aria-label="Ordering information">
         <article>
-          <strong>Real SMS / Email OTP</strong>
-          <span>Prepared for the live website. The local preview shows OTP on screen until SMS/email sending is connected.</span>
+          <strong>Order on WhatsApp</strong>
+          <span>Send one product or your complete basket directly to 0789872543.</span>
         </article>
         <article>
-          <strong>M-Pesa STK Push</strong>
-          <span>Prepared for the next stage after hosting. Customers will be able to approve payment from the phone popup.</span>
+          <strong>Confirm before payment</strong>
+          <span>Confirm stock, bulky-item delivery and any exchange request before paying.</span>
         </article>
         <article>
           <strong>Paybill works now</strong>
@@ -140,8 +140,8 @@
 
       <section class="trust-strip" aria-label="Shop trust information">
         <article>
-          <strong>Located in Gongoni</strong>
-          <span>Serving Kilifi County and nearby towns</span>
+          <strong>Located in Malindi Town</strong>
+          <span>WhatsApp 0789872543 for the shop location and directions</span>
         </article>
         <article>
           <strong>Basket ordering</strong>
@@ -152,12 +152,16 @@
           <span>0789872543</span>
         </article>
         <article>
-          <strong>Optional account</strong>
-          <span>Sign up with email or phone</span>
+          <strong>Open daily</strong>
+          <span>Contact us to confirm today’s closing time</span>
         </article>
         <article>
           <strong>Secure Paybill</strong>
           <span>222111 / 3072428</span>
+        </article>
+        <article>
+          <strong>Returns and exchanges</strong>
+          <span>Inspect your order and confirm eligibility on WhatsApp before return</span>
         </article>
       </section>
 
@@ -191,6 +195,26 @@
             <option value="newest">Newest photos</option>
           </select>
         </label>
+        <label>
+          Price status
+          <select id="priceStatusSelect">
+            <option value="all">All products</option>
+            <option value="priced">Priced products</option>
+            <option value="ask">Ask-price products</option>
+          </select>
+        </label>
+        <label>
+          Minimum price
+          <input id="minPriceInput" type="number" min="0" step="50" placeholder="KSh 0" />
+        </label>
+        <label>
+          Maximum price
+          <input id="maxPriceInput" type="number" min="0" step="50" placeholder="Any price" />
+        </label>
+        <label class="check-filter">
+          <input id="inStockOnly" type="checkbox" />
+          In-stock products only
+        </label>
         <button id="clearFilters" type="button">Clear</button>
       </section>
 
@@ -215,6 +239,10 @@
     </main>
 
     <a class="floating-whatsapp" data-whatsapp href="#" aria-label="Order on WhatsApp">WhatsApp</a>
+    <div class="mobile-shop-bar" aria-label="Mobile shopping controls">
+      <a href="#products">Search products</a>
+      <button type="button" data-basket-open>Basket <span data-basket-count>0</span></button>
+    </div>
 
     <aside class="basket-panel" id="basketPanel" aria-hidden="true">
       <div class="basket-box">
@@ -386,6 +414,6 @@
       </form>
     </div>
 
-  <script src="app.js?v=ascot-kitchen-price-02"></script>
+  <script src="app.js?v=shop-upgrade-01"></script>
   </body>
 </html>

@@ -464,10 +464,28 @@ h1 {
 
 .toolbar {
   display: grid;
-  grid-template-columns: minmax(220px, 1fr) minmax(180px, 240px) minmax(160px, 220px) auto;
+  grid-template-columns: minmax(220px, 1.4fr) repeat(5, minmax(130px, 0.75fr)) auto;
   gap: 12px;
   margin: 24px 0;
   padding: 14px;
+}
+
+.check-filter {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 42px;
+  align-self: end;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 0 12px;
+  background: #fff;
+  color: var(--ink);
+}
+
+.check-filter input {
+  width: 18px;
+  min-height: 18px;
 }
 
 label {
@@ -629,6 +647,11 @@ select {
   font-size: 12px;
 }
 
+.card-actions button:disabled {
+  cursor: not-allowed;
+  opacity: 0.48;
+}
+
 .load-more {
   margin: 22px auto 0;
 }
@@ -639,6 +662,10 @@ select {
   bottom: 18px;
   z-index: 30;
   box-shadow: 0 16px 32px rgba(18, 140, 74, 0.35);
+}
+
+.mobile-shop-bar {
+  display: none;
 }
 
 .basket-panel {
@@ -1294,6 +1321,33 @@ select {
   gap: 8px;
 }
 
+.admin-stats {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(130px, 1fr)) auto;
+  gap: 10px;
+  margin: 0 0 18px;
+}
+
+.admin-stats article {
+  display: grid;
+  gap: 4px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 14px;
+  background: #fff;
+}
+
+.admin-stats span {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.admin-stats strong {
+  color: var(--green);
+  font-size: 24px;
+}
+
 .admin-layout {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(300px, 380px);
@@ -1457,6 +1511,61 @@ select {
   .checkout-strip,
   .toolbar {
     grid-template-columns: 1fr;
+  }
+
+  body {
+    padding-bottom: 72px;
+  }
+
+  .toolbar {
+    position: sticky;
+    top: 0;
+    z-index: 24;
+    max-height: 68vh;
+    overflow: auto;
+    box-shadow: 0 12px 28px rgba(16, 24, 40, 0.14);
+  }
+
+  .mobile-shop-bar {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+    z-index: 55;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 8px;
+    background: #fff;
+    box-shadow: 0 16px 40px rgba(16, 24, 40, 0.22);
+  }
+
+  .mobile-shop-bar a,
+  .mobile-shop-bar button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 44px;
+    border: 0;
+    border-radius: 8px;
+    color: #fff;
+    background: var(--green);
+    font-weight: 900;
+  }
+
+  .mobile-shop-bar button {
+    background: var(--gold);
+  }
+
+  .floating-whatsapp {
+    right: 14px;
+    bottom: 76px;
+  }
+
+  .admin-stats {
+    grid-template-columns: 1fr 1fr;
   }
 
   .admin-editor {

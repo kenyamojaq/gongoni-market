@@ -21,6 +21,10 @@ const searchInput = document.querySelector("#searchInput");
 const searchSuggestions = document.querySelector("#searchSuggestions");
 const categorySelect = document.querySelector("#categorySelect");
 const sortSelect = document.querySelector("#sortSelect");
+const priceStatusSelect = document.querySelector("#priceStatusSelect");
+const minPriceInput = document.querySelector("#minPriceInput");
+const maxPriceInput = document.querySelector("#maxPriceInput");
+const inStockOnly = document.querySelector("#inStockOnly");
 const clearFilters = document.querySelector("#clearFilters");
 const productCount = document.querySelector("#productCount");
 const photoCount = document.querySelector("#photoCount");
@@ -39,6 +43,10 @@ const state = {
   category: "All",
   search: "",
   sort: "featured",
+  priceStatus: "all",
+  minPrice: null,
+  maxPrice: null,
+  availableOnly: false,
   shown: 0,
   pageSize: 72,
   activeItem: null,
@@ -53,8 +61,12 @@ const state = {
   basket: JSON.parse(localStorage.getItem("gongoniBasket") || "{}"),
 };
 
+function hasPrice(value) {
+  return value !== null && value !== undefined && value !== "" && Number.isFinite(Number(value));
+}
+
 function money(value) {
-  return Number.isFinite(Number(value)) ? `KSh ${Number(value).toLocaleString()}` : "Ask price";
+  return hasPrice(value) ? `KSh ${Number(value).toLocaleString()}` : "Ask price";
 }
 
 function deliveryPrice(fee) {
@@ -73,11 +85,11 @@ function brandName(item) {
 }
 
 function badgeHtml(item) {
-  const priceBadge = Number.isFinite(Number(item.price)) ? "Price ready" : "Ask price";
+  const priceBadge = hasPrice(item.price) ? "Price ready" : "Ask price";
   const labels = itemLabels(item);
   return `
     <div class="badges">
-      <span>In stock</span>
+      <span>${escapeHtml(availabilityLabel(item))}</span>
       <span>${priceBadge}</span>
       ${labels.map((label) => `<span>${escapeHtml(label)}</span>`).join("")}
     </div>
@@ -91,12 +103,24 @@ function isPlaceholderName(item) {
 function itemLabels(item) {
   const labels = [];
   const price = Number(item.price);
-  if (isPlaceholderName(item) || !Number.isFinite(price)) labels.push("Needs confirmation");
-  if (Number.isFinite(price) && price <= 500) labels.push("Best price");
+  if (isPlaceholderName(item) || !hasPrice(item.price)) labels.push("Needs confirmation");
+  if (hasPrice(item.price) && price <= 500) labels.push("Best price");
   if (itemImages(item).length > 1) labels.push("More photos");
   if (Number(item.id) > 700) labels.push("New");
   if (/speaker|flask|thermos|bottle|lanzo|soap|shampoo|oil/i.test(item.name || "")) labels.push("Popular");
   return labels.slice(0, 2);
+}
+
+function isAvailable(item) {
+  return item.stockStatus !== "out" && Number(item.stockQty) !== 0;
+}
+
+function availabilityLabel(item) {
+  if (!isAvailable(item)) return "Out of stock";
+  if (hasPrice(item.stockQty) && Number(item.stockQty) > 0 && Number(item.stockQty) <= 5) {
+    return `Only ${Number(item.stockQty)} left`;
+  }
+  return "In stock";
 }
 
 function itemMetaHtml(item) {
@@ -124,7 +148,7 @@ function itemDescription(item) {
   if (category === "Basket") {
     return "This is a basket order with all selected items together. Choose your delivery area to see the estimated total before paying.";
   }
-  const priceLine = Number.isFinite(Number(item.price))
+  const priceLine = hasPrice(item.price)
     ? `It is priced at ${money(item.price)}.`
     : "The price should be confirmed before ordering.";
 
@@ -169,8 +193,33 @@ function shareMessage(item) {
     `${item.name} at Gongoni Furniture Shop`,
     `Price: ${money(item.price)}`,
     "Delivery available in Kilifi County and environs.",
+    `View product: ${productUrl(item)}`,
     `WhatsApp: 0789872543`,
   ].join("\n");
+}
+
+function productUrl(item) {
+  const url = new URL(window.location.href);
+  url.hash = "";
+  url.searchParams.set("product", item.id);
+  return url.toString();
+}
+
+function shopStats() {
+  return JSON.parse(localStorage.getItem("gongoniShopStats") || '{"views":0,"adds":0,"whatsapp":0,"searches":0,"products":{}}');
+}
+
+function trackShopEvent(type, item = null) {
+  const stats = shopStats();
+  stats[type] = Number(stats[type] || 0) + 1;
+  if (item?.id) {
+    const key = String(item.id);
+    stats.products[key] = stats.products[key] || { name: item.name, views: 0, adds: 0 };
+    if (type === "views" || type === "adds") {
+      stats.products[key][type] = Number(stats.products[key][type] || 0) + 1;
+    }
+  }
+  localStorage.setItem("gongoniShopStats", JSON.stringify(stats));
 }
 
 function paymentMessage(item) {
@@ -379,13 +428,13 @@ function groupSimilarItems(items) {
     const shouldAttachPrevious =
       previous &&
       isSideAngleItem(previous) &&
-      Number.isFinite(Number(item.price)) &&
+      hasPrice(item.price) &&
       /(speaker|woofer|multimedia|vitron|sayona|nunix|sinatech|ailyons|ctc)/i.test(item.name || item.caption || "");
     const shouldJoinPrevious =
       previous &&
       isGenericBlankItem(item) &&
       !isGenericBlankItem(previous) &&
-      Number.isFinite(Number(previous.price));
+      hasPrice(previous.price);
 
     if (shouldAttachPrevious) {
       grouped.pop();
@@ -401,7 +450,23 @@ function groupSimilarItems(items) {
 
     grouped.push(item);
   });
-  return grouped;
+  const galleryGroups = new Map();
+  const merged = [];
+  grouped.forEach((item) => {
+    const groupId = String(item.groupId || "").trim();
+    if (!groupId) {
+      merged.push(item);
+      return;
+    }
+    const existing = galleryGroups.get(groupId);
+    if (existing) {
+      existing.images = [...new Set([...itemImages(existing), ...itemImages(item)])];
+      return;
+    }
+    galleryGroups.set(groupId, item);
+    merged.push(item);
+  });
+  return merged;
 }
 
 function applyAdminOverrides(items) {
@@ -414,15 +479,19 @@ function applyAdminOverrides(items) {
       name: edit.name || item.name,
       category: edit.category || item.category,
       price: edit.price === "" || edit.price === null ? null : Number(edit.price),
+      stockStatus: edit.stockStatus || item.stockStatus || "in",
+      stockQty: edit.stockQty === "" || edit.stockQty === null ? null : Number(edit.stockQty),
+      groupId: edit.groupId || item.groupId || "",
     };
   });
 }
 
 function actionButtons(item) {
+  const unavailable = !isAvailable(item);
   return `
     <div class="card-actions">
-      <button class="add-action" type="button" data-add-item="${itemPayload(item)}">Add to basket</button>
-      <button class="paybill-action" type="button" data-pay-item="${itemPayload(item)}">Direct Paybill</button>
+      <button class="add-action" type="button" data-add-item="${itemPayload(item)}" ${unavailable ? "disabled" : ""}>${unavailable ? "Out of stock" : "Add to basket"}</button>
+      <button class="paybill-action" type="button" data-pay-item="${itemPayload(item)}" ${unavailable ? "disabled" : ""}>Direct Paybill</button>
     </div>
   `;
 }
@@ -446,7 +515,7 @@ function basketCount() {
 function basketSubtotal() {
   return basketEntries().reduce((sum, entry) => {
     const price = Number(entry.item.price);
-    return Number.isFinite(price) ? sum + price * entry.qty : sum;
+    return hasPrice(entry.item.price) ? sum + price * entry.qty : sum;
   }, 0);
 }
 
@@ -456,10 +525,12 @@ function selectedDelivery() {
 }
 
 function addToBasket(item, quantity = 1) {
+  if (!isAvailable(item)) return;
   const key = basketKey(item);
   if (!state.basket[key]) state.basket[key] = { item, qty: 0 };
   state.basket[key].qty += Math.max(1, Number(quantity) || 1);
   saveBasket();
+  trackShopEvent("adds", item);
   renderBasket();
   openBasket();
 }
@@ -476,10 +547,10 @@ function basketMessage() {
   const entries = basketEntries();
   const delivery = selectedDelivery();
   const subtotal = basketSubtotal();
-  const hasAskPrice = entries.some((entry) => !Number.isFinite(Number(entry.item.price)));
+  const hasAskPrice = entries.some((entry) => !hasPrice(entry.item.price));
   const lines = entries.map((entry) => {
     const each = money(entry.item.price);
-    const lineTotal = Number.isFinite(Number(entry.item.price))
+    const lineTotal = hasPrice(entry.item.price)
       ? money(Number(entry.item.price) * entry.qty)
       : "Ask price";
     return `${entry.qty} x ${entry.item.name} - ${each} each - ${lineTotal}`;
@@ -538,7 +609,7 @@ function renderBasket() {
 
   const delivery = selectedDelivery();
   const subtotal = basketSubtotal();
-  const hasAskPrice = entries.some((entry) => !Number.isFinite(Number(entry.item.price)));
+  const hasAskPrice = entries.some((entry) => !hasPrice(entry.item.price));
   document.querySelector("[data-basket-subtotal]").textContent = money(subtotal);
   document.querySelector("[data-basket-delivery]").textContent = deliveryPrice(delivery.fee);
   document.querySelector("[data-basket-total]").textContent =
@@ -566,23 +637,39 @@ function filteredItems(items) {
       !query ||
       item.name.toLowerCase().includes(query) ||
       item.category.toLowerCase().includes(query);
-    return matchesCategory && matchesSearch;
+    const priced = hasPrice(item.price);
+    const matchesPriceStatus =
+      state.priceStatus === "all" ||
+      (state.priceStatus === "priced" && priced) ||
+      (state.priceStatus === "ask" && !priced);
+    const price = Number(item.price);
+    const matchesMinimum = state.minPrice === null || (priced && price >= state.minPrice);
+    const matchesMaximum = state.maxPrice === null || (priced && price <= state.maxPrice);
+    const matchesAvailability = !state.availableOnly || isAvailable(item);
+    return (
+      matchesCategory &&
+      matchesSearch &&
+      matchesPriceStatus &&
+      matchesMinimum &&
+      matchesMaximum &&
+      matchesAvailability
+    );
   });
   return sortItems(filtered);
 }
 
 function sortItems(items) {
   const sorted = [...items];
-  const price = (item) => (Number.isFinite(Number(item.price)) ? Number(item.price) : Number.POSITIVE_INFINITY);
+  const price = (item) => (hasPrice(item.price) ? Number(item.price) : Number.POSITIVE_INFINITY);
   if (state.sort === "featured") {
     sorted.sort((a, b) => {
       const aScore =
         (isPlaceholderName(a) ? 100 : 0) +
-        (!Number.isFinite(Number(a.price)) ? 40 : 0) -
+        (!hasPrice(a.price) ? 40 : 0) -
         (itemImages(a).length > 1 ? 5 : 0);
       const bScore =
         (isPlaceholderName(b) ? 100 : 0) +
-        (!Number.isFinite(Number(b.price)) ? 40 : 0) -
+        (!hasPrice(b.price) ? 40 : 0) -
         (itemImages(b).length > 1 ? 5 : 0);
       return aScore - bScore || Number(a.id || 0) - Number(b.id || 0);
     });
@@ -616,7 +703,7 @@ function renderCheckout() {
   const entries = basketEntries();
   const delivery = selectedDelivery();
   const subtotal = basketSubtotal();
-  const hasAskPrice = entries.some((entry) => !Number.isFinite(Number(entry.item.price)));
+  const hasAskPrice = entries.some((entry) => !hasPrice(entry.item.price));
   document.querySelector("[data-checkout-count]").textContent = `${basketCount()} items`;
   document.querySelector("[data-checkout-subtotal]").textContent = money(subtotal);
   document.querySelector("[data-checkout-delivery]").textContent = deliveryPrice(delivery.fee);
@@ -694,7 +781,7 @@ function refresh() {
   renderPhotos(true);
 }
 
-function openViewer(src, title, description, item) {
+function openViewer(src, title, description, item, fromSharedLink = false) {
   state.activeItem = item;
   state.viewerImages = itemImages(item);
   state.viewerIndex = Math.max(0, state.viewerImages.indexOf(src));
@@ -709,7 +796,7 @@ function openViewer(src, title, description, item) {
   viewer.querySelector("[data-viewer-price]").textContent = money(item.price);
   viewer.querySelector(".viewer-meta").innerHTML = `
     <span>Brand: ${escapeHtml(brandName(item))}</span>
-    <span>In stock</span>
+    <span>${escapeHtml(availabilityLabel(item))}</span>
     <span>SKU: GM-${escapeHtml(item.id || "ITEM")}</span>
     <span>${itemImages(item).length} photo${itemImages(item).length === 1 ? "" : "s"}</span>
   `;
@@ -719,9 +806,13 @@ function openViewer(src, title, description, item) {
   ).join("");
   viewer.querySelector("p").textContent = description;
   viewer.querySelector("[data-viewer-share-whatsapp]").href = whatsappUrl(shareMessage(item));
+  viewer.querySelector("[data-viewer-add]").disabled = !isAvailable(item);
+  viewer.querySelector("[data-viewer-pay]").disabled = !isAvailable(item);
   updateViewerPurchasePanel();
   viewer.classList.add("open");
   viewer.setAttribute("aria-hidden", "false");
+  trackShopEvent("views", item);
+  if (!fromSharedLink) history.replaceState(null, "", productUrl(item));
 }
 
 function updateViewerImage() {
@@ -753,15 +844,15 @@ function updateViewerPurchasePanel() {
   const area = viewer.querySelector("[data-viewer-delivery]")?.value || DELIVERY_AREAS[0].area;
   const delivery = DELIVERY_AREAS.find((item) => item.area === area) || DELIVERY_AREAS[0];
   const price = Number(state.activeItem.price);
-  const hasPrice = Number.isFinite(price);
+  const itemHasPrice = hasPrice(state.activeItem.price);
   const message = [
     `Hello Gongoni, I want to order: ${state.activeItem.name}`,
     `Quantity: ${quantity}`,
     `Price each: ${money(state.activeItem.price)}`,
-    `Items total: ${hasPrice ? money(price * quantity) : "Confirm price"}`,
+    `Items total: ${itemHasPrice ? money(price * quantity) : "Confirm price"}`,
     `Delivery or pickup: ${delivery.area}`,
     `Delivery fee: ${deliveryPrice(delivery.fee)}`,
-    `Estimated total: ${hasPrice ? money(price * quantity + delivery.fee) : "Confirm price first"}`,
+    `Estimated total: ${itemHasPrice ? money(price * quantity + delivery.fee) : "Confirm price first"}`,
     `Paybill: ${PAYBILL}`,
     `Account No: ${ACCOUNT}`,
     `Name: ${BUSINESS_NAME}`,
@@ -790,6 +881,9 @@ function updateViewerZoom() {
 function closeViewer() {
   viewer.classList.remove("open");
   viewer.setAttribute("aria-hidden", "true");
+  const url = new URL(window.location.href);
+  url.searchParams.delete("product");
+  history.replaceState(null, "", `${url.pathname}${url.search}${url.hash}`);
 }
 
 function openPaybill(item) {
@@ -802,7 +896,7 @@ function openPaybill(item) {
   ).join("");
   updatePaybillTotal();
   paybillModal.querySelector("[data-pay-note]").textContent =
-    Number.isFinite(Number(item.price))
+    hasPrice(item.price)
       ? `${itemDescription(item)} Pick your delivery area above, then pay the estimated total. For bulky furniture, confirm the final delivery fee before dispatch.`
       : "Please confirm the product price on WhatsApp before paying. Delivery fee depends on the selected area and bulky items are confirmed before dispatch.";
   paybillModal.querySelector("[data-pay-whatsapp]").href = whatsappUrl(paymentMessage(item));
@@ -815,9 +909,9 @@ function updatePaybillTotal() {
   const area = paybillModal.querySelector("[data-delivery-area]")?.value || DELIVERY_AREAS[0].area;
   const delivery = DELIVERY_AREAS.find((item) => item.area === area) || DELIVERY_AREAS[0];
   const itemPrice = Number(state.activeItem.price);
-  const hasPrice = Number.isFinite(itemPrice);
+  const itemHasPrice = hasPrice(state.activeItem.price);
   paybillModal.querySelector("[data-delivery-fee]").textContent = deliveryPrice(delivery.fee);
-  paybillModal.querySelector("[data-pay-total]").textContent = hasPrice
+  paybillModal.querySelector("[data-pay-total]").textContent = itemHasPrice
     ? `${money(itemPrice + delivery.fee)} estimate`
     : "Confirm item price first";
   paybillModal.querySelector("[data-pay-whatsapp]").href = whatsappUrl([
@@ -825,7 +919,7 @@ function updatePaybillTotal() {
     `Item price: ${money(state.activeItem.price)}`,
     `Delivery area: ${delivery.area}`,
     `Delivery fee: ${deliveryPrice(delivery.fee)}`,
-    `Estimated total: ${hasPrice ? money(itemPrice + delivery.fee) : "Confirm item price first"}`,
+    `Estimated total: ${itemHasPrice ? money(itemPrice + delivery.fee) : "Confirm item price first"}`,
     `Paybill: ${PAYBILL}`,
     `Account No: ${ACCOUNT}`,
     `Name: ${BUSINESS_NAME}`,
@@ -868,7 +962,7 @@ document.addEventListener("click", (event) => {
     addToBasket(state.activeItem, state.viewerQuantity);
   }
   if (event.target.closest("[data-copy-share]") && state.activeItem) {
-    navigator.clipboard?.writeText(shareMessage(state.activeItem));
+    navigator.clipboard?.writeText(productUrl(state.activeItem));
   }
   if (viewerPrev && state.activeItem) {
     state.viewerIndex -= 1;
@@ -908,6 +1002,8 @@ document.addEventListener("click", (event) => {
     saveBasket();
     renderBasket();
   }
+  const whatsappLink = event.target.closest('a[href*="wa.me"]');
+  if (whatsappLink) trackShopEvent("whatsapp", state.activeItem);
   if (event.target.closest("[data-basket-pay]") && basketEntries().length) {
     const delivery = selectedDelivery();
     const subtotal = basketSubtotal();
@@ -944,6 +1040,7 @@ document.querySelectorAll("[data-whatsapp]").forEach((link) => {
 
 searchInput.addEventListener("input", () => {
   state.search = searchInput.value;
+  if (state.search.trim().length >= 2) trackShopEvent("searches");
   refresh();
 });
 
@@ -957,13 +1054,41 @@ sortSelect.addEventListener("change", () => {
   refresh();
 });
 
+priceStatusSelect.addEventListener("change", () => {
+  state.priceStatus = priceStatusSelect.value;
+  refresh();
+});
+
+minPriceInput.addEventListener("input", () => {
+  state.minPrice = minPriceInput.value === "" ? null : Number(minPriceInput.value);
+  refresh();
+});
+
+maxPriceInput.addEventListener("input", () => {
+  state.maxPrice = maxPriceInput.value === "" ? null : Number(maxPriceInput.value);
+  refresh();
+});
+
+inStockOnly.addEventListener("change", () => {
+  state.availableOnly = inStockOnly.checked;
+  refresh();
+});
+
 clearFilters.addEventListener("click", () => {
   state.search = "";
   state.category = "All";
   state.sort = "featured";
+  state.priceStatus = "all";
+  state.minPrice = null;
+  state.maxPrice = null;
+  state.availableOnly = false;
   searchInput.value = "";
   categorySelect.value = "All";
   sortSelect.value = "featured";
+  priceStatusSelect.value = "all";
+  minPriceInput.value = "";
+  maxPriceInput.value = "";
+  inStockOnly.checked = false;
   refresh();
 });
 
@@ -979,8 +1104,8 @@ document.querySelectorAll("[data-category-chip]").forEach((button) => {
 loadMore.addEventListener("click", () => renderPhotos());
 
 Promise.all([
-  fetch("products.json?v=ascot-kitchen-price-02").then((res) => res.json()),
-  fetch("all-photos-data.json?v=ascot-kitchen-price-02").then((res) => res.json()),
+  fetch("products.json?v=shop-upgrade-01").then((res) => res.json()),
+  fetch("all-photos-data.json?v=shop-upgrade-01").then((res) => res.json()),
 ])
   .then(([products, photos]) => {
     state.products = groupSimilarItems(applyAdminOverrides(products));
@@ -989,6 +1114,13 @@ Promise.all([
     renderCategories();
     renderBasket();
     refresh();
+    const sharedId = new URLSearchParams(window.location.search).get("product");
+    const sharedItem = sharedId
+      ? [...state.photos, ...state.products].find((item) => String(item.id) === String(sharedId))
+      : null;
+    if (sharedItem) {
+      openViewer(displayImage(sharedItem), sharedItem.name, itemDescription(sharedItem), sharedItem, true);
+    }
   })
   .catch(() => {
     productGrid.innerHTML = "<p>Could not load products.</p>";
