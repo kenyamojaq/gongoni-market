@@ -892,11 +892,11 @@
   {
     "id": 93,
     "batch": "Batch 1",
-    "name": "ASCOTSERVINGDISHAS-21",
-    "price": null,
-    "category": "Cleaning",
+    "name": "Ascot Serving Dish AS-21",
+    "price": 150,
+    "category": "Kitchenware",
     "image": "assets/batches/batch-01/batch01_093.jpg",
-    "caption": "ASCOTSERVINGDISHAS-21",
+    "caption": "Ascot Serving Dish AS-21 @150",
     "thumb": "assets/thumbs/batches/batch-01/batch01_093.webp"
   },
   {
