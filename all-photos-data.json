@@ -4372,7 +4372,7 @@
   {
     "id": 438,
     "batch": "Batch 3",
-    "name": "DeliglasswaterkettleGPH 31 1",
+    "name": "Deli Glass Water Kettle GPH 31-1",
     "price": 650,
     "category": "Appliances & electronics",
     "image": "assets/batches/batch-03/batch03_048.jpg",
@@ -4392,11 +4392,11 @@
   {
     "id": 440,
     "batch": "Batch 3",
-    "name": "1 PC",
+    "name": "Batch 3 Item 050",
     "price": null,
     "category": "General goods",
     "image": "assets/batches/batch-03/batch03_050.jpg",
-    "caption": "1pC",
+    "caption": "",
     "thumb": "assets/thumbs/batches/batch-03/batch03_050.webp"
   },
   {
