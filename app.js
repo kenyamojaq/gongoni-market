@@ -979,8 +979,8 @@ document.querySelectorAll("[data-category-chip]").forEach((button) => {
 loadMore.addEventListener("click", () => renderPhotos());
 
 Promise.all([
-  fetch("products.json?v=deli-gph31-gallery-01").then((res) => res.json()),
-  fetch("all-photos-data.json?v=deli-gph31-gallery-01").then((res) => res.json()),
+  fetch("products.json?v=deli-gph31-gallery-02").then((res) => res.json()),
+  fetch("all-photos-data.json?v=deli-gph31-gallery-02").then((res) => res.json()),
 ])
   .then(([products, photos]) => {
     state.products = groupSimilarItems(applyAdminOverrides(products));

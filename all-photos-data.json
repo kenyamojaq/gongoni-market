@@ -4412,11 +4412,11 @@
   {
     "id": 442,
     "batch": "Batch 3",
-    "name": "玻璃合 1.8 L 1.0 L",
+    "name": "Batch 3 Item 052",
     "price": null,
     "category": "General goods",
     "image": "assets/batches/batch-03/batch03_052.jpg",
-    "caption": "玻璃合 1.8L 1.0L",
+    "caption": "",
     "thumb": "assets/thumbs/batches/batch-03/batch03_052.webp"
   },
   {
