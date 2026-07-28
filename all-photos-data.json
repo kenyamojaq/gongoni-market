@@ -2882,11 +2882,11 @@
   {
     "id": 289,
     "batch": "Batch 1",
-    "name": "SMARTPROBLENDERSBL-853 B 2 Speend",
+    "name": "Smartpro Blender SBL-853 B 2 Speed",
     "price": 2200,
     "category": "Appliances & electronics",
     "image": "assets/batches/batch-01/batch01_289.jpg",
-    "caption": "SMARTPROBLENDERSBL-853B2Speend @2,200/=",
+    "caption": "Smartpro Blender SBL-853 B 2 Speed @2,200/=",
     "thumb": "assets/thumbs/batches/batch-01/batch01_289.webp"
   },
   {
@@ -2912,11 +2912,11 @@
   {
     "id": 292,
     "batch": "Batch 1",
-    "name": "SBL-853 B",
+    "name": "General Goods Item 292",
     "price": null,
     "category": "General goods",
     "image": "assets/batches/batch-01/batch01_292.jpg",
-    "caption": "SBL-853B",
+    "caption": "",
     "thumb": "assets/thumbs/batches/batch-01/batch01_292.webp"
   },
   {
