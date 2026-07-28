@@ -5122,7 +5122,7 @@
   {
     "id": 513,
     "batch": "Batch 3",
-    "name": "360°5 WIVE SAFE NOODOR FK-031 AILYONS AilyonswaterkettleFK 0317 3.5 Ltr",
+    "name": "Ailyons Water Kettle FK-0317 3.5L",
     "price": 1600,
     "category": "Appliances & electronics",
     "image": "assets/batches/batch-03/batch03_123.jpg",
@@ -5132,11 +5132,11 @@
   {
     "id": 514,
     "batch": "Batch 3",
-    "name": "AILYONS",
+    "name": "Batch 3 Item 124",
     "price": null,
     "category": "General goods",
     "image": "assets/batches/batch-03/batch03_124.jpg",
-    "caption": "AILYONS",
+    "caption": "",
     "thumb": "assets/thumbs/batches/batch-03/batch03_124.webp"
   },
   {
