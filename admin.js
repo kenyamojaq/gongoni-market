@@ -160,7 +160,7 @@ function renderStats() {
   document.querySelector("[data-stat-searches]").textContent = Number(stats.searches || 0).toLocaleString();
 }
 
-Promise.all([fetch("all-photos-data.json?v=batch-07-super-items-01").then((res) => res.json())]).then(([data]) => {
+Promise.all([fetch("all-photos-data.json?v=batch-08-super-items-01").then((res) => res.json())]).then(([data]) => {
   products = data;
   renderFilters();
   renderList();

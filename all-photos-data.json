@@ -9441,5 +9441,117 @@
     "images": [
       "assets/batches/batch-07/batch07_023.jpg"
     ]
+  },
+  {
+    "id": 925,
+    "batch": "Batch 8",
+    "name": "Ergonomic Mesh Office Chair with Headrest",
+    "price": 13500,
+    "category": "Furniture & chairs",
+    "image": "assets/batches/batch-08/batch08_001.jpg",
+    "caption": "Ergonomic mesh office chair with headrest @13500",
+    "thumb": "assets/thumbs/batches/batch-08/batch08_001.webp",
+    "images": [
+      "assets/batches/batch-08/batch08_001.jpg"
+    ]
+  },
+  {
+    "id": 926,
+    "batch": "Batch 8",
+    "name": "AILYONS Double-Door Refrigerator",
+    "price": 21000,
+    "category": "Appliances & electronics",
+    "image": "assets/batches/batch-08/batch08_004.jpg",
+    "caption": "AILYONS double-door refrigerator @21000",
+    "thumb": "assets/thumbs/batches/batch-08/batch08_004.webp",
+    "images": [
+      "assets/batches/batch-08/batch08_004.jpg",
+      "assets/batches/batch-08/batch08_002.jpg",
+      "assets/batches/batch-08/batch08_003.jpg"
+    ]
+  },
+  {
+    "id": 927,
+    "batch": "Batch 8",
+    "name": "AILYONS Standing Fan",
+    "price": 2200,
+    "category": "Appliances & electronics",
+    "image": "assets/batches/batch-08/batch08_006.jpg",
+    "caption": "AILYONS standing fan @2200",
+    "thumb": "assets/thumbs/batches/batch-08/batch08_006.webp",
+    "images": [
+      "assets/batches/batch-08/batch08_006.jpg",
+      "assets/batches/batch-08/batch08_005.jpg",
+      "assets/batches/batch-08/batch08_007.jpg"
+    ]
+  },
+  {
+    "id": 928,
+    "batch": "Batch 8",
+    "name": "Premier Baby Walker",
+    "price": 2500,
+    "category": "Baby & kids",
+    "image": "assets/batches/batch-08/batch08_009.jpg",
+    "caption": "Premier baby walker @2500",
+    "thumb": "assets/thumbs/batches/batch-08/batch08_009.webp",
+    "images": [
+      "assets/batches/batch-08/batch08_009.jpg",
+      "assets/batches/batch-08/batch08_008.jpg"
+    ]
+  },
+  {
+    "id": 929,
+    "batch": "Batch 8",
+    "name": "Deluxe Baby Walker with Push Handle",
+    "price": 4500,
+    "category": "Baby & kids",
+    "image": "assets/batches/batch-08/batch08_010.jpg",
+    "caption": "Deluxe baby walker with push handle @4500",
+    "thumb": "assets/thumbs/batches/batch-08/batch08_010.webp",
+    "images": [
+      "assets/batches/batch-08/batch08_010.jpg"
+    ]
+  },
+  {
+    "id": 930,
+    "batch": "Batch 8",
+    "name": "Yitong Children's Bicycle with Basket",
+    "price": 8000,
+    "category": "General goods",
+    "image": "assets/batches/batch-08/batch08_011.jpg",
+    "caption": "Yitong children's bicycle with basket @8000",
+    "thumb": "assets/thumbs/batches/batch-08/batch08_011.webp",
+    "images": [
+      "assets/batches/batch-08/batch08_011.jpg",
+      "assets/batches/batch-08/batch08_012.jpg"
+    ]
+  },
+  {
+    "id": 931,
+    "batch": "Batch 8",
+    "name": "Adult Mountain Bicycle",
+    "price": 18500,
+    "category": "General goods",
+    "image": "assets/batches/batch-08/batch08_013.jpg",
+    "caption": "Adult mountain bicycle @18500",
+    "thumb": "assets/thumbs/batches/batch-08/batch08_013.webp",
+    "images": [
+      "assets/batches/batch-08/batch08_013.jpg"
+    ]
+  },
+  {
+    "id": 932,
+    "batch": "Batch 8",
+    "name": "Bingo Plastic Armchair",
+    "price": 1000,
+    "category": "Furniture & chairs",
+    "image": "assets/batches/batch-08/batch08_016.jpg",
+    "caption": "Bingo plastic armchair @1000",
+    "thumb": "assets/thumbs/batches/batch-08/batch08_016.webp",
+    "images": [
+      "assets/batches/batch-08/batch08_016.jpg",
+      "assets/batches/batch-08/batch08_014.jpg",
+      "assets/batches/batch-08/batch08_015.jpg"
+    ]
   }
 ]

@@ -15,7 +15,7 @@ This folder is ready for GitHub Pages.
 
 - Main shop page: `index.html`
 - Product catalog and grouped photo slides
-- 924 original product photos
+- 940 original product photos
 - Compressed product thumbnails for fast catalogue browsing
 - Product basket and checkout options
 - Direct shareable links for every product
