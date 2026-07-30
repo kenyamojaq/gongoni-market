@@ -9063,7 +9063,9 @@
     "image": "assets/batches/batch-06/batch06_001.jpg",
     "caption": "",
     "thumb": "assets/thumbs/batches/batch-06/batch06_001.webp",
-    "images": ["assets/batches/batch-06/batch06_001.jpg"]
+    "images": [
+      "assets/batches/batch-06/batch06_001.jpg"
+    ]
   },
   {
     "id": 889,
@@ -9102,7 +9104,9 @@
     "image": "assets/batches/batch-06/batch06_006.jpg",
     "caption": "Ksh.450/=",
     "thumb": "assets/thumbs/batches/batch-06/batch06_006.webp",
-    "images": ["assets/batches/batch-06/batch06_006.jpg"]
+    "images": [
+      "assets/batches/batch-06/batch06_006.jpg"
+    ]
   },
   {
     "id": 894,
@@ -9113,7 +9117,9 @@
     "image": "assets/batches/batch-06/batch06_007.jpg",
     "caption": "Ksh.400/=",
     "thumb": "assets/thumbs/batches/batch-06/batch06_007.webp",
-    "images": ["assets/batches/batch-06/batch06_007.jpg"]
+    "images": [
+      "assets/batches/batch-06/batch06_007.jpg"
+    ]
   },
   {
     "id": 895,
@@ -9153,7 +9159,9 @@
     "image": "assets/batches/batch-06/batch06_013.jpg",
     "caption": "Ksh.800/=",
     "thumb": "assets/thumbs/batches/batch-06/batch06_013.webp",
-    "images": ["assets/batches/batch-06/batch06_013.jpg"]
+    "images": [
+      "assets/batches/batch-06/batch06_013.jpg"
+    ]
   },
   {
     "id": 900,
@@ -9179,7 +9187,9 @@
     "image": "assets/batches/batch-06/batch06_017.jpg",
     "caption": "Ksh.450/=",
     "thumb": "assets/thumbs/batches/batch-06/batch06_017.webp",
-    "images": ["assets/batches/batch-06/batch06_017.jpg"]
+    "images": [
+      "assets/batches/batch-06/batch06_017.jpg"
+    ]
   },
   {
     "id": 904,
@@ -9552,6 +9562,240 @@
       "assets/batches/batch-08/batch08_016.jpg",
       "assets/batches/batch-08/batch08_014.jpg",
       "assets/batches/batch-08/batch08_015.jpg"
+    ]
+  },
+  {
+    "id": 933,
+    "batch": "Batch 9",
+    "name": "Blue Kids Bicycle with Training Wheels",
+    "price": 6000,
+    "category": "Baby & kids",
+    "image": "assets/batches/batch-09/batch09_002.jpg",
+    "caption": "Blue kids bicycle with training wheels @6000",
+    "thumb": "assets/thumbs/batches/batch-09/batch09_002.webp",
+    "images": [
+      "assets/batches/batch-09/batch09_002.jpg",
+      "assets/batches/batch-09/batch09_001.jpg",
+      "assets/batches/batch-09/batch09_003.jpg"
+    ]
+  },
+  {
+    "id": 934,
+    "batch": "Batch 9",
+    "name": "Kenpoly Plastic Armchair",
+    "price": 2500,
+    "category": "Furniture & chairs",
+    "image": "assets/batches/batch-09/batch09_005.jpg",
+    "caption": "Kenpoly plastic armchair @2500",
+    "thumb": "assets/thumbs/batches/batch-09/batch09_005.webp",
+    "images": [
+      "assets/batches/batch-09/batch09_005.jpg",
+      "assets/batches/batch-09/batch09_004.jpg",
+      "assets/batches/batch-09/batch09_006.jpg"
+    ]
+  },
+  {
+    "id": 935,
+    "batch": "Batch 9",
+    "name": "Champion Baby Rocker/Bouncer",
+    "price": 3500,
+    "category": "Baby & kids",
+    "image": "assets/batches/batch-09/batch09_007.jpg",
+    "caption": "Champion baby rocker and bouncer @3500",
+    "thumb": "assets/thumbs/batches/batch-09/batch09_007.webp",
+    "images": [
+      "assets/batches/batch-09/batch09_007.jpg",
+      "assets/batches/batch-09/batch09_008.jpg",
+      "assets/batches/batch-09/batch09_009.jpg"
+    ]
+  },
+  {
+    "id": 936,
+    "batch": "Batch 9",
+    "name": "Rechargeable Kids Ride-On Sports Car",
+    "price": 18000,
+    "category": "Baby & kids",
+    "image": "assets/batches/batch-09/batch09_012.jpg",
+    "caption": "Rechargeable kids ride-on sports car @18000",
+    "thumb": "assets/thumbs/batches/batch-09/batch09_012.webp",
+    "images": [
+      "assets/batches/batch-09/batch09_012.jpg",
+      "assets/batches/batch-09/batch09_010.jpg",
+      "assets/batches/batch-09/batch09_011.jpg"
+    ]
+  },
+  {
+    "id": 937,
+    "batch": "Batch 9",
+    "name": "Rechargeable Kids Ride-On Jeep",
+    "price": 25000,
+    "category": "Baby & kids",
+    "image": "assets/batches/batch-09/batch09_013.jpg",
+    "caption": "Rechargeable kids ride-on jeep @25000",
+    "thumb": "assets/thumbs/batches/batch-09/batch09_013.webp",
+    "images": [
+      "assets/batches/batch-09/batch09_013.jpg",
+      "assets/batches/batch-09/batch09_015.jpg",
+      "assets/batches/batch-09/batch09_014.jpg"
+    ]
+  },
+  {
+    "id": 938,
+    "batch": "Batch 9",
+    "name": "Rechargeable Kids Ride-On Motorcycle",
+    "price": 9000,
+    "category": "Baby & kids",
+    "image": "assets/batches/batch-09/batch09_017.jpg",
+    "caption": "Rechargeable kids ride-on motorcycle @9000",
+    "thumb": "assets/thumbs/batches/batch-09/batch09_017.webp",
+    "images": [
+      "assets/batches/batch-09/batch09_017.jpg",
+      "assets/batches/batch-09/batch09_018.jpg",
+      "assets/batches/batch-09/batch09_016.jpg"
+    ]
+  },
+  {
+    "id": 939,
+    "batch": "Batch 9",
+    "name": "Rechargeable Two-Seater Kids Jeep with Bluetooth",
+    "price": 45000,
+    "category": "Baby & kids",
+    "image": "assets/batches/batch-09/batch09_022.jpg",
+    "caption": "Rechargeable two-seater kids jeep with Bluetooth @45000",
+    "thumb": "assets/thumbs/batches/batch-09/batch09_022.webp",
+    "images": [
+      "assets/batches/batch-09/batch09_022.jpg",
+      "assets/batches/batch-09/batch09_019.jpg",
+      "assets/batches/batch-09/batch09_020.jpg",
+      "assets/batches/batch-09/batch09_021.jpg"
+    ]
+  },
+  {
+    "id": 940,
+    "batch": "Batch 9",
+    "name": "AILYONS 199L Chest Freezer",
+    "price": 34000,
+    "category": "Appliances & electronics",
+    "image": "assets/batches/batch-09/batch09_023.jpg",
+    "caption": "AILYONS 199 litre chest freezer @34000",
+    "thumb": "assets/thumbs/batches/batch-09/batch09_023.webp",
+    "images": [
+      "assets/batches/batch-09/batch09_023.jpg",
+      "assets/batches/batch-09/batch09_024.jpg",
+      "assets/batches/batch-09/batch09_025.jpg",
+      "assets/batches/batch-09/batch09_026.jpg"
+    ]
+  },
+  {
+    "id": 941,
+    "batch": "Batch 9",
+    "name": "Children's Study Desk with Chair",
+    "price": 6300,
+    "category": "Baby & kids",
+    "image": "assets/batches/batch-09/batch09_027.jpg",
+    "caption": "Children's study desk with chair @6300",
+    "thumb": "assets/thumbs/batches/batch-09/batch09_027.webp",
+    "images": [
+      "assets/batches/batch-09/batch09_027.jpg",
+      "assets/batches/batch-09/batch09_028.jpg"
+    ]
+  },
+  {
+    "id": 942,
+    "batch": "Batch 9",
+    "name": "Square White Coffee Table",
+    "price": 9500,
+    "category": "Furniture & chairs",
+    "image": "assets/batches/batch-09/batch09_029.jpg",
+    "caption": "Square white coffee table @9500",
+    "thumb": "assets/thumbs/batches/batch-09/batch09_029.webp",
+    "images": [
+      "assets/batches/batch-09/batch09_029.jpg"
+    ]
+  },
+  {
+    "id": 943,
+    "batch": "Batch 9",
+    "name": "Modern Marble-Finish Coffee Table",
+    "price": 5700,
+    "category": "Furniture & chairs",
+    "image": "assets/batches/batch-09/batch09_030.jpg",
+    "caption": "Modern marble-finish coffee table @5700",
+    "thumb": "assets/thumbs/batches/batch-09/batch09_030.webp",
+    "images": [
+      "assets/batches/batch-09/batch09_030.jpg",
+      "assets/batches/batch-09/batch09_031.jpg"
+    ]
+  },
+  {
+    "id": 944,
+    "batch": "Batch 9",
+    "name": "2-in-1 Round Coffee Table Set",
+    "price": 7000,
+    "category": "Furniture & chairs",
+    "image": "assets/batches/batch-09/batch09_032.jpg",
+    "caption": "2-in-1 round coffee table set @7000",
+    "thumb": "assets/thumbs/batches/batch-09/batch09_032.webp",
+    "images": [
+      "assets/batches/batch-09/batch09_032.jpg"
+    ]
+  },
+  {
+    "id": 945,
+    "batch": "Batch 9",
+    "name": "Black Marble-Finish Coffee Table Set",
+    "price": 8000,
+    "category": "Furniture & chairs",
+    "image": "assets/batches/batch-09/batch09_033.jpg",
+    "caption": "Black marble-finish coffee table set @8000",
+    "thumb": "assets/thumbs/batches/batch-09/batch09_033.webp",
+    "images": [
+      "assets/batches/batch-09/batch09_033.jpg"
+    ]
+  },
+  {
+    "id": 946,
+    "batch": "Batch 9",
+    "name": "Black Marble-Finish Coffee Table with Shelf",
+    "price": 6500,
+    "category": "Furniture & chairs",
+    "image": "assets/batches/batch-09/batch09_036.jpg",
+    "caption": "Black marble-finish coffee table with shelf @6500",
+    "thumb": "assets/thumbs/batches/batch-09/batch09_036.webp",
+    "images": [
+      "assets/batches/batch-09/batch09_036.jpg",
+      "assets/batches/batch-09/batch09_034.jpg",
+      "assets/batches/batch-09/batch09_035.jpg"
+    ]
+  },
+  {
+    "id": 947,
+    "batch": "Batch 9",
+    "name": "Gold-Frame Conference Chair",
+    "price": 2300,
+    "category": "Furniture & chairs",
+    "image": "assets/batches/batch-09/batch09_038.jpg",
+    "caption": "Gold-frame conference chair @2300",
+    "thumb": "assets/thumbs/batches/batch-09/batch09_038.webp",
+    "images": [
+      "assets/batches/batch-09/batch09_038.jpg",
+      "assets/batches/batch-09/batch09_037.jpg",
+      "assets/batches/batch-09/batch09_039.jpg"
+    ]
+  },
+  {
+    "id": 948,
+    "batch": "Batch 9",
+    "name": "Couronne Standing Fan",
+    "price": 2500,
+    "category": "Appliances & electronics",
+    "image": "assets/batches/batch-09/batch09_040.jpg",
+    "caption": "Couronne standing fan @2500",
+    "thumb": "assets/thumbs/batches/batch-09/batch09_040.webp",
+    "images": [
+      "assets/batches/batch-09/batch09_040.jpg",
+      "assets/batches/batch-09/batch09_041.jpg",
+      "assets/batches/batch-09/batch09_042.jpg"
     ]
   }
 ]
