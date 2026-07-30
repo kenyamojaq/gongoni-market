@@ -9238,5 +9238,208 @@
       "assets/batches/batch-06/batch06_026.jpg",
       "assets/batches/batch-06/batch06_027.jpg"
     ]
+  },
+  {
+    "id": 910,
+    "batch": "Batch 7",
+    "name": "2-Door Grey Wardrobe",
+    "price": 17000,
+    "category": "Furniture & chairs",
+    "image": "assets/batches/batch-07/batch07_002.jpg",
+    "caption": "2-door grey wardrobe @17000",
+    "thumb": "assets/thumbs/batches/batch-07/batch07_002.webp",
+    "images": [
+      "assets/batches/batch-07/batch07_002.jpg",
+      "assets/batches/batch-07/batch07_001.jpg"
+    ]
+  },
+  {
+    "id": 911,
+    "batch": "Batch 7",
+    "name": "2-Door Beech Wardrobe",
+    "price": 17000,
+    "category": "Furniture & chairs",
+    "image": "assets/batches/batch-07/batch07_004.jpg",
+    "caption": "2-door beech wardrobe @17000",
+    "thumb": "assets/thumbs/batches/batch-07/batch07_004.webp",
+    "images": [
+      "assets/batches/batch-07/batch07_004.jpg",
+      "assets/batches/batch-07/batch07_003.jpg"
+    ]
+  },
+  {
+    "id": 912,
+    "batch": "Batch 7",
+    "name": "3-Door Cherry Wardrobe",
+    "price": 22500,
+    "category": "Furniture & chairs",
+    "image": "assets/batches/batch-07/batch07_006.jpg",
+    "caption": "3-door cherry wardrobe @22500",
+    "thumb": "assets/thumbs/batches/batch-07/batch07_006.webp",
+    "images": [
+      "assets/batches/batch-07/batch07_006.jpg",
+      "assets/batches/batch-07/batch07_005.jpg"
+    ]
+  },
+  {
+    "id": 913,
+    "batch": "Batch 7",
+    "name": "3-Door Wood-Finish Wardrobe with Mirror",
+    "price": 23000,
+    "category": "Furniture & chairs",
+    "image": "assets/batches/batch-07/batch07_008.jpg",
+    "caption": "3-door wardrobe @23000",
+    "thumb": "assets/thumbs/batches/batch-07/batch07_008.webp",
+    "images": [
+      "assets/batches/batch-07/batch07_008.jpg",
+      "assets/batches/batch-07/batch07_007.jpg"
+    ]
+  },
+  {
+    "id": 914,
+    "batch": "Batch 7",
+    "name": "3-Door Beech Wardrobe with Mirror",
+    "price": 24500,
+    "category": "Furniture & chairs",
+    "image": "assets/batches/batch-07/batch07_010.jpg",
+    "caption": "3-door beech wardrobe @24500",
+    "thumb": "assets/thumbs/batches/batch-07/batch07_010.webp",
+    "images": [
+      "assets/batches/batch-07/batch07_010.jpg",
+      "assets/batches/batch-07/batch07_009.jpg"
+    ]
+  },
+  {
+    "id": 915,
+    "batch": "Batch 7",
+    "name": "Set of 3 Nesting Tables",
+    "price": 9500,
+    "category": "Furniture & chairs",
+    "image": "assets/batches/batch-07/batch07_011.jpg",
+    "caption": "3 small tables @9500",
+    "thumb": "assets/thumbs/batches/batch-07/batch07_011.webp",
+    "images": [
+      "assets/batches/batch-07/batch07_011.jpg"
+    ]
+  },
+  {
+    "id": 916,
+    "batch": "Batch 7",
+    "name": "Nunix 3-Gas + 1-Electric Cooker",
+    "price": 5000,
+    "category": "Appliances & electronics",
+    "image": "assets/batches/batch-07/batch07_015.jpg",
+    "caption": "3-gas + 1-electric cooker @5000",
+    "thumb": "assets/thumbs/batches/batch-07/batch07_015.webp",
+    "images": [
+      "assets/batches/batch-07/batch07_015.jpg",
+      "assets/batches/batch-07/batch07_014.jpg",
+      "assets/batches/batch-07/batch07_012.jpg",
+      "assets/batches/batch-07/batch07_013.jpg"
+    ]
+  },
+  {
+    "id": 917,
+    "batch": "Batch 7",
+    "name": "Premium Executive Leather Office Chair",
+    "price": 15000,
+    "category": "Furniture & chairs",
+    "image": "assets/batches/batch-07/batch07_016.jpg",
+    "caption": "Premium executive chair @15000",
+    "thumb": "assets/thumbs/batches/batch-07/batch07_016.webp",
+    "images": [
+      "assets/batches/batch-07/batch07_016.jpg"
+    ]
+  },
+  {
+    "id": 918,
+    "batch": "Batch 7",
+    "name": "Redberry Aluminium Cooking Pot 55L",
+    "price": 8500,
+    "category": "Kitchenware",
+    "image": "assets/batches/batch-07/batch07_017.jpg",
+    "caption": "Redberry aluminium cooking pot 55L @8500",
+    "thumb": "assets/thumbs/batches/batch-07/batch07_017.webp",
+    "images": [
+      "assets/batches/batch-07/batch07_017.jpg"
+    ]
+  },
+  {
+    "id": 919,
+    "batch": "Batch 7",
+    "name": "Heavy-Duty Aluminium Cooking Pot 110L",
+    "price": 16000,
+    "category": "Kitchenware",
+    "image": "assets/batches/batch-07/batch07_018.jpg",
+    "caption": "Heavy-duty aluminium cooking pot 110L @16000",
+    "thumb": "assets/thumbs/batches/batch-07/batch07_018.webp",
+    "images": [
+      "assets/batches/batch-07/batch07_018.jpg"
+    ]
+  },
+  {
+    "id": 920,
+    "batch": "Batch 7",
+    "name": "Heavy-Duty Aluminium Cooking Pot 195L",
+    "price": 27000,
+    "category": "Kitchenware",
+    "image": "assets/batches/batch-07/batch07_019.jpg",
+    "caption": "Heavy-duty aluminium cooking pot 195L @27000",
+    "thumb": "assets/thumbs/batches/batch-07/batch07_019.webp",
+    "images": [
+      "assets/batches/batch-07/batch07_019.jpg"
+    ]
+  },
+  {
+    "id": 921,
+    "batch": "Batch 7",
+    "name": "Heavy-Duty Aluminium Cooking Pot 230L",
+    "price": 33000,
+    "category": "Kitchenware",
+    "image": "assets/batches/batch-07/batch07_020.jpg",
+    "caption": "Heavy-duty aluminium cooking pot 230L @33000",
+    "thumb": "assets/thumbs/batches/batch-07/batch07_020.webp",
+    "images": [
+      "assets/batches/batch-07/batch07_020.jpg"
+    ]
+  },
+  {
+    "id": 922,
+    "batch": "Batch 7",
+    "name": "Heavy-Duty Aluminium Cooking Pot 250L",
+    "price": 35000,
+    "category": "Kitchenware",
+    "image": "assets/batches/batch-07/batch07_021.jpg",
+    "caption": "Heavy-duty aluminium cooking pot 250L @35000",
+    "thumb": "assets/thumbs/batches/batch-07/batch07_021.webp",
+    "images": [
+      "assets/batches/batch-07/batch07_021.jpg"
+    ]
+  },
+  {
+    "id": 923,
+    "batch": "Batch 7",
+    "name": "Mesh High Office Chair",
+    "price": 11500,
+    "category": "Furniture & chairs",
+    "image": "assets/batches/batch-07/batch07_022.jpg",
+    "caption": "Mesh high office chair @11500",
+    "thumb": "assets/thumbs/batches/batch-07/batch07_022.webp",
+    "images": [
+      "assets/batches/batch-07/batch07_022.jpg"
+    ]
+  },
+  {
+    "id": 924,
+    "batch": "Batch 7",
+    "name": "Executive Leather Office Chair",
+    "price": 12500,
+    "category": "Furniture & chairs",
+    "image": "assets/batches/batch-07/batch07_023.jpg",
+    "caption": "Executive leather office chair @12500",
+    "thumb": "assets/thumbs/batches/batch-07/batch07_023.webp",
+    "images": [
+      "assets/batches/batch-07/batch07_023.jpg"
+    ]
   }
 ]
