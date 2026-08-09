@@ -30,10 +30,7 @@
         return String(candidate.id) === String(item.id);
       } catch { return false; }
     });
-    if (existingPayButton) {
-      existingPayButton.click();
-      return;
-    }
+    if (existingPayButton) { existingPayButton.click(); return; }
     const opener = [...document.querySelectorAll('[data-open][data-item]')].find((button) => {
       try {
         const candidate = JSON.parse(button.dataset.item || '{}');
@@ -53,10 +50,7 @@
     card.dataset.enhanced = '1';
     const actions = document.createElement('div');
     actions.className = 'card-extra-actions';
-    actions.innerHTML = `
-      <button class="buy-now" type="button" data-buy-now>Buy now</button>
-      <button type="button" data-native-share>Share</button>
-    `;
+    actions.innerHTML = `<button class="buy-now" type="button" data-buy-now>Buy now</button><button type="button" data-native-share>Share</button>`;
     const current = card.querySelector('.card-actions');
     current?.insertAdjacentElement('afterend', actions);
     actions.querySelector('[data-buy-now]')?.addEventListener('click', () => openBuyNow(item));
@@ -72,12 +66,55 @@
         }
       } catch {}
     });
-    card.querySelectorAll('img').forEach((img) => {
-      img.loading = 'lazy'; img.decoding = 'async'; img.setAttribute('fetchpriority', 'low');
-    });
+    card.querySelectorAll('img').forEach((img) => { img.loading = 'lazy'; img.decoding = 'async'; img.setAttribute('fetchpriority', 'low'); });
   }
 
   function enhanceAllCards(root = document) { root.querySelectorAll('.product-card,.photo-card').forEach(enhanceCard); }
+
+  function createMobileSearch() {
+    if (document.querySelector('.mobile-search-panel')) return;
+    const bottomSearch = document.querySelector('.mobile-shop-bar a[href="#products"]');
+    const realSearch = document.querySelector('#searchInput');
+    if (!bottomSearch || !realSearch) return;
+
+    const panel = document.createElement('div');
+    panel.className = 'mobile-search-panel';
+    panel.setAttribute('aria-hidden', 'true');
+    panel.innerHTML = `
+      <div class="mobile-search-box">
+        <input type="search" inputmode="search" autocomplete="off" placeholder="Type product name..." aria-label="Search products">
+        <button type="button" data-mobile-search-close aria-label="Close search">×</button>
+      </div>
+    `;
+    document.body.appendChild(panel);
+    const input = panel.querySelector('input');
+    const close = panel.querySelector('[data-mobile-search-close]');
+
+    function openSearch(event) {
+      event?.preventDefault();
+      panel.classList.add('open');
+      panel.setAttribute('aria-hidden', 'false');
+      input.value = realSearch.value;
+      setTimeout(() => input.focus(), 30);
+    }
+    function closeSearch() {
+      panel.classList.remove('open');
+      panel.setAttribute('aria-hidden', 'true');
+    }
+
+    bottomSearch.addEventListener('click', openSearch);
+    input.addEventListener('input', () => {
+      realSearch.value = input.value;
+      realSearch.dispatchEvent(new Event('input', { bubbles: true }));
+      document.querySelector('#products')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+    input.addEventListener('search', () => {
+      realSearch.value = input.value;
+      realSearch.dispatchEvent(new Event('input', { bubbles: true }));
+    });
+    close.addEventListener('click', closeSearch);
+    panel.addEventListener('click', (event) => { if (event.target === panel) closeSearch(); });
+  }
 
   function createFeaturedSections() {
     if (document.querySelector('[data-storefront-featured]')) return;
@@ -120,7 +157,7 @@
   const observer = new MutationObserver((mutations) => { for (const mutation of mutations) mutation.addedNodes.forEach((node) => { if (!(node instanceof Element)) return; if (node.matches?.('.product-card,.photo-card')) enhanceCard(node); enhanceAllCards(node); }); createFeaturedSections(); });
 
   function boot() {
-    improveCheckout(); improveTrust(); syncCategoryHighlight(); addViewerSwipe(); enhanceAllCards(); createFeaturedSections();
+    improveCheckout(); improveTrust(); syncCategoryHighlight(); addViewerSwipe(); createMobileSearch(); enhanceAllCards(); createFeaturedSections();
     [document.querySelector('#productGrid'), document.querySelector('#photoGrid')].filter(Boolean).forEach((grid) => observer.observe(grid, { childList: true }));
     setTimeout(() => { enhanceAllCards(); createFeaturedSections(); }, 600); setTimeout(() => { enhanceAllCards(); createFeaturedSections(); }, 1800);
   }
