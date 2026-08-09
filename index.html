@@ -9,9 +9,29 @@
     <title>Gongoni Furniture Shop</title>
     <link rel="stylesheet" href="styles.css?v=shop-upgrade-01" />
     <style>
+      /* Product-card fix: only the photo opener should be square. Action buttons stay compact. */
+      .product-grid,
+      .photo-grid { align-items: start; }
+      .product-card,
+      .photo-card { align-content: start; height: auto; min-height: 0; grid-auto-rows: max-content; }
+      .product-card .card-actions,
+      .photo-card .card-actions { align-self: start; margin-top: 0; }
+      .product-card .card-actions button,
+      .product-card .card-actions a,
+      .photo-card .card-actions button,
+      .photo-card .card-actions a {
+        aspect-ratio: auto;
+        height: auto;
+        min-height: 40px;
+      }
+
       /* Mobile fixes: filters stay in normal flow and viewer close button stays visible. */
       @media (max-width: 820px) {
         .toolbar { position: static; top: auto; z-index: auto; max-height: none; overflow: visible; }
+        .product-card,
+        .photo-card { gap: 8px; }
+        .product-card .card-actions,
+        .photo-card .card-actions { gap: 6px; }
         .viewer > [data-close] {
           position: fixed;
           top: max(12px, env(safe-area-inset-top));
