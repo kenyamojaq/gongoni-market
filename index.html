@@ -8,49 +8,10 @@
     <meta name="description" content="Gongoni Furniture Shop products with doorstep delivery across Kilifi County and its environs." />
     <title>Gongoni Furniture Shop</title>
     <link rel="stylesheet" href="styles.css?v=shop-upgrade-01" />
+    <link rel="stylesheet" href="enhancements.css?v=ux-01" />
     <style>
-      /* Product-card fix: only the photo opener should be square. Action buttons stay compact. */
-      .product-grid,
-      .photo-grid { align-items: start; }
-      .product-card,
-      .photo-card { align-content: start; height: auto; min-height: 0; grid-auto-rows: max-content; }
-      .product-card .card-actions,
-      .photo-card .card-actions { align-self: start; margin-top: 0; }
-      .product-card .card-actions button,
-      .product-card .card-actions a,
-      .photo-card .card-actions button,
-      .photo-card .card-actions a {
-        aspect-ratio: auto;
-        height: auto;
-        min-height: 40px;
-      }
-
-      /* Mobile fixes: filters stay in normal flow and viewer close button stays visible. */
-      @media (max-width: 820px) {
-        .toolbar { position: static; top: auto; z-index: auto; max-height: none; overflow: visible; }
-        .product-card,
-        .photo-card { gap: 8px; }
-        .product-card .card-actions,
-        .photo-card .card-actions { gap: 6px; }
-        .viewer > [data-close] {
-          position: fixed;
-          top: max(12px, env(safe-area-inset-top));
-          right: 12px;
-          z-index: 1000;
-          display: grid;
-          place-items: center;
-          width: 48px;
-          height: 48px;
-          border: 2px solid #14213d;
-          border-radius: 999px;
-          color: #14213d;
-          background: #fff;
-          box-shadow: 0 4px 16px rgba(16,24,40,.28);
-          font-size: 0;
-          font-weight: 900;
-        }
-        .viewer > [data-close]::before { content: "×"; font-size: 32px; line-height: 1; }
-      }
+      .product-grid,.photo-grid{align-items:start}.product-card,.photo-card{align-content:start;height:auto;min-height:0;grid-auto-rows:max-content}.product-card .card-actions,.photo-card .card-actions{align-self:start;margin-top:0}.product-card .card-actions button,.product-card .card-actions a,.photo-card .card-actions button,.photo-card .card-actions a{aspect-ratio:auto;height:auto;min-height:40px}
+      @media(max-width:820px){.toolbar{position:static;top:auto;z-index:auto;max-height:none;overflow:visible}.product-card,.photo-card{gap:8px}.product-card .card-actions,.photo-card .card-actions{gap:6px}.viewer>[data-close]{position:fixed;top:max(12px,env(safe-area-inset-top));right:12px;z-index:1000;display:grid;place-items:center;width:48px;height:48px;border:2px solid #14213d;border-radius:999px;color:#14213d;background:#fff;box-shadow:0 4px 16px rgba(16,24,40,.28);font-size:0;font-weight:900}.viewer>[data-close]::before{content:"×";font-size:32px;line-height:1}}
     </style>
   </head>
   <body>
@@ -73,5 +34,6 @@
     <div class="paybill-modal" id="paybillModal" aria-hidden="true"><div class="paybill-box"><button type="button" data-pay-close aria-label="Close payment details">x</button><p class="eyebrow">Direct Paybill payment</p><h2></h2><dl><div><dt>Amount</dt><dd data-pay-amount></dd></div><div class="pay-destination-row"><dt>Delivery area</dt><dd><select data-delivery-area></select></dd></div><div><dt>Delivery fee</dt><dd data-delivery-fee></dd></div><div><dt>Estimated total</dt><dd data-pay-total></dd></div><div><dt>Paybill</dt><dd>222111</dd></div><div><dt>Account No.</dt><dd>3072428</dd></div><div><dt>Name</dt><dd>GONGONI FURNITURE</dd></div></dl><p data-pay-note></p><a data-pay-whatsapp href="#" target="_blank" rel="noopener">Send payment confirmation on WhatsApp</a></div></div>
     <div class="account-modal" id="accountModal" aria-hidden="true" hidden><form class="account-box"><button type="button" data-account-close aria-label="Close">x</button><p class="eyebrow">Client accounts unavailable</p><h2 data-account-title>Account sign-in is disabled</h2><p data-account-intro>For your security, this static website does not create or verify customer accounts. Order using the basket or WhatsApp.</p><label>Name<input data-account-name type="text" disabled /></label><label>Email or phone number<input data-account-contact type="text" disabled /></label><label>Delivery area<select data-account-area disabled></select></label><label class="otp-field" hidden>Enter OTP<input data-account-otp type="text" disabled /></label><p class="otp-preview" data-otp-preview hidden></p><div class="account-actions"><button class="add-action" type="button" data-account-submit disabled>Accounts disabled</button><a data-account-whatsapp href="#" target="_blank" rel="noopener">WhatsApp</a></div><strong data-account-status></strong></form></div>
     <script src="app.js?v=batch-09-super-items-01"></script>
+    <script src="enhancements.js?v=ux-01" defer></script>
   </body>
 </html>
