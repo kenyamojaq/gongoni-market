@@ -71,21 +71,46 @@
 
   function enhanceAllCards(root = document) { root.querySelectorAll('.product-card,.photo-card').forEach(enhanceCard); }
 
+  function applySearch(value, shouldScroll = true) {
+    const realSearch = document.querySelector('#searchInput');
+    const headerSearch = document.querySelector('#headerSearchInput');
+    if (!realSearch) return;
+    realSearch.value = value;
+    if (headerSearch && headerSearch.value !== value) headerSearch.value = value;
+    realSearch.dispatchEvent(new Event('input', { bubbles: true }));
+    if (shouldScroll) document.querySelector('#products')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  function syncHeaderSearch() {
+    const headerSearch = document.querySelector('#headerSearchInput');
+    const headerButton = document.querySelector('#headerSearchButton');
+    const realSearch = document.querySelector('#searchInput');
+    if (!headerSearch || !realSearch) return;
+
+    headerSearch.addEventListener('input', () => applySearch(headerSearch.value, false));
+    headerSearch.addEventListener('search', () => applySearch(headerSearch.value, true));
+    headerSearch.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter') {
+        event.preventDefault();
+        applySearch(headerSearch.value, true);
+      }
+    });
+    headerButton?.addEventListener('click', () => applySearch(headerSearch.value, true));
+    realSearch.addEventListener('input', () => {
+      if (headerSearch.value !== realSearch.value) headerSearch.value = realSearch.value;
+    });
+  }
+
   function createMobileSearch() {
     if (document.querySelector('.mobile-search-panel')) return;
-    const bottomSearch = document.querySelector('.mobile-shop-bar a[href="#products"]');
+    const bottomSearch = document.querySelector('[data-mobile-search-trigger]') || document.querySelector('.mobile-shop-bar a[href="#products"]');
     const realSearch = document.querySelector('#searchInput');
     if (!bottomSearch || !realSearch) return;
 
     const panel = document.createElement('div');
     panel.className = 'mobile-search-panel';
     panel.setAttribute('aria-hidden', 'true');
-    panel.innerHTML = `
-      <div class="mobile-search-box">
-        <input type="search" inputmode="search" autocomplete="off" placeholder="Type product name..." aria-label="Search products">
-        <button type="button" data-mobile-search-close aria-label="Close search">×</button>
-      </div>
-    `;
+    panel.innerHTML = `<div class="mobile-search-box"><input type="search" inputmode="search" autocomplete="off" placeholder="Type product name..." aria-label="Search products"><button type="button" data-mobile-search-close aria-label="Close search">×</button></div>`;
     document.body.appendChild(panel);
     const input = panel.querySelector('input');
     const close = panel.querySelector('[data-mobile-search-close]');
@@ -103,15 +128,15 @@
     }
 
     bottomSearch.addEventListener('click', openSearch);
-    input.addEventListener('input', () => {
-      realSearch.value = input.value;
-      realSearch.dispatchEvent(new Event('input', { bubbles: true }));
-      document.querySelector('#products')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    input.addEventListener('input', () => applySearch(input.value, false));
+    input.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter') {
+        event.preventDefault();
+        applySearch(input.value, true);
+        closeSearch();
+      }
     });
-    input.addEventListener('search', () => {
-      realSearch.value = input.value;
-      realSearch.dispatchEvent(new Event('input', { bubbles: true }));
-    });
+    input.addEventListener('search', () => applySearch(input.value, true));
     close.addEventListener('click', closeSearch);
     panel.addEventListener('click', (event) => { if (event.target === panel) closeSearch(); });
   }
@@ -157,7 +182,7 @@
   const observer = new MutationObserver((mutations) => { for (const mutation of mutations) mutation.addedNodes.forEach((node) => { if (!(node instanceof Element)) return; if (node.matches?.('.product-card,.photo-card')) enhanceCard(node); enhanceAllCards(node); }); createFeaturedSections(); });
 
   function boot() {
-    improveCheckout(); improveTrust(); syncCategoryHighlight(); addViewerSwipe(); createMobileSearch(); enhanceAllCards(); createFeaturedSections();
+    improveCheckout(); improveTrust(); syncCategoryHighlight(); addViewerSwipe(); syncHeaderSearch(); createMobileSearch(); enhanceAllCards(); createFeaturedSections();
     [document.querySelector('#productGrid'), document.querySelector('#photoGrid')].filter(Boolean).forEach((grid) => observer.observe(grid, { childList: true }));
     setTimeout(() => { enhanceAllCards(); createFeaturedSections(); }, 600); setTimeout(() => { enhanceAllCards(); createFeaturedSections(); }, 1800);
   }
