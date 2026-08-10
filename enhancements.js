@@ -109,3 +109,12 @@
   function boot(){improveCheckout();improveTrust();syncCategoryHighlight();addViewerSwipe();enableSufuriaAlias();syncHeaderSearch();createMobileSearch();enhanceAllCards();createFeaturedSections();[document.querySelector('#productGrid'),document.querySelector('#photoGrid')].filter(Boolean).forEach(grid=>observer.observe(grid,{childList:true}));setTimeout(()=>{enhanceAllCards();createFeaturedSections();},600);setTimeout(()=>{enhanceAllCards();createFeaturedSections();},1800);}
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',boot);else boot();
 })();
+
+(() => {
+  if (document.querySelector('script[data-catalog-cleanup]')) return;
+  const script = document.createElement('script');
+  script.src = 'catalog-cleanup.js?v=1';
+  script.defer = true;
+  script.dataset.catalogCleanup = '1';
+  document.head.appendChild(script);
+})();
