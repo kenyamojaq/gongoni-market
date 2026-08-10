@@ -16,6 +16,10 @@
       : 'Ask price';
   }
 
+  function isSufuriaItem(item) {
+    return /sufuria|cooking\s*pot/i.test(`${item?.name || ''} ${item?.caption || ''}`);
+  }
+
   function productLink(item) {
     const url = new URL(window.location.href);
     url.hash = '';
@@ -48,6 +52,12 @@
     const item = readItem(card);
     if (!item) return;
     card.dataset.enhanced = '1';
+
+    if (isSufuriaItem(item)) {
+      const categoryLabel = card.querySelector('small');
+      if (categoryLabel) categoryLabel.textContent = 'Kitchen - Sufuria';
+    }
+
     const actions = document.createElement('div');
     actions.className = 'card-extra-actions';
     actions.innerHTML = `<button class="buy-now" type="button" data-buy-now>Buy now</button><button type="button" data-native-share>Share</button>`;
@@ -71,14 +81,36 @@
 
   function enhanceAllCards(root = document) { root.querySelectorAll('.product-card,.photo-card').forEach(enhanceCard); }
 
+  function searchAlias(value) {
+    return /sufuria/i.test(value) ? value.replace(/sufuria/ig, 'cooking pot') : value;
+  }
+
   function applySearch(value, shouldScroll = true) {
     const realSearch = document.querySelector('#searchInput');
     const headerSearch = document.querySelector('#headerSearchInput');
     if (!realSearch) return;
-    realSearch.value = value;
-    if (headerSearch && headerSearch.value !== value) headerSearch.value = value;
+    const displayValue = value;
+    realSearch.value = searchAlias(value);
+    if (headerSearch && headerSearch.value !== displayValue) headerSearch.value = displayValue;
     realSearch.dispatchEvent(new Event('input', { bubbles: true }));
+    if (headerSearch) headerSearch.value = displayValue;
     if (shouldScroll) document.querySelector('#products')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  function enableSufuriaAlias() {
+    const realSearch = document.querySelector('#searchInput');
+    const headerSearch = document.querySelector('#headerSearchInput');
+    if (!realSearch || realSearch.dataset.sufuriaAlias === '1') return;
+    realSearch.dataset.sufuriaAlias = '1';
+    realSearch.addEventListener('input', () => {
+      const typed = realSearch.value;
+      if (!/sufuria/i.test(typed)) return;
+      realSearch.value = searchAlias(typed);
+      setTimeout(() => {
+        realSearch.value = typed;
+        if (headerSearch) headerSearch.value = typed;
+      }, 0);
+    }, true);
   }
 
   function syncHeaderSearch() {
@@ -97,7 +129,7 @@
     });
     headerButton?.addEventListener('click', () => applySearch(headerSearch.value, true));
     realSearch.addEventListener('input', () => {
-      if (headerSearch.value !== realSearch.value) headerSearch.value = realSearch.value;
+      if (!/cooking\s*pot/i.test(realSearch.value) && headerSearch.value !== realSearch.value) headerSearch.value = realSearch.value;
     });
   }
 
@@ -182,7 +214,7 @@
   const observer = new MutationObserver((mutations) => { for (const mutation of mutations) mutation.addedNodes.forEach((node) => { if (!(node instanceof Element)) return; if (node.matches?.('.product-card,.photo-card')) enhanceCard(node); enhanceAllCards(node); }); createFeaturedSections(); });
 
   function boot() {
-    improveCheckout(); improveTrust(); syncCategoryHighlight(); addViewerSwipe(); syncHeaderSearch(); createMobileSearch(); enhanceAllCards(); createFeaturedSections();
+    improveCheckout(); improveTrust(); syncCategoryHighlight(); addViewerSwipe(); enableSufuriaAlias(); syncHeaderSearch(); createMobileSearch(); enhanceAllCards(); createFeaturedSections();
     [document.querySelector('#productGrid'), document.querySelector('#photoGrid')].filter(Boolean).forEach((grid) => observer.observe(grid, { childList: true }));
     setTimeout(() => { enhanceAllCards(); createFeaturedSections(); }, 600); setTimeout(() => { enhanceAllCards(); createFeaturedSections(); }, 1800);
   }
