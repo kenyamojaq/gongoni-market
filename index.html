@@ -7,16 +7,50 @@
     <meta name="referrer" content="strict-origin-when-cross-origin" />
     <meta name="description" content="Gongoni Furniture Shop products with doorstep delivery across Kilifi County and its environs." />
     <title>Gongoni Furniture Shop</title>
-    <link rel="stylesheet" href="styles.css?v=shop-upgrade-03" />
-    <link rel="stylesheet" href="enhancements.css?v=ux-03" />
+    <link rel="stylesheet" href="styles.css?v=shop-upgrade-04" />
+    <link rel="stylesheet" href="enhancements.css?v=ux-04" />
     <style>
       .product-grid,.photo-grid{align-items:start}.product-card,.photo-card{align-content:start!important;height:auto!important;min-height:0!important;grid-auto-rows:max-content!important}.product-card .card-actions,.photo-card .card-actions,.product-card .card-extra-actions,.photo-card .card-extra-actions{align-self:start!important;margin:0!important;height:auto!important;min-height:0!important}.product-card .card-actions button,.product-card .card-actions a,.photo-card .card-actions button,.photo-card .card-actions a,.product-card .card-extra-actions button,.product-card .card-extra-actions a,.photo-card .card-extra-actions button,.photo-card .card-extra-actions a{aspect-ratio:auto!important;width:100%!important;height:40px!important;min-height:40px!important;max-height:40px!important;margin:0!important;padding:0 10px!important;display:flex!important;align-items:center!important;justify-content:center!important}.product-card>button[data-open],.photo-card>button[data-open]{aspect-ratio:1/1!important;height:auto!important;max-height:none!important}.product-card .item-meta,.photo-card .item-meta{margin-bottom:0!important}.product-card .card-actions,.photo-card .card-actions{margin-top:2px!important}.product-card .card-extra-actions,.photo-card .card-extra-actions{margin-top:4px!important}
       @media(max-width:820px){.toolbar{position:static;top:auto;z-index:auto;max-height:none;overflow:visible}.product-card,.photo-card{gap:8px}.product-card .card-actions,.photo-card .card-actions,.product-card .card-extra-actions,.photo-card .card-extra-actions{grid-template-columns:1fr 1fr!important;gap:6px!important}.viewer>[data-close]{position:fixed;top:max(12px,env(safe-area-inset-top));right:12px;z-index:1000;display:grid;place-items:center;width:48px;height:48px;border:2px solid #14213d;border-radius:999px;color:#14213d;background:#fff;box-shadow:0 4px 16px rgba(16,24,40,.28);font-size:0;font-weight:900}.viewer>[data-close]::before{content:"×";font-size:32px;line-height:1}}
     </style>
   </head>
   <body>
-    <div class="top-strip"><span>Open daily</span><span>WhatsApp: 0789872543</span><span>Doorstep delivery from KSh 100</span><span>Quick orders do not require an account</span></div>
-    <header class="topbar"><a class="brand" href="#home"><span class="brand-mark">G</span><span><strong>Gongoni Furniture Shop</strong><small>Malindi town shop · Kilifi County delivery</small></span></a><nav><a href="#products">Products</a><a href="#allPhotos">All photos</a><a href="#delivery">Delivery</a><a href="#checkout">Checkout</a><a href="#pay">Paybill</a></nav><div class="header-actions"><button class="basket-toggle" type="button" data-basket-open>Basket <span data-basket-count>0</span></button><a class="whatsapp-link" data-whatsapp href="#">WhatsApp</a></div></header>
+    <div class="market-benefits" aria-label="Store benefits">
+      <span><b>✓</b> Quality products</span>
+      <span><b>🚚</b> Fast local delivery</span>
+      <span><b>KSh</b> Paybill payment</span>
+      <span><b>↩</b> Easy order support</span>
+      <span><b>☎</b> WhatsApp 0789872543</span>
+    </div>
+
+    <header class="market-header">
+      <div class="market-mainbar">
+        <a class="market-brand" href="#home" aria-label="Gongoni Furniture Shop home">
+          <span class="brand-mark">G</span>
+          <span class="market-brand-text"><strong>Gongoni Furniture Shop</strong><small>Malindi town · Kilifi County delivery</small></span>
+        </a>
+        <div class="market-search" role="search">
+          <input id="headerSearchInput" type="search" inputmode="search" autocomplete="off" placeholder="Search products, brands and categories" list="searchSuggestions" aria-label="Search products" />
+          <button id="headerSearchButton" type="button">Search</button>
+        </div>
+        <div class="market-actions">
+          <button class="basket-toggle" type="button" data-basket-open>Basket <span data-basket-count>0</span></button>
+          <a class="whatsapp-link" data-whatsapp href="#">WhatsApp</a>
+        </div>
+      </div>
+      <nav class="market-nav" aria-label="Shop categories">
+        <a href="#products">Products</a>
+        <a href="#products" data-category-chip="Furniture & chairs">Furniture</a>
+        <a href="#products" data-category-chip="Kitchenware">Kitchen</a>
+        <a href="#products" data-category-chip="Baby & kids">Baby & Kids</a>
+        <a href="#products" data-category-chip="Cleaning">Cleaning</a>
+        <a href="#products" data-category-chip="Appliances & electronics">Electronics</a>
+        <a href="#delivery">Delivery</a>
+        <a href="#checkout">Checkout</a>
+        <a href="#pay">Paybill</a>
+      </nav>
+    </header>
+
     <main id="home">
       <section class="hero"><div class="hero-copy"><p class="eyebrow">Fast local shopping</p><h1>Quality home, kitchen, beauty, baby and household items delivered to your doorstep.</h1><p>Shop from Gongoni Furniture Shop and request delivery within Kilifi County and nearby areas. Choose WhatsApp ordering or pay directly through Paybill.</p><div class="hero-actions"><a class="primary" href="#products">Shop products</a><button class="secondary" type="button" data-basket-open>View basket</button><a class="secondary" data-whatsapp href="#">Order on WhatsApp</a></div></div><div class="delivery-card" id="delivery"><strong>Home delivery</strong><span>To your doorstep in Kilifi County and environs</span><ul><li>Gongoni from KSh 100</li><li>Watamu and Marereni from KSh 300</li><li>Adu from KSh 450</li><li>Malindi shop pickup free</li><li>Malindi town delivery from KSh 100</li><li>Farther routes from KSh 450</li><li>Bulky furniture confirmed before dispatch</li><li>Same-day dispatch where available</li><li>Paybill payment supported</li></ul></div></section>
       <section class="delivery-rates" aria-labelledby="deliveryRatesTitle"><div class="section-head compact"><div><p class="eyebrow">Delivery fees</p><h2 id="deliveryRatesTitle">Estimated doorstep delivery</h2></div><span>Small and medium items. Bulky items confirmed before dispatch.</span></div><div class="rate-grid"><article><strong>Gongoni</strong><span>From KSh 100</span></article><article><strong>Watamu</strong><span>From KSh 300</span></article><article><strong>Marereni</strong><span>From KSh 300</span></article><article><strong>Adu</strong><span>From KSh 450</span></article><article><strong>Malindi Shop Pickup</strong><span>Free</span></article><article><strong>Malindi Town Delivery</strong><span>From KSh 100</span></article><article><strong>Marafa</strong><span>From KSh 500</span></article><article><strong>Lango Baya</strong><span>From KSh 600</span></article></div></section>
@@ -28,12 +62,62 @@
       <section class="toolbar" aria-label="Product filters"><label>Search products<input id="searchInput" type="search" placeholder="Search Lanzo, soap, flask..." list="searchSuggestions" /><datalist id="searchSuggestions"></datalist></label><label>Category<select id="categorySelect"></select></label><label>Sort<select id="sortSelect"><option value="featured">Featured first</option><option value="price-low">Lowest price</option><option value="price-high">Highest price</option><option value="name">Name A-Z</option><option value="newest">Newest photos</option></select></label><label>Price status<select id="priceStatusSelect"><option value="all">All products</option><option value="priced">Priced products</option><option value="ask">Ask-price products</option></select></label><label>Minimum price<input id="minPriceInput" type="number" min="0" step="50" placeholder="KSh 0" /></label><label>Maximum price<input id="maxPriceInput" type="number" min="0" step="50" placeholder="Any price" /></label><label class="check-filter"><input id="inStockOnly" type="checkbox" />In-stock products only</label><button id="clearFilters" type="button">Clear</button></section>
       <section class="section-head" id="products"><div><p class="eyebrow">Featured items</p><h2>Ready to order</h2></div><span id="productCount"></span></section><section id="productGrid" class="product-grid"></section><section class="section-head" id="allPhotos"><div><p class="eyebrow">Full gallery</p><h2>All available photos</h2></div><span id="photoCount"></span></section><section id="photoGrid" class="photo-grid"></section><button id="loadMore" class="load-more" type="button">Load more photos</button>
     </main>
-    <a class="floating-whatsapp" data-whatsapp href="#" aria-label="Order on WhatsApp">WhatsApp</a><div class="mobile-shop-bar" aria-label="Mobile shopping controls"><a href="#products">Search products</a><button type="button" data-basket-open>Basket <span data-basket-count>0</span></button></div>
+
+    <footer class="market-footer">
+      <div class="market-footer-inner">
+        <section>
+          <h3>Need Help?</h3>
+          <a data-whatsapp href="#">Chat with us on WhatsApp</a>
+          <a href="#delivery">Shipping and delivery</a>
+          <a href="#checkout">How to order</a>
+          <a href="#pay">Payment information</a>
+          <p><strong>Phone / WhatsApp:</strong><br>0789872543</p>
+        </section>
+        <section>
+          <h3>About Gongoni</h3>
+          <a href="#home">About Gongoni Furniture Shop</a>
+          <a href="#products">Shop products</a>
+          <a href="#delivery">Delivery areas</a>
+          <a href="#checkout">Basket and checkout</a>
+          <a href="#pay">Paybill payment</a>
+        </section>
+        <section>
+          <h3>Customer Services</h3>
+          <a href="#products">Search products</a>
+          <a href="#allPhotos">View all photos</a>
+          <a data-whatsapp href="#">Product enquiries</a>
+          <a data-whatsapp href="#">Returns / exchanges help</a>
+          <a data-whatsapp href="#">Bulky item delivery</a>
+        </section>
+        <section class="footer-contact">
+          <h3>Contact Us</h3>
+          <span><strong>Gongoni Furniture Shop</strong></span>
+          <span>Malindi Town, Kilifi County</span>
+          <span>Doorstep delivery to Gongoni, Watamu, Marereni, Adu, Marafa, Lango Baya and nearby areas</span>
+          <span><strong>Open daily</strong> — contact us to confirm closing time</span>
+        </section>
+      </div>
+      <div class="footer-pay">
+        <div class="footer-pay-inner">
+          <div><strong>Payment Methods</strong><div class="footer-pay-methods"><span>M-Pesa Paybill 222111</span><span>Account 3072428</span><span>GONGONI FURNITURE</span></div></div>
+          <div class="footer-copy">Gongoni Furniture Shop · Malindi, Kenya</div>
+        </div>
+      </div>
+    </footer>
+
+    <a class="floating-whatsapp" data-whatsapp href="#" aria-label="Order on WhatsApp">WhatsApp</a>
+    <div class="mobile-shop-bar market-mobile-bar" aria-label="Mobile shopping controls">
+      <a href="#home">Home</a>
+      <a href="#products" data-mobile-search-trigger>Search</a>
+      <button type="button" data-basket-open>Basket <span data-basket-count>0</span></button>
+      <a data-whatsapp href="#">WhatsApp</a>
+    </div>
+
     <aside class="basket-panel" id="basketPanel" aria-hidden="true"><div class="basket-box"><div class="basket-head"><div><p class="eyebrow">Shopping basket</p><h2>Your basket list</h2></div><button type="button" data-basket-close aria-label="Close basket">x</button></div><div id="basketItems" class="basket-items"></div><label class="basket-delivery">Delivery area<select id="basketDeliveryArea"></select></label><dl class="basket-summary"><div><dt>Items total</dt><dd data-basket-subtotal>KSh 0</dd></div><div><dt>Delivery fee</dt><dd data-basket-delivery>KSh 0</dd></div><div><dt>Estimated total</dt><dd data-basket-total>KSh 0</dd></div></dl><p class="basket-note">Ask price items and bulky furniture should be confirmed before payment.</p><div class="basket-actions"><a class="whatsapp-action" data-basket-whatsapp href="#" target="_blank" rel="noopener">Send basket on WhatsApp</a><button class="paybill-action" type="button" data-basket-pay>Pay basket on Paybill</button></div><button class="clear-basket" type="button" data-basket-clear>Clear basket</button></div></aside>
     <div class="viewer" id="viewer" aria-hidden="true"><button type="button" data-close aria-label="Close product viewer">x</button><div class="viewer-layout"><div class="viewer-media"><div class="viewer-photo-wrap"><button class="viewer-nav prev" type="button" data-viewer-prev aria-label="Previous photo">&lt;</button><img alt="" /><button class="viewer-nav next" type="button" data-viewer-next aria-label="Next photo">&gt;</button></div><div class="viewer-zoom" aria-label="Photo zoom controls"><button type="button" data-zoom="1">100%</button><button type="button" data-zoom="1.1">+10</button><button type="button" data-zoom="1.2">+20</button><button type="button" data-zoom="1.3">+30</button><button type="button" data-zoom="1.4">+40</button></div><div class="viewer-slides" aria-live="polite"></div><div class="viewer-thumbs" data-viewer-thumbs aria-label="Product photo gallery"></div></div><aside class="viewer-details"><div class="viewer-breadcrumb" data-viewer-breadcrumb></div><strong></strong><div class="viewer-rating"><span aria-hidden="true">★★★★★</span><small>No customer reviews yet</small></div><div class="viewer-price" data-viewer-price></div><div class="viewer-meta"></div><div class="viewer-services"><article><b>✓</b><span><strong>Local stock</strong><small>Ready for confirmation</small></span></article><article><b>✓</b><span><strong>WhatsApp support</strong><small>Order directly</small></span></article><article><b>✓</b><span><strong>Paybill available</strong><small>222111 / 3072428</small></span></article></div><label class="viewer-delivery"><span>Delivery or pickup</span><select data-viewer-delivery></select></label><div class="viewer-quantity"><span>Quantity</span><div><button type="button" data-viewer-qty="-1" aria-label="Reduce quantity">−</button><strong data-viewer-quantity>1</strong><button type="button" data-viewer-qty="1" aria-label="Increase quantity">+</button></div></div><p></p><div class="viewer-share"><span>Share this product</span><a data-viewer-share-whatsapp href="#" target="_blank" rel="noopener">WhatsApp</a><button type="button" data-copy-share>Copy</button></div><div class="viewer-actions"><a class="whatsapp-action" href="#" target="_blank" rel="noopener">Order through WhatsApp</a><button class="add-action" type="button" data-viewer-add>Add to basket</button><button class="paybill-action" type="button" data-viewer-pay>Pay on Paybill</button></div></aside></div></div>
     <div class="paybill-modal" id="paybillModal" aria-hidden="true"><div class="paybill-box"><button type="button" data-pay-close aria-label="Close payment details">x</button><p class="eyebrow">Direct Paybill payment</p><h2></h2><dl><div><dt>Amount</dt><dd data-pay-amount></dd></div><div class="pay-destination-row"><dt>Delivery area</dt><dd><select data-delivery-area></select></dd></div><div><dt>Delivery fee</dt><dd data-delivery-fee></dd></div><div><dt>Estimated total</dt><dd data-pay-total></dd></div><div><dt>Paybill</dt><dd>222111</dd></div><div><dt>Account No.</dt><dd>3072428</dd></div><div><dt>Name</dt><dd>GONGONI FURNITURE</dd></div></dl><p data-pay-note></p><a data-pay-whatsapp href="#" target="_blank" rel="noopener">Send payment confirmation on WhatsApp</a></div></div>
     <div class="account-modal" id="accountModal" aria-hidden="true" hidden><form class="account-box"><button type="button" data-account-close aria-label="Close">x</button><p class="eyebrow">Client accounts unavailable</p><h2 data-account-title>Account sign-in is disabled</h2><p data-account-intro>For your security, this static website does not create or verify customer accounts. Order using the basket or WhatsApp.</p><label>Name<input data-account-name type="text" disabled /></label><label>Email or phone number<input data-account-contact type="text" disabled /></label><label>Delivery area<select data-account-area disabled></select></label><label class="otp-field" hidden>Enter OTP<input data-account-otp type="text" disabled /></label><p class="otp-preview" data-otp-preview hidden></p><div class="account-actions"><button class="add-action" type="button" data-account-submit disabled>Accounts disabled</button><a data-account-whatsapp href="#" target="_blank" rel="noopener">WhatsApp</a></div><strong data-account-status></strong></form></div>
-    <script src="app.js?v=batch-09-super-items-03"></script>
-    <script src="enhancements.js?v=ux-03" defer></script>
+    <script src="app.js?v=batch-09-super-items-04"></script>
+    <script src="enhancements.js?v=ux-04" defer></script>
   </body>
 </html>
