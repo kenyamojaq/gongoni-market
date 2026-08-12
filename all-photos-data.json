@@ -2,12 +2,13 @@
   {
     "id": 1,
     "batch": "Batch 1",
-    "name": "Stackable Plastic Chair Set",
+    "name": "Kenpoly Chair 2028",
     "price": 750,
     "category": "Furniture & chairs",
     "image": "assets/batches/batch-01/batch01_001.jpg",
-    "caption": "@750/=",
-    "thumb": "assets/thumbs/batches/batch-01/batch01_001.webp"
+    "caption": "Kenpoly Chair 2028 @750/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_001.webp",
+    "stockStatus": "out"
   },
   {
     "id": 2,
@@ -32,12 +33,13 @@
   {
     "id": 4,
     "batch": "Batch 1",
-    "name": "Plastic Arm Chair",
-    "price": 550,
+    "name": "Yason Arm Chair",
+    "price": 500,
     "category": "Furniture & chairs",
     "image": "assets/batches/batch-01/batch01_004.jpg",
-    "caption": "@550/=",
-    "thumb": "assets/thumbs/batches/batch-01/batch01_004.webp"
+    "caption": "Yason Arm Chair @500/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_004.webp",
+    "stockStatus": "in"
   },
   {
     "id": 5,
@@ -62,12 +64,13 @@
   {
     "id": 7,
     "batch": "Batch 1",
-    "name": "Brown Plastic Arm Chair",
-    "price": 850,
+    "name": "Acme Arm Chair",
+    "price": 800,
     "category": "Furniture & chairs",
     "image": "assets/batches/batch-01/batch01_007.jpg",
-    "caption": "@850/=",
-    "thumb": "assets/thumbs/batches/batch-01/batch01_007.webp"
+    "caption": "Acme Arm Chair @800/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_007.webp",
+    "stockStatus": "out"
   },
   {
     "id": 8,
@@ -102,12 +105,13 @@
   {
     "id": 11,
     "batch": "Batch 1",
-    "name": "Blue Plastic Armless Chair",
-    "price": 700,
+    "name": "Yason Armless Chair",
+    "price": 500,
     "category": "Furniture & chairs",
     "image": "assets/batches/batch-01/batch01_011.jpg",
-    "caption": "@700/=",
-    "thumb": "assets/thumbs/batches/batch-01/batch01_011.webp"
+    "caption": "Yason Armless Chair @500/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_011.webp",
+    "stockStatus": "in"
   },
   {
     "id": 12,
@@ -122,12 +126,13 @@
   {
     "id": 13,
     "batch": "Batch 1",
-    "name": "Yellow Children Plastic Chair",
+    "name": "ZPL Cozy CC-004",
     "price": 360,
     "category": "Furniture & chairs",
     "image": "assets/batches/batch-01/batch01_013.jpg",
-    "caption": "@360/=",
-    "thumb": "assets/thumbs/batches/batch-01/batch01_013.webp"
+    "caption": "ZPL Cozy CC-004 @360/=",
+    "thumb": "assets/thumbs/batches/batch-01/batch01_013.webp",
+    "stockStatus": "in"
   },
   {
     "id": 14,
@@ -9552,17 +9557,18 @@
   {
     "id": 932,
     "batch": "Batch 8",
-    "name": "Bingo Plastic Armchair",
-    "price": 1000,
+    "name": "Rok Bingo Chair",
+    "price": 1100,
     "category": "Furniture & chairs",
     "image": "assets/batches/batch-08/batch08_016.jpg",
-    "caption": "Bingo plastic armchair @1000",
+    "caption": "Rok Bingo Chair @1100/=",
     "thumb": "assets/thumbs/batches/batch-08/batch08_016.webp",
     "images": [
       "assets/batches/batch-08/batch08_016.jpg",
       "assets/batches/batch-08/batch08_014.jpg",
       "assets/batches/batch-08/batch08_015.jpg"
-    ]
+    ],
+    "stockStatus": "in"
   },
   {
     "id": 933,
@@ -10148,5 +10154,321 @@
     "images": [
       "assets/batches/batch-11/batch11_027.jpg"
     ]
+  },
+  {
+    "id": 976,
+    "batch": "Batch 12",
+    "name": "3 Door Wardrobe WD1001-3",
+    "price": 26050,
+    "category": "Furniture & chairs",
+    "images": [
+      "assets/batches/batch-12/batch12_001.jpg",
+      "assets/batches/batch-12/batch12_002.jpg",
+      "assets/batches/batch-12/batch12_003.jpg"
+    ],
+    "image": "assets/batches/batch-12/batch12_001.jpg",
+    "thumb": "assets/batches/batch-12/batch12_001.jpg",
+    "caption": "3 Door Wardrobe WD1001-3 @26050/=",
+    "stockStatus": "in"
+  },
+  {
+    "id": 977,
+    "batch": "Batch 12",
+    "name": "Wooden Dining Table with 6 Chairs DCT 1405",
+    "price": 18800,
+    "category": "Furniture & chairs",
+    "images": [
+      "assets/batches/batch-12/batch12_004.jpg"
+    ],
+    "image": "assets/batches/batch-12/batch12_004.jpg",
+    "thumb": "assets/batches/batch-12/batch12_004.jpg",
+    "caption": "Wooden Dining Table with 6 Chairs DCT 1405 @18800/=",
+    "stockStatus": "in"
+  },
+  {
+    "id": 978,
+    "batch": "Batch 12",
+    "name": "Glass Dining Table with 6 Chairs",
+    "price": 32350,
+    "category": "Furniture & chairs",
+    "images": [
+      "assets/batches/batch-12/batch12_005.jpg"
+    ],
+    "image": "assets/batches/batch-12/batch12_005.jpg",
+    "thumb": "assets/batches/batch-12/batch12_005.jpg",
+    "caption": "Glass Dining Table with 6 Chairs @32350/=",
+    "stockStatus": "in"
+  },
+  {
+    "id": 979,
+    "batch": "Batch 12",
+    "name": "3 Door Wardrobe WD1002-3",
+    "price": 24950,
+    "category": "Furniture & chairs",
+    "images": [
+      "assets/batches/batch-12/batch12_006.jpg",
+      "assets/batches/batch-12/batch12_007.jpg",
+      "assets/batches/batch-12/batch12_008.jpg"
+    ],
+    "image": "assets/batches/batch-12/batch12_006.jpg",
+    "thumb": "assets/batches/batch-12/batch12_006.jpg",
+    "caption": "3 Door Wardrobe WD1002-3 @24950/=",
+    "stockStatus": "in"
+  },
+  {
+    "id": 980,
+    "batch": "Batch 12",
+    "name": "Kitchen Cabinet 5293",
+    "price": 25950,
+    "category": "Kitchenware",
+    "images": [
+      "assets/batches/batch-12/batch12_009.jpg",
+      "assets/batches/batch-12/batch12_010.jpg"
+    ],
+    "image": "assets/batches/batch-12/batch12_009.jpg",
+    "thumb": "assets/batches/batch-12/batch12_009.jpg",
+    "caption": "Kitchen Cabinet 5293 @25950/=",
+    "stockStatus": "in"
+  },
+  {
+    "id": 981,
+    "batch": "Batch 12",
+    "name": "Baby Chair 5009",
+    "price": 700,
+    "category": "Baby & kids",
+    "images": [
+      "assets/batches/batch-12/batch12_011.jpg",
+      "assets/batches/batch-12/batch12_012.jpg",
+      "assets/batches/batch-12/batch12_013.jpg"
+    ],
+    "image": "assets/batches/batch-12/batch12_011.jpg",
+    "thumb": "assets/batches/batch-12/batch12_011.jpg",
+    "caption": "Baby Chair 5009 @700/=",
+    "stockStatus": "in"
+  },
+  {
+    "id": 982,
+    "batch": "Batch 12",
+    "name": "Eazy Comfort ZPL Chair",
+    "price": 1000,
+    "category": "Furniture & chairs",
+    "images": [
+      "assets/batches/batch-12/batch12_014.jpg",
+      "assets/batches/batch-12/batch12_015.jpg",
+      "assets/batches/batch-12/batch12_016.jpg"
+    ],
+    "image": "assets/batches/batch-12/batch12_014.jpg",
+    "thumb": "assets/batches/batch-12/batch12_014.jpg",
+    "caption": "Eazy Comfort ZPL Chair @1000/=",
+    "stockStatus": "in"
+  },
+  {
+    "id": 983,
+    "batch": "Batch 12",
+    "name": "Happy Baby Chair BC1",
+    "price": 320,
+    "category": "Baby & kids",
+    "images": [
+      "assets/batches/batch-12/batch12_017.jpg",
+      "assets/batches/batch-12/batch12_018.jpg",
+      "assets/batches/batch-12/batch12_019.jpg"
+    ],
+    "image": "assets/batches/batch-12/batch12_017.jpg",
+    "thumb": "assets/batches/batch-12/batch12_017.jpg",
+    "caption": "Happy Baby Chair BC1 @320/=",
+    "stockStatus": "in"
+  },
+  {
+    "id": 984,
+    "batch": "Batch 12",
+    "name": "Kenpoly Poti Chair",
+    "price": 260,
+    "category": "Baby & kids",
+    "images": [
+      "assets/batches/batch-12/batch12_020.jpg",
+      "assets/batches/batch-12/batch12_021.jpg",
+      "assets/batches/batch-12/batch12_022.jpg"
+    ],
+    "image": "assets/batches/batch-12/batch12_020.jpg",
+    "thumb": "assets/batches/batch-12/batch12_020.jpg",
+    "caption": "Kenpoly Poti Chair @260/=",
+    "stockStatus": "in"
+  },
+  {
+    "id": 985,
+    "batch": "Batch 12",
+    "name": "Star Baby Chair-001",
+    "price": 300,
+    "category": "Baby & kids",
+    "images": [
+      "assets/batches/batch-12/batch12_023.jpg",
+      "assets/batches/batch-12/batch12_024.jpg",
+      "assets/batches/batch-12/batch12_025.jpg"
+    ],
+    "image": "assets/batches/batch-12/batch12_023.jpg",
+    "thumb": "assets/batches/batch-12/batch12_023.jpg",
+    "caption": "Star Baby Chair-001 @300/=",
+    "stockStatus": "in"
+  },
+  {
+    "id": 986,
+    "batch": "Batch 12",
+    "name": "Yason Boss Chair",
+    "price": 900,
+    "category": "Furniture & chairs",
+    "images": [
+      "assets/batches/batch-12/batch12_026.jpg",
+      "assets/batches/batch-12/batch12_027.jpg"
+    ],
+    "image": "assets/batches/batch-12/batch12_026.jpg",
+    "thumb": "assets/batches/batch-12/batch12_026.jpg",
+    "caption": "Yason Boss Chair @900/=",
+    "stockStatus": "in"
+  },
+  {
+    "id": 987,
+    "batch": "Batch 12",
+    "name": "Conference Chair Red",
+    "price": 2400,
+    "category": "Furniture & chairs",
+    "images": [
+      "assets/batches/batch-12/batch12_028.jpg"
+    ],
+    "image": "assets/batches/batch-12/batch12_028.jpg",
+    "thumb": "assets/batches/batch-12/batch12_028.jpg",
+    "caption": "Conference Chair Red @2400/=",
+    "stockStatus": "in"
+  },
+  {
+    "id": 988,
+    "batch": "Batch 12",
+    "name": "Conference Chair Black",
+    "price": 2600,
+    "category": "Furniture & chairs",
+    "images": [
+      "assets/batches/batch-12/batch12_029.jpg"
+    ],
+    "image": "assets/batches/batch-12/batch12_029.jpg",
+    "thumb": "assets/batches/batch-12/batch12_029.jpg",
+    "caption": "Conference Chair Black @2600/=",
+    "stockStatus": "in"
+  },
+  {
+    "id": 989,
+    "batch": "Batch 12",
+    "name": "Conference Chair Black",
+    "price": 2600,
+    "category": "Furniture & chairs",
+    "images": [
+      "assets/batches/batch-12/batch12_030.jpg"
+    ],
+    "image": "assets/batches/batch-12/batch12_030.jpg",
+    "thumb": "assets/batches/batch-12/batch12_030.jpg",
+    "caption": "Conference Chair Black @2600/=",
+    "stockStatus": "in"
+  },
+  {
+    "id": 990,
+    "batch": "Batch 12",
+    "name": "Relaxo",
+    "price": 1100,
+    "category": "Furniture & chairs",
+    "images": [
+      "assets/batches/batch-12/batch12_031.jpg",
+      "assets/batches/batch-12/batch12_032.jpg",
+      "assets/batches/batch-12/batch12_033.jpg"
+    ],
+    "image": "assets/batches/batch-12/batch12_031.jpg",
+    "thumb": "assets/batches/batch-12/batch12_031.jpg",
+    "caption": "Relaxo @1100/=",
+    "stockStatus": "in"
+  },
+  {
+    "id": 991,
+    "batch": "Batch 12",
+    "name": "Dressing Table FDT 1512",
+    "price": 9900,
+    "category": "Furniture & chairs",
+    "images": [
+      "assets/batches/batch-12/batch12_034.jpg",
+      "assets/batches/batch-12/batch12_035.jpg"
+    ],
+    "image": "assets/batches/batch-12/batch12_034.jpg",
+    "thumb": "assets/batches/batch-12/batch12_034.jpg",
+    "caption": "Dressing Table FDT 1512 @9900/=",
+    "stockStatus": "in"
+  },
+  {
+    "id": 992,
+    "batch": "Batch 12",
+    "name": "Dressing Table FDT 1511",
+    "price": 17700,
+    "category": "Furniture & chairs",
+    "images": [
+      "assets/batches/batch-12/batch12_036.jpg",
+      "assets/batches/batch-12/batch12_037.jpg"
+    ],
+    "image": "assets/batches/batch-12/batch12_036.jpg",
+    "thumb": "assets/batches/batch-12/batch12_036.jpg",
+    "caption": "Dressing Table FDT 1511 @17700/=",
+    "stockStatus": "in"
+  },
+  {
+    "id": 993,
+    "batch": "Batch 12",
+    "name": "Dressing Table FDT 1507",
+    "price": 21500,
+    "category": "Furniture & chairs",
+    "images": [
+      "assets/batches/batch-12/batch12_038.jpg",
+      "assets/batches/batch-12/batch12_039.jpg"
+    ],
+    "image": "assets/batches/batch-12/batch12_038.jpg",
+    "thumb": "assets/batches/batch-12/batch12_038.jpg",
+    "caption": "Dressing Table FDT 1507 @21500/=",
+    "stockStatus": "in"
+  },
+  {
+    "id": 994,
+    "batch": "Batch 12",
+    "name": "Dressing Table FDT 1502-1",
+    "price": 12450,
+    "category": "Furniture & chairs",
+    "images": [
+      "assets/batches/batch-12/batch12_040.jpg",
+      "assets/batches/batch-12/batch12_041.jpg"
+    ],
+    "image": "assets/batches/batch-12/batch12_040.jpg",
+    "thumb": "assets/batches/batch-12/batch12_040.jpg",
+    "caption": "Dressing Table FDT 1502-1 @12450/=",
+    "stockStatus": "in"
+  },
+  {
+    "id": 995,
+    "batch": "Batch 12",
+    "name": "Shoe Rack 5 Stands",
+    "price": 3500,
+    "category": "Furniture & chairs",
+    "images": [
+      "assets/batches/batch-12/batch12_042.jpg"
+    ],
+    "image": "assets/batches/batch-12/batch12_042.jpg",
+    "thumb": "assets/batches/batch-12/batch12_042.jpg",
+    "caption": "Shoe Rack 5 Stands @3500/=",
+    "stockStatus": "out"
+  },
+  {
+    "id": 996,
+    "batch": "Batch 12",
+    "name": "Shoe Rack 4 Stands",
+    "price": 2950,
+    "category": "Furniture & chairs",
+    "images": [
+      "assets/batches/batch-12/batch12_043.jpg"
+    ],
+    "image": "assets/batches/batch-12/batch12_043.jpg",
+    "thumb": "assets/batches/batch-12/batch12_043.jpg",
+    "caption": "Shoe Rack 4 Stands @2950/=",
+    "stockStatus": "out"
   }
 ]

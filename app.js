@@ -1104,8 +1104,8 @@ document.querySelectorAll("[data-category-chip]").forEach((button) => {
 loadMore.addEventListener("click", () => renderPhotos());
 
 Promise.all([
-  fetch("products.json?v=batch-11-ladies-shoes-01").then((res) => res.json()),
-  fetch("all-photos-data.json?v=batch-11-ladies-shoes-01").then((res) => res.json()),
+  fetch("products.json?v=batch-12-furniture-chairs-01").then((res) => res.json()),
+  fetch("all-photos-data.json?v=batch-12-furniture-chairs-01").then((res) => res.json()),
 ])
   .then(([products, photos]) => {
     state.products = groupSimilarItems(applyAdminOverrides(products));
