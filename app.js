@@ -29,6 +29,7 @@ const clearFilters = document.querySelector("#clearFilters");
 const productCount = document.querySelector("#productCount");
 const photoCount = document.querySelector("#photoCount");
 const loadMore = document.querySelector("#loadMore");
+const loadMoreProducts = document.querySelector("#loadMoreProducts");
 const viewer = document.querySelector("#viewer");
 const paybillModal = document.querySelector("#paybillModal");
 const basketPanel = document.querySelector("#basketPanel");
@@ -48,7 +49,9 @@ const state = {
   maxPrice: null,
   availableOnly: false,
   shown: 0,
-  pageSize: 72,
+  productShown: 0,
+  productPageSize: 36,
+  pageSize: 48,
   activeItem: null,
   viewerImages: [],
   viewerIndex: 0,
@@ -715,15 +718,20 @@ function renderCheckout() {
   document.querySelector("[data-checkout-whatsapp]").href = whatsappUrl(entries.length ? basketMessage() : generalMessage());
 }
 
-function renderProducts() {
+function renderProducts(reset = false) {
   const products = filteredItems(state.products);
-  productCount.textContent = `${products.length} featured products`;
-  productGrid.innerHTML = products
+  if (reset) {
+    state.productShown = 0;
+    productGrid.innerHTML = "";
+  }
+  const next = products.slice(state.productShown, state.productShown + state.productPageSize);
+  productCount.textContent = `${Math.min(state.productShown + next.length, products.length)} of ${products.length} featured products`;
+  const html = next
     .map(
       (item) => `
         <article class="product-card">
           <button type="button" data-open="${escapeHtml(displayImage(item))}" data-title="${escapeHtml(item.name)}" data-description="${escapeHtml(itemDescription(item))}" data-item="${itemPayload(item)}">
-            <img src="${escapeHtml(cardImage(item))}" alt="${escapeHtml(item.name)}" loading="lazy">
+            <img src="${escapeHtml(cardImage(item))}" alt="${escapeHtml(item.name)}" loading="lazy" decoding="async" width="420" height="420">
             ${itemImages(item).length > 1 ? `<span class="slide-count">1 / ${itemImages(item).length}</span>` : ""}
           </button>
           ${badgeHtml(item)}
@@ -738,6 +746,9 @@ function renderProducts() {
       `
     )
     .join("");
+  productGrid.insertAdjacentHTML("beforeend", html);
+  state.productShown += next.length;
+  loadMoreProducts.hidden = state.productShown >= products.length;
 }
 
 function renderPhotos(reset = false) {
@@ -753,7 +764,7 @@ function renderPhotos(reset = false) {
       (item) => `
         <article class="photo-card">
           <button type="button" data-open="${escapeHtml(displayImage(item))}" data-title="${escapeHtml(item.name)}" data-description="${escapeHtml(itemDescription(item))}" data-item="${itemPayload(item)}">
-            <img src="${escapeHtml(cardImage(item))}" alt="${escapeHtml(item.name)}" loading="lazy">
+            <img src="${escapeHtml(cardImage(item))}" alt="${escapeHtml(item.name)}" loading="lazy" decoding="async" width="420" height="420">
             ${itemImages(item).length > 1 ? `<span class="slide-count">1 / ${itemImages(item).length}</span>` : ""}
           </button>
           ${badgeHtml(item)}
@@ -777,7 +788,7 @@ function renderPhotos(reset = false) {
 }
 
 function refresh() {
-  renderProducts();
+  renderProducts(true);
   renderPhotos(true);
 }
 
@@ -1102,10 +1113,25 @@ document.querySelectorAll("[data-category-chip]").forEach((button) => {
 });
 
 loadMore.addEventListener("click", () => renderPhotos());
+loadMoreProducts.addEventListener("click", () => renderProducts());
+
+const incrementalLoader = "IntersectionObserver" in window
+  ? new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        if (entry.target === loadMoreProducts && !loadMoreProducts.hidden) renderProducts();
+        if (entry.target === loadMore && !loadMore.hidden) renderPhotos();
+      });
+    }, { rootMargin: "600px 0px" })
+  : null;
+if (incrementalLoader) {
+  incrementalLoader.observe(loadMoreProducts);
+  incrementalLoader.observe(loadMore);
+}
 
 Promise.all([
-  fetch("products.json?v=batch-12-furniture-chairs-01").then((res) => res.json()),
-  fetch("all-photos-data.json?v=batch-12-furniture-chairs-01").then((res) => res.json()),
+  fetch("products.json?v=performance-streaming-01").then((res) => res.json()),
+  fetch("all-photos-data.json?v=performance-streaming-01").then((res) => res.json()),
 ])
   .then(([products, photos]) => {
     state.products = groupSimilarItems(applyAdminOverrides(products));
