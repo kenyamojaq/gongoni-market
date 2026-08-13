@@ -1,0 +1,1 @@
+Optimized images for Batch 15 are being uploaded separately as Git blobs.
