@@ -1,0 +1,1 @@
+Batch 15: new dining sets, dish rack, side table, mirrors and dressing tables. Images are optimized WebP files.
