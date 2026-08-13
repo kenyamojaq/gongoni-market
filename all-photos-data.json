@@ -10470,5 +10470,332 @@
     "thumb": "assets/batches/batch-12/batch12_043.jpg",
     "caption": "Shoe Rack 4 Stands @2950/=",
     "stockStatus": "out"
+  },
+  {
+    "id": 997,
+    "batch": "Batch 13",
+    "name": "Kids Tricycle with Parent Handle",
+    "price": 5200,
+    "category": "Baby & kids",
+    "images": [
+      "assets/batches/batch-13/batch13_001.jpg",
+      "assets/batches/batch-13/batch13_002.jpg"
+    ],
+    "image": "assets/batches/batch-13/batch13_001.jpg",
+    "thumb": "assets/thumbs/batches/batch-13/batch13_001.webp",
+    "caption": "Kids Tricycle with Parent Handle @ KSh 5,200",
+    "stockStatus": "in"
+  },
+  {
+    "id": 998,
+    "batch": "Batch 13",
+    "name": "Kids Bicycle",
+    "price": 8000,
+    "category": "Baby & kids",
+    "images": [
+      "assets/batches/batch-13/batch13_003.jpg",
+      "assets/batches/batch-13/batch13_004.jpg",
+      "assets/batches/batch-13/batch13_005.jpg"
+    ],
+    "image": "assets/batches/batch-13/batch13_003.jpg",
+    "thumb": "assets/thumbs/batches/batch-13/batch13_003.webp",
+    "caption": "Kids Bicycle @ KSh 8,000",
+    "stockStatus": "in"
+  },
+  {
+    "id": 999,
+    "batch": "Batch 13",
+    "name": "Kitchen Cabinet",
+    "price": 25000,
+    "category": "Kitchenware",
+    "images": [
+      "assets/batches/batch-13/batch13_006.jpg",
+      "assets/batches/batch-13/batch13_007.jpg"
+    ],
+    "image": "assets/batches/batch-13/batch13_006.jpg",
+    "thumb": "assets/thumbs/batches/batch-13/batch13_006.webp",
+    "caption": "Kitchen Cabinet @ KSh 25,000",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1000,
+    "batch": "Batch 13",
+    "name": "Light Dressing Table",
+    "price": 19500,
+    "category": "Furniture & chairs",
+    "images": [
+      "assets/batches/batch-13/batch13_008.jpg",
+      "assets/batches/batch-13/batch13_009.jpg"
+    ],
+    "image": "assets/batches/batch-13/batch13_008.jpg",
+    "thumb": "assets/thumbs/batches/batch-13/batch13_008.webp",
+    "caption": "Light Dressing Table @ KSh 19,500",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1001,
+    "batch": "Batch 13",
+    "name": "Light Dressing Table",
+    "price": 17000,
+    "category": "Furniture & chairs",
+    "images": [
+      "assets/batches/batch-13/batch13_010.jpg"
+    ],
+    "image": "assets/batches/batch-13/batch13_010.jpg",
+    "thumb": "assets/thumbs/batches/batch-13/batch13_010.webp",
+    "caption": "Light Dressing Table @ KSh 17,000",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1002,
+    "batch": "Batch 13",
+    "name": "Lion Brand Sufuria 80L to 195L",
+    "price": 11000,
+    "category": "Kitchenware",
+    "images": [
+      "assets/batches/batch-13/batch13_011.jpg",
+      "assets/batches/batch-13/batch13_012.jpg"
+    ],
+    "image": "assets/batches/batch-13/batch13_011.jpg",
+    "thumb": "assets/thumbs/batches/batch-13/batch13_011.webp",
+    "caption": "Lion Brand Sufuria 80L to 195L @ KSh 11,000-27,000",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1003,
+    "batch": "Batch 13",
+    "name": "Lion Brand Sufuria 100L",
+    "price": 14000,
+    "category": "Kitchenware",
+    "images": [
+      "assets/batches/batch-13/batch13_013.jpg"
+    ],
+    "image": "assets/batches/batch-13/batch13_013.jpg",
+    "thumb": "assets/thumbs/batches/batch-13/batch13_013.webp",
+    "caption": "Lion Brand Sufuria 100L @ KSh 14,000",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1004,
+    "batch": "Batch 13",
+    "name": "Lion Brand Sufuria 80L",
+    "price": 11000,
+    "category": "Kitchenware",
+    "images": [
+      "assets/batches/batch-13/batch13_014.jpg"
+    ],
+    "image": "assets/batches/batch-13/batch13_014.jpg",
+    "thumb": "assets/thumbs/batches/batch-13/batch13_014.webp",
+    "caption": "Lion Brand Sufuria 80L @ KSh 11,000",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1005,
+    "batch": "Batch 13",
+    "name": "Marble Dining Table with 6 Chairs",
+    "price": 120000,
+    "category": "Furniture & chairs",
+    "images": [
+      "assets/batches/batch-13/batch13_015.jpg",
+      "assets/batches/batch-13/batch13_016.jpg"
+    ],
+    "image": "assets/batches/batch-13/batch13_015.jpg",
+    "thumb": "assets/thumbs/batches/batch-13/batch13_015.webp",
+    "caption": "Marble Dining Table with 6 Chairs @ KSh 120,000",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1006,
+    "batch": "Batch 13",
+    "name": "Mountain Bike",
+    "price": 12000,
+    "category": "Baby & kids",
+    "images": [
+      "assets/batches/batch-13/batch13_017.jpg"
+    ],
+    "image": "assets/batches/batch-13/batch13_017.jpg",
+    "thumb": "assets/thumbs/batches/batch-13/batch13_017.webp",
+    "caption": "Mountain Bike @ KSh 12,000",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1007,
+    "batch": "Batch 13",
+    "name": "Multimedia Speaker ELP 2403K",
+    "price": 2800,
+    "category": "Electronics",
+    "images": [
+      "assets/batches/batch-13/batch13_018.jpg",
+      "assets/batches/batch-13/batch13_019.jpg",
+      "assets/batches/batch-13/batch13_020.jpg"
+    ],
+    "image": "assets/batches/batch-13/batch13_018.jpg",
+    "thumb": "assets/thumbs/batches/batch-13/batch13_018.webp",
+    "caption": "Multimedia Speaker ELP 2403K @ KSh 2,800",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1008,
+    "batch": "Batch 13",
+    "name": "Nunix Wall Fan",
+    "price": 2500,
+    "category": "Electronics",
+    "images": [
+      "assets/batches/batch-13/batch13_021.jpg"
+    ],
+    "image": "assets/batches/batch-13/batch13_021.jpg",
+    "thumb": "assets/thumbs/batches/batch-13/batch13_021.webp",
+    "caption": "Nunix Wall Fan @ KSh 2,500",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1009,
+    "batch": "Batch 13",
+    "name": "Nunix Wardrobe 3 Column",
+    "price": 2200,
+    "category": "Furniture & chairs",
+    "images": [
+      "assets/batches/batch-13/batch13_022.jpg"
+    ],
+    "image": "assets/batches/batch-13/batch13_022.jpg",
+    "thumb": "assets/thumbs/batches/batch-13/batch13_022.webp",
+    "caption": "Nunix Wardrobe 3 Column @ KSh 2,200",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1010,
+    "batch": "Batch 13",
+    "name": "Nunix Wardrobe 4 Column",
+    "price": 3200,
+    "category": "Furniture & chairs",
+    "images": [
+      "assets/batches/batch-13/batch13_023.jpg"
+    ],
+    "image": "assets/batches/batch-13/batch13_023.jpg",
+    "thumb": "assets/thumbs/batches/batch-13/batch13_023.webp",
+    "caption": "Nunix Wardrobe 4 Column @ KSh 3,200",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1011,
+    "batch": "Batch 13",
+    "name": "Office Chair",
+    "price": 6000,
+    "category": "Furniture & chairs",
+    "images": [
+      "assets/batches/batch-13/batch13_024.jpg",
+      "assets/batches/batch-13/batch13_025.jpg",
+      "assets/batches/batch-13/batch13_026.jpg"
+    ],
+    "image": "assets/batches/batch-13/batch13_024.jpg",
+    "thumb": "assets/thumbs/batches/batch-13/batch13_024.webp",
+    "caption": "Office Chair @ KSh 6,000",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1012,
+    "batch": "Batch 13",
+    "name": "Open Shoes - Bow Print",
+    "price": 300,
+    "category": "Fashion & shoes",
+    "images": [
+      "assets/batches/batch-13/batch13_027.jpg"
+    ],
+    "image": "assets/batches/batch-13/batch13_027.jpg",
+    "thumb": "assets/thumbs/batches/batch-13/batch13_027.webp",
+    "caption": "Open Shoes - Bow Print @ KSh 300",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1013,
+    "batch": "Batch 13",
+    "name": "Open Shoes - Blue and Purple",
+    "price": 300,
+    "category": "Fashion & shoes",
+    "images": [
+      "assets/batches/batch-13/batch13_028.jpg"
+    ],
+    "image": "assets/batches/batch-13/batch13_028.jpg",
+    "thumb": "assets/thumbs/batches/batch-13/batch13_028.webp",
+    "caption": "Open Shoes - Blue and Purple @ KSh 300",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1014,
+    "batch": "Batch 13",
+    "name": "Open Shoes - Brown",
+    "price": 300,
+    "category": "Fashion & shoes",
+    "images": [
+      "assets/batches/batch-13/batch13_029.jpg"
+    ],
+    "image": "assets/batches/batch-13/batch13_029.jpg",
+    "thumb": "assets/thumbs/batches/batch-13/batch13_029.webp",
+    "caption": "Open Shoes - Brown @ KSh 300",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1015,
+    "batch": "Batch 13",
+    "name": "Open Shoes - Black",
+    "price": 300,
+    "category": "Fashion & shoes",
+    "images": [
+      "assets/batches/batch-13/batch13_030.jpg"
+    ],
+    "image": "assets/batches/batch-13/batch13_030.jpg",
+    "thumb": "assets/thumbs/batches/batch-13/batch13_030.webp",
+    "caption": "Open Shoes - Black @ KSh 300",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1016,
+    "batch": "Batch 13",
+    "name": "Premier 10kg Washing Machine",
+    "price": 32000,
+    "category": "Appliances",
+    "images": [
+      "assets/batches/batch-13/batch13_031.jpg",
+      "assets/batches/batch-13/batch13_032.jpg",
+      "assets/batches/batch-13/batch13_033.jpg"
+    ],
+    "image": "assets/batches/batch-13/batch13_031.jpg",
+    "thumb": "assets/thumbs/batches/batch-13/batch13_031.webp",
+    "caption": "Premier 10kg Washing Machine @ KSh 32,000",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1017,
+    "batch": "Batch 13",
+    "name": "Ramtons 2-Door Fridge",
+    "price": 68400,
+    "category": "Appliances",
+    "images": [
+      "assets/batches/batch-13/batch13_034.jpg",
+      "assets/batches/batch-13/batch13_035.jpg",
+      "assets/batches/batch-13/batch13_036.jpg",
+      "assets/batches/batch-13/batch13_037.jpg"
+    ],
+    "image": "assets/batches/batch-13/batch13_034.jpg",
+    "thumb": "assets/thumbs/batches/batch-13/batch13_034.webp",
+    "caption": "Ramtons 2-Door Fridge @ KSh 68,400",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1018,
+    "batch": "Batch 13",
+    "name": "Ramtons Refrigerator 40L",
+    "price": 22000,
+    "category": "Appliances",
+    "images": [
+      "assets/batches/batch-13/batch13_038.jpg",
+      "assets/batches/batch-13/batch13_039.jpg",
+      "assets/batches/batch-13/batch13_040.jpg",
+      "assets/batches/batch-13/batch13_041.jpg"
+    ],
+    "image": "assets/batches/batch-13/batch13_038.jpg",
+    "thumb": "assets/thumbs/batches/batch-13/batch13_038.webp",
+    "caption": "Ramtons Refrigerator 40L @ KSh 22,000",
+    "stockStatus": "in"
   }
 ]
