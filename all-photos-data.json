@@ -6552,7 +6552,12 @@
     "category": "General goods",
     "image": "assets/batches/batch-03/batch03_265.jpg",
     "caption": "YasonwooferLM_1109 @4500",
-    "thumb": "assets/thumbs/batches/batch-03/batch03_265.webp"
+    "thumb": "assets/thumbs/batches/batch-03/batch03_265.webp",
+    "images": [
+      "assets/batches/batch-03/batch03_265.jpg",
+      "assets/batches/batch-14/batch14_032.jpg",
+      "assets/batches/batch-14/batch14_033.jpg"
+    ]
   },
   {
     "id": 656,
@@ -6832,7 +6837,12 @@
     "category": "Appliances & electronics",
     "image": "assets/batches/batch-03/batch03_293.jpg",
     "caption": "Vitron speakerv_510 @5500",
-    "thumb": "assets/thumbs/batches/batch-03/batch03_293.webp"
+    "thumb": "assets/thumbs/batches/batch-03/batch03_293.webp",
+    "images": [
+      "assets/batches/batch-03/batch03_293.jpg",
+      "assets/batches/batch-14/batch14_027.jpg",
+      "assets/batches/batch-14/batch14_028.jpg"
+    ]
   },
   {
     "id": 684,
@@ -6852,7 +6862,13 @@
     "category": "Appliances & electronics",
     "image": "assets/batches/batch-03/batch03_295.jpg",
     "caption": "Vitronspeaker V_646 6000",
-    "thumb": "assets/thumbs/batches/batch-03/batch03_295.webp"
+    "thumb": "assets/thumbs/batches/batch-03/batch03_295.webp",
+    "images": [
+      "assets/batches/batch-03/batch03_295.jpg",
+      "assets/batches/batch-14/batch14_029.jpg",
+      "assets/batches/batch-14/batch14_030.jpg",
+      "assets/batches/batch-14/batch14_031.jpg"
+    ]
   },
   {
     "id": 686,
@@ -10178,7 +10194,8 @@
     "price": 18800,
     "category": "Furniture & chairs",
     "images": [
-      "assets/batches/batch-12/batch12_004.jpg"
+      "assets/batches/batch-12/batch12_004.jpg",
+      "assets/batches/batch-14/batch14_026.jpg"
     ],
     "image": "assets/batches/batch-12/batch12_004.jpg",
     "thumb": "assets/batches/batch-12/batch12_004.jpg",
@@ -10796,6 +10813,265 @@
     "image": "assets/batches/batch-13/batch13_038.jpg",
     "thumb": "assets/thumbs/batches/batch-13/batch13_038.webp",
     "caption": "Ramtons Refrigerator 40L @ KSh 22,000",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1019,
+    "batch": "Batch 14",
+    "name": "Sufuria 150 Litres",
+    "price": 24500,
+    "category": "Kitchenware",
+    "image": "assets/batches/batch-14/batch14_001.jpg",
+    "images": [
+      "assets/batches/batch-14/batch14_001.jpg"
+    ],
+    "thumb": "assets/thumbs/batches/batch-14/batch14_001.webp",
+    "caption": "Sufuria 150 Litres @24500/=",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1020,
+    "batch": "Batch 14",
+    "name": "Sufuria 160 Litres",
+    "price": 22000,
+    "category": "Kitchenware",
+    "image": "assets/batches/batch-14/batch14_002.jpg",
+    "images": [
+      "assets/batches/batch-14/batch14_002.jpg"
+    ],
+    "thumb": "assets/thumbs/batches/batch-14/batch14_002.webp",
+    "caption": "Sufuria 160 Litres @22000/=",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1021,
+    "batch": "Batch 14",
+    "name": "Sufuria 180 Litres",
+    "price": 24000,
+    "category": "Kitchenware",
+    "image": "assets/batches/batch-14/batch14_003.jpg",
+    "images": [
+      "assets/batches/batch-14/batch14_003.jpg"
+    ],
+    "thumb": "assets/thumbs/batches/batch-14/batch14_003.webp",
+    "caption": "Sufuria 180 Litres @24000/=",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1022,
+    "batch": "Batch 14",
+    "name": "Sufuria 230 Litres",
+    "price": 33000,
+    "category": "Kitchenware",
+    "image": "assets/batches/batch-14/batch14_004.jpg",
+    "images": [
+      "assets/batches/batch-14/batch14_004.jpg"
+    ],
+    "thumb": "assets/thumbs/batches/batch-14/batch14_004.webp",
+    "caption": "Sufuria 230 Litres @33000/=",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1023,
+    "batch": "Batch 14",
+    "name": "Sufuria 250 Litres",
+    "price": 35000,
+    "category": "Kitchenware",
+    "image": "assets/batches/batch-14/batch14_005.jpg",
+    "images": [
+      "assets/batches/batch-14/batch14_005.jpg"
+    ],
+    "thumb": "assets/thumbs/batches/batch-14/batch14_005.webp",
+    "caption": "Sufuria 250 Litres @35000/=",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1024,
+    "batch": "Batch 14",
+    "name": "Round Display Table",
+    "price": 6000,
+    "category": "Furniture & chairs",
+    "image": "assets/batches/batch-14/batch14_006.jpg",
+    "images": [
+      "assets/batches/batch-14/batch14_006.jpg"
+    ],
+    "thumb": "assets/thumbs/batches/batch-14/batch14_006.webp",
+    "caption": "Round Display Table @6000/=",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1025,
+    "batch": "Batch 14",
+    "name": "Toy Car PM 7 Red",
+    "price": 2500,
+    "category": "Baby & kids",
+    "image": "assets/batches/batch-14/batch14_007.jpg",
+    "images": [
+      "assets/batches/batch-14/batch14_007.jpg",
+      "assets/batches/batch-14/batch14_008.jpg"
+    ],
+    "thumb": "assets/thumbs/batches/batch-14/batch14_007.webp",
+    "caption": "Toy Car PM 7 Red @2500/=",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1026,
+    "batch": "Batch 14",
+    "name": "Blue and White TV Stand",
+    "price": 12000,
+    "category": "Furniture & chairs",
+    "image": "assets/batches/batch-14/batch14_009.jpg",
+    "images": [
+      "assets/batches/batch-14/batch14_009.jpg",
+      "assets/batches/batch-14/batch14_010.jpg"
+    ],
+    "thumb": "assets/thumbs/batches/batch-14/batch14_009.webp",
+    "caption": "Blue and White TV Stand @12000/=",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1027,
+    "batch": "Batch 14",
+    "name": "TV Stand with Wall Mount",
+    "price": 6250,
+    "category": "Furniture & chairs",
+    "image": "assets/batches/batch-14/batch14_011.jpg",
+    "images": [
+      "assets/batches/batch-14/batch14_011.jpg"
+    ],
+    "thumb": "assets/thumbs/batches/batch-14/batch14_011.webp",
+    "caption": "TV Stand with Wall Mount @6250/=",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1028,
+    "batch": "Batch 14",
+    "name": "TV Stand with Light",
+    "price": 10000,
+    "category": "Furniture & chairs",
+    "image": "assets/batches/batch-14/batch14_012.jpg",
+    "images": [
+      "assets/batches/batch-14/batch14_012.jpg",
+      "assets/batches/batch-14/batch14_013.jpg"
+    ],
+    "thumb": "assets/thumbs/batches/batch-14/batch14_012.webp",
+    "caption": "TV Stand with Light @10000/=",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1029,
+    "batch": "Batch 14",
+    "name": "Black and White TV Stand",
+    "price": 12000,
+    "category": "Furniture & chairs",
+    "image": "assets/batches/batch-14/batch14_014.jpg",
+    "images": [
+      "assets/batches/batch-14/batch14_014.jpg"
+    ],
+    "thumb": "assets/thumbs/batches/batch-14/batch14_014.webp",
+    "caption": "Black and White TV Stand @12000/=",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1030,
+    "batch": "Batch 14",
+    "name": "Black and Gold TV Stand",
+    "price": 15650,
+    "category": "Furniture & chairs",
+    "image": "assets/batches/batch-14/batch14_015.jpg",
+    "images": [
+      "assets/batches/batch-14/batch14_015.jpg"
+    ],
+    "thumb": "assets/thumbs/batches/batch-14/batch14_015.webp",
+    "caption": "Black and Gold TV Stand @15650/=",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1031,
+    "batch": "Batch 14",
+    "name": "Two-Piece TV Stand Set",
+    "price": 50000,
+    "category": "Furniture & chairs",
+    "image": "assets/batches/batch-14/batch14_016.jpg",
+    "images": [
+      "assets/batches/batch-14/batch14_016.jpg",
+      "assets/batches/batch-14/batch14_017.jpg"
+    ],
+    "thumb": "assets/thumbs/batches/batch-14/batch14_016.webp",
+    "caption": "Two-Piece TV Stand Set @50000/=",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1032,
+    "batch": "Batch 14",
+    "name": "Glass-Top TV Stand",
+    "price": 8300,
+    "category": "Furniture & chairs",
+    "image": "assets/batches/batch-14/batch14_018.jpg",
+    "images": [
+      "assets/batches/batch-14/batch14_018.jpg"
+    ],
+    "thumb": "assets/thumbs/batches/batch-14/batch14_018.webp",
+    "caption": "Glass-Top TV Stand @8300/=",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1033,
+    "batch": "Batch 14",
+    "name": "White Dressing Table",
+    "price": 9500,
+    "category": "Furniture & chairs",
+    "image": "assets/batches/batch-14/batch14_019.jpg",
+    "images": [
+      "assets/batches/batch-14/batch14_019.jpg",
+      "assets/batches/batch-14/batch14_020.jpg"
+    ],
+    "thumb": "assets/thumbs/batches/batch-14/batch14_019.webp",
+    "caption": "White Dressing Table @9500/=",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1034,
+    "batch": "Batch 14",
+    "name": "Wooden Coffee Table",
+    "price": 3000,
+    "category": "Furniture & chairs",
+    "image": "assets/batches/batch-14/batch14_021.jpg",
+    "images": [
+      "assets/batches/batch-14/batch14_021.jpg",
+      "assets/batches/batch-14/batch14_022.jpg"
+    ],
+    "thumb": "assets/thumbs/batches/batch-14/batch14_021.webp",
+    "caption": "Wooden Coffee Table @3000/=",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1035,
+    "batch": "Batch 14",
+    "name": "Wooden Dining Table with 4 Chairs",
+    "price": 16600,
+    "category": "Furniture & chairs",
+    "image": "assets/batches/batch-14/batch14_023.jpg",
+    "images": [
+      "assets/batches/batch-14/batch14_023.jpg",
+      "assets/batches/batch-14/batch14_024.jpg"
+    ],
+    "thumb": "assets/thumbs/batches/batch-14/batch14_023.webp",
+    "caption": "Wooden Dining Table with 4 Chairs @16600/=",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1036,
+    "batch": "Batch 14",
+    "name": "Wooden Wardrobe 3 Column",
+    "price": 4250,
+    "category": "Furniture & chairs",
+    "image": "assets/batches/batch-14/batch14_025.jpg",
+    "images": [
+      "assets/batches/batch-14/batch14_025.jpg"
+    ],
+    "thumb": "assets/thumbs/batches/batch-14/batch14_025.webp",
+    "caption": "Wooden Wardrobe 3 Column @4250/=",
     "stockStatus": "in"
   }
 ]
