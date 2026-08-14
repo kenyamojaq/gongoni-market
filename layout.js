@@ -22,6 +22,7 @@
     const hero = main.querySelector('.hero');
     const categoryJump = main.querySelector('.category-jump');
     const toolbar = main.querySelector('.toolbar');
+    const filterToggle = main.querySelector('#mobileFilterToggle');
     const productsHead = main.querySelector('#products');
     const productGrid = main.querySelector('#productGrid');
     const loadMoreProducts = main.querySelector('#liteMore');
@@ -38,7 +39,7 @@
     marker.className = 'shopping-flow-marker';
     main.prepend(marker);
 
-    [hero, categoryJump, toolbar, productsHead, productGrid].forEach(node => {
+    [hero, categoryJump, filterToggle, toolbar, productsHead, productGrid].forEach(node => {
       if (node) main.insertBefore(node, marker.nextSibling);
       marker.after(node);
     });
@@ -105,6 +106,14 @@
         document.querySelector('#products')?.scrollIntoView({behavior:'smooth', block:'start'});
       });
     });
+
+    if (filterToggle && toolbar) {
+      filterToggle.addEventListener('click', () => {
+        const open = toolbar.classList.toggle('mobile-open');
+        filterToggle.setAttribute('aria-expanded', String(open));
+        filterToggle.textContent = open ? 'Hide filters' : 'Filters and sorting';
+      });
+    }
   }
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', arrange);
