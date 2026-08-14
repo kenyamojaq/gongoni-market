@@ -11073,5 +11073,119 @@
     "thumb": "assets/thumbs/batches/batch-14/batch14_025.webp",
     "caption": "Wooden Wardrobe 3 Column @4250/=",
     "stockStatus": "in"
+  },
+  {
+    "id": "batch16-redberry-sufuria-70l",
+    "name": "Redberry Sufuria 70L",
+    "price": 13000,
+    "category": "Kitchen",
+    "image": "assets/products/batch16/redberry-sufuria-70l-1.webp",
+    "images": [
+      "assets/products/batch16/redberry-sufuria-70l-1.webp",
+      "assets/products/batch16/redberry-sufuria-70l-2.webp"
+    ]
+  },
+  {
+    "id": "batch16-redberry-sufuria-60l",
+    "name": "Redberry Sufuria 60L",
+    "price": 11000,
+    "category": "Kitchen",
+    "image": "assets/products/batch16/redberry-sufuria-60l-1.webp",
+    "images": [
+      "assets/products/batch16/redberry-sufuria-60l-1.webp"
+    ]
+  },
+  {
+    "id": "batch16-redberry-sufuria-80l",
+    "name": "Redberry Sufuria 80L",
+    "price": 15000,
+    "category": "Kitchen",
+    "image": "assets/products/batch16/redberry-sufuria-80l-1.webp",
+    "images": [
+      "assets/products/batch16/redberry-sufuria-80l-1.webp"
+    ]
+  },
+  {
+    "id": "batch16-sink-with-stand",
+    "name": "Sink with Stand",
+    "price": 6500,
+    "category": "Home & Living",
+    "image": "assets/products/batch16/sink-with-stand-1.webp",
+    "images": [
+      "assets/products/batch16/sink-with-stand-1.webp",
+      "assets/products/batch16/sink-with-stand-2.webp",
+      "assets/products/batch16/sink-with-stand-3.webp",
+      "assets/products/batch16/sink-with-stand-4.webp"
+    ]
+  },
+  {
+    "id": "batch16-dining-table-dt129-1",
+    "name": "Dining Table DT129-1",
+    "price": 14600,
+    "category": "Furniture",
+    "image": "assets/products/batch16/dining-table-dt129-1-1.webp",
+    "images": [
+      "assets/products/batch16/dining-table-dt129-1-1.webp"
+    ]
+  },
+  {
+    "id": "batch16-dining-table-dt127-with-4-chairs",
+    "name": "Dining Table DT127 with 4 Chairs",
+    "price": 15600,
+    "category": "Furniture",
+    "image": "assets/products/batch16/dining-table-dt127-with-4-chairs-1.webp",
+    "images": [
+      "assets/products/batch16/dining-table-dt127-with-4-chairs-1.webp"
+    ]
+  },
+  {
+    "id": "batch16-dining-table-dt130-with-4-chairs",
+    "name": "Dining Table DT130 with 4 Chairs",
+    "price": 14600,
+    "category": "Furniture",
+    "image": "assets/products/batch16/dining-table-dt130-with-4-chairs-1.webp",
+    "images": [
+      "assets/products/batch16/dining-table-dt130-with-4-chairs-1.webp"
+    ]
+  },
+  {
+    "id": "batch16-dining-table-dt133-with-4-chairs",
+    "name": "Dining Table DT133 with 4 Chairs",
+    "price": 15600,
+    "category": "Furniture",
+    "image": "assets/products/batch16/dining-table-dt133-with-4-chairs-1.webp",
+    "images": [
+      "assets/products/batch16/dining-table-dt133-with-4-chairs-1.webp"
+    ]
+  },
+  {
+    "id": "batch16-dining-table-dct-1505-with-6-chairs",
+    "name": "Dining Table DCT 1505 with 6 Chairs",
+    "price": 25500,
+    "category": "Furniture",
+    "image": "assets/products/batch16/dining-table-dct-1505-with-6-chairs-1.webp",
+    "images": [
+      "assets/products/batch16/dining-table-dct-1505-with-6-chairs-1.webp"
+    ]
+  },
+  {
+    "id": "batch16-wooden-dining-table-dt1404-with-4-chairs",
+    "name": "Wooden Dining Table DT1404 with 4 Chairs",
+    "price": 16600,
+    "category": "Furniture",
+    "image": "assets/products/batch16/wooden-dining-table-dt1404-with-4-chairs-1.webp",
+    "images": [
+      "assets/products/batch16/wooden-dining-table-dt1404-with-4-chairs-1.webp"
+    ]
+  },
+  {
+    "id": "batch16-wooden-dining-table-dt1405-with-4-chairs",
+    "name": "Wooden Dining Table DT1405 with 4 Chairs",
+    "price": 16600,
+    "category": "Furniture",
+    "image": "assets/products/batch16/wooden-dining-table-dt1405-with-4-chairs-1.webp",
+    "images": [
+      "assets/products/batch16/wooden-dining-table-dt1405-with-4-chairs-1.webp"
+    ]
   }
 ]
