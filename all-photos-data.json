@@ -11275,5 +11275,58 @@
     "stockStatus": "in",
     "searchKeywords": "ramtons large two door 2 door fridge refrigerator freezer silver appliance",
     "visualTags": "ramtons large two door 2 door fridge refrigerator freezer silver appliance"
+  },
+  {
+    "id": "batch18-ailyons-hot-and-cold-water-dispenser",
+    "batch": "Batch 18",
+    "name": "AILYONS Hot and Cold Water Dispenser",
+    "price": null,
+    "category": "Appliances & electronics",
+    "image": "assets/products/batch18/ailyons-hot-and-cold-water-dispenser-1.webp",
+    "images": [
+      "assets/products/batch18/ailyons-hot-and-cold-water-dispenser-1.webp",
+      "assets/products/batch18/ailyons-hot-and-cold-water-dispenser-2.webp",
+      "assets/products/batch18/ailyons-hot-and-cold-water-dispenser-3.webp",
+      "assets/products/batch18/ailyons-hot-and-cold-water-dispenser-4.webp"
+    ],
+    "thumb": "assets/thumbs/batch18/ailyons-hot-and-cold-water-dispenser-1.webp",
+    "caption": "AILYONS Hot and Cold Water Dispenser @ Ask price",
+    "stockStatus": "in",
+    "searchKeywords": "ailyons hot cold water dispenser bottled water cooler heater appliance white",
+    "visualTags": "ailyons hot cold water dispenser bottled water cooler heater appliance white"
+  },
+  {
+    "id": "batch18-folding-ironing-board",
+    "batch": "Batch 18",
+    "name": "Folding Ironing Board",
+    "price": 3200,
+    "category": "Household",
+    "image": "assets/products/batch18/folding-ironing-board-1.webp",
+    "images": [
+      "assets/products/batch18/folding-ironing-board-1.webp"
+    ],
+    "thumb": "assets/thumbs/batch18/folding-ironing-board-1.webp",
+    "caption": "Folding Ironing Board @ KSh 3,200",
+    "stockStatus": "in",
+    "searchKeywords": "folding ironing board iron stand padded board clothes laundry household grey",
+    "visualTags": "folding ironing board iron stand padded board clothes laundry household grey"
+  },
+  {
+    "id": "batch18-kids-tricycle-with-rear-seat",
+    "batch": "Batch 18",
+    "name": "Kids Tricycle with Rear Seat",
+    "price": 4500,
+    "category": "Baby & kids",
+    "image": "assets/products/batch18/kids-tricycle-with-rear-seat-1.webp",
+    "images": [
+      "assets/products/batch18/kids-tricycle-with-rear-seat-1.webp",
+      "assets/products/batch18/kids-tricycle-with-rear-seat-2.webp",
+      "assets/products/batch18/kids-tricycle-with-rear-seat-3.webp"
+    ],
+    "thumb": "assets/thumbs/batch18/kids-tricycle-with-rear-seat-1.webp",
+    "caption": "Kids Tricycle with Rear Seat @ KSh 4,500",
+    "stockStatus": "in",
+    "searchKeywords": "kids child children tricycle bicycle bike three wheel rear passenger seat orange toy",
+    "visualTags": "kids child children tricycle bicycle bike three wheel rear passenger seat orange toy"
   }
 ]
