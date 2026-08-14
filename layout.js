@@ -39,17 +39,15 @@
     marker.className = 'shopping-flow-marker';
     main.prepend(marker);
 
-    [hero, categoryJump, filterToggle, toolbar, productsHead, productGrid].forEach(node => {
-      if (node) main.insertBefore(node, marker.nextSibling);
-      marker.after(node);
-    });
+    const shoppingSections = [hero, categoryJump, filterToggle, toolbar, productsHead, productGrid].filter(Boolean);
+    marker.after(...shoppingSections);
     if (loadMoreProducts) productGrid?.after(loadMoreProducts);
 
     const serviceTitle = document.createElement('section');
     serviceTitle.className = 'section-head compact store-services-title';
     serviceTitle.innerHTML = '<div><p class="eyebrow">Order with confidence</p><h2>Delivery, payment and support</h2></div><span>Everything you need after choosing your products.</span>';
     productGrid?.insertAdjacentElement('afterend', serviceTitle);
-    [delivery, pay, checkout, services, trust].forEach(node => node && serviceTitle.insertAdjacentElement('afterend', node));
+    serviceTitle.after(...[delivery, pay, checkout, services, trust].filter(Boolean));
 
     if (allPhotosHead && photoGrid) {
       trust?.insertAdjacentElement('afterend', allPhotosHead);
@@ -96,16 +94,6 @@
       }
     `;
     document.head.appendChild(style);
-
-    // Reconnect category links because the top navigation was rebuilt.
-    document.querySelectorAll('.market-nav [data-category-chip]').forEach(link => {
-      link.addEventListener('click', e => {
-        e.preventDefault();
-        const chip = document.querySelector(`.category-jump [data-category-chip="${link.dataset.categoryChip}"]`);
-        if (chip) chip.click();
-        document.querySelector('#products')?.scrollIntoView({behavior:'smooth', block:'start'});
-      });
-    });
 
     if (filterToggle && toolbar) {
       filterToggle.addEventListener('click', () => {
