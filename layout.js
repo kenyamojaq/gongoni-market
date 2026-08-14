@@ -40,14 +40,19 @@
     main.prepend(marker);
 
     const shoppingSections = [hero, categoryJump, filterToggle, toolbar, productsHead, productGrid].filter(Boolean);
-    marker.after(...shoppingSections);
+    shoppingSections.forEach(node => main.insertBefore(node, marker));
+    marker.remove();
     if (loadMoreProducts) productGrid?.after(loadMoreProducts);
 
     const serviceTitle = document.createElement('section');
     serviceTitle.className = 'section-head compact store-services-title';
     serviceTitle.innerHTML = '<div><p class="eyebrow">Order with confidence</p><h2>Delivery, payment and support</h2></div><span>Everything you need after choosing your products.</span>';
     productGrid?.insertAdjacentElement('afterend', serviceTitle);
-    serviceTitle.after(...[delivery, pay, checkout, services, trust].filter(Boolean));
+    let serviceAnchor = serviceTitle;
+    [delivery, pay, checkout, services, trust].filter(Boolean).forEach(node => {
+      serviceAnchor.insertAdjacentElement('afterend', node);
+      serviceAnchor = node;
+    });
 
     if (allPhotosHead && photoGrid) {
       trust?.insertAdjacentElement('afterend', allPhotosHead);
