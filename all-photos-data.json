@@ -11187,5 +11187,93 @@
     "images": [
       "assets/products/batch16/wooden-dining-table-dt1405-with-4-chairs-1.webp"
     ]
+  },
+  {
+    "id": "batch17-3-tier-dish-rack",
+    "batch": "Batch 17",
+    "name": "3-Tier Dish Rack",
+    "price": 2500,
+    "category": "Kitchenware",
+    "image": "assets/products/batch17/3-tier-dish-rack-1.webp",
+    "images": [
+      "assets/products/batch17/3-tier-dish-rack-1.webp",
+      "assets/products/batch17/3-tier-dish-rack-2.webp",
+      "assets/products/batch17/3-tier-dish-rack-3.webp",
+      "assets/products/batch17/3-tier-dish-rack-4.webp"
+    ],
+    "thumb": "assets/thumbs/batch17/3-tier-dish-rack-1.webp",
+    "caption": "3-Tier Dish Rack @ KSh 2,500",
+    "stockStatus": "in",
+    "searchKeywords": "dish rack plate rack three tier 3 tier kitchen storage drying rack black gold",
+    "visualTags": "dish rack plate rack three tier 3 tier kitchen storage drying rack black gold"
+  },
+  {
+    "id": "batch17-ecomax-gas-cooker",
+    "batch": "Batch 17",
+    "name": "Ecomax Gas Cooker",
+    "price": 20000,
+    "category": "Appliances & electronics",
+    "image": "assets/products/batch17/ecomax-gas-cooker-1.webp",
+    "images": [
+      "assets/products/batch17/ecomax-gas-cooker-1.webp",
+      "assets/products/batch17/ecomax-gas-cooker-2.webp"
+    ],
+    "thumb": "assets/thumbs/batch17/ecomax-gas-cooker-1.webp",
+    "caption": "Ecomax Gas Cooker @ KSh 20,000",
+    "stockStatus": "in",
+    "searchKeywords": "ecomax cooker gas stove four burner oven free standing kitchen appliance",
+    "visualTags": "ecomax cooker gas stove four burner oven free standing kitchen appliance"
+  },
+  {
+    "id": "batch17-free-standing-gas-and-electric-cooker",
+    "batch": "Batch 17",
+    "name": "Free-Standing Gas and Electric Cooker",
+    "price": 21500,
+    "category": "Appliances & electronics",
+    "image": "assets/products/batch17/free-standing-gas-and-electric-cooker-1.webp",
+    "images": [
+      "assets/products/batch17/free-standing-gas-and-electric-cooker-1.webp",
+      "assets/products/batch17/free-standing-gas-and-electric-cooker-2.webp",
+      "assets/products/batch17/free-standing-gas-and-electric-cooker-3.webp"
+    ],
+    "thumb": "assets/thumbs/batch17/free-standing-gas-and-electric-cooker-1.webp",
+    "caption": "Free-Standing Gas and Electric Cooker @ KSh 21,500",
+    "stockStatus": "in",
+    "searchKeywords": "free standing cooker gas electric stove oven four burner kitchen appliance",
+    "visualTags": "free standing cooker gas electric stove oven four burner kitchen appliance"
+  },
+  {
+    "id": "batch17-glass-door-display-fridge",
+    "batch": "Batch 17",
+    "name": "Glass-Door Display Fridge",
+    "price": 39800,
+    "category": "Appliances & electronics",
+    "image": "assets/products/batch17/glass-door-display-fridge-1.webp",
+    "images": [
+      "assets/products/batch17/glass-door-display-fridge-1.webp",
+      "assets/products/batch17/glass-door-display-fridge-2.webp"
+    ],
+    "thumb": "assets/thumbs/batch17/glass-door-display-fridge-1.webp",
+    "caption": "Glass-Door Display Fridge @ KSh 39,800",
+    "stockStatus": "in",
+    "searchKeywords": "glass door display fridge refrigerator cooler showcase white appliance",
+    "visualTags": "glass door display fridge refrigerator cooler showcase white appliance"
+  },
+  {
+    "id": "batch17-ramtons-large-2-door-refrigerator",
+    "batch": "Batch 17",
+    "name": "Ramtons Large 2-Door Refrigerator",
+    "price": 75800,
+    "category": "Appliances & electronics",
+    "image": "assets/products/batch17/ramtons-large-2-door-refrigerator-1.webp",
+    "images": [
+      "assets/products/batch17/ramtons-large-2-door-refrigerator-1.webp",
+      "assets/products/batch17/ramtons-large-2-door-refrigerator-2.webp"
+    ],
+    "thumb": "assets/thumbs/batch17/ramtons-large-2-door-refrigerator-1.webp",
+    "caption": "Ramtons Large 2-Door Refrigerator @ KSh 75,800",
+    "stockStatus": "in",
+    "searchKeywords": "ramtons large two door 2 door fridge refrigerator freezer silver appliance",
+    "visualTags": "ramtons large two door 2 door fridge refrigerator freezer silver appliance"
   }
 ]
