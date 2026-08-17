@@ -11328,5 +11328,72 @@
     "stockStatus": "in",
     "searchKeywords": "kids child children tricycle bicycle bike three wheel rear passenger seat orange toy",
     "visualTags": "kids child children tricycle bicycle bike three wheel rear passenger seat orange toy"
+  },
+  {
+    "id": "batch19-zpl-round-4-tier-trolley",
+    "batch": "Batch 19",
+    "name": "ZPL Round 4-Tier Storage Trolley",
+    "price": 350,
+    "category": "Household",
+    "image": "assets/products/batch19/zpl-round-4-tier-trolley-1.webp",
+    "images": [
+      "assets/products/batch19/zpl-round-4-tier-trolley-1.webp"
+    ],
+    "thumb": "assets/thumbs/batch19/zpl-round-4-tier-trolley-1.webp",
+    "caption": "ZPL Round 4-Tier Storage Trolley @ KSh 350",
+    "stockStatus": "in",
+    "searchKeywords": "zpl round four 4 tier trolley storage rack organiser organizer plastic blue kitchen bathroom household",
+    "visualTags": "zpl round four 4 tier trolley storage rack organiser organizer plastic blue kitchen bathroom household"
+  },
+  {
+    "id": "batch19-lotus-3-tier-trolley",
+    "batch": "Batch 19",
+    "name": "Lotus 3-Tier Storage Trolley",
+    "price": 400,
+    "category": "Household",
+    "image": "assets/products/batch19/lotus-3-tier-trolley-1.webp",
+    "images": [
+      "assets/products/batch19/lotus-3-tier-trolley-1.webp",
+      "assets/products/batch19/lotus-3-tier-trolley-2.webp"
+    ],
+    "thumb": "assets/thumbs/batch19/lotus-3-tier-trolley-1.webp",
+    "caption": "Lotus 3-Tier Storage Trolley @ KSh 400",
+    "stockStatus": "in",
+    "searchKeywords": "lotus three 3 tier trolley storage rack organiser organizer plastic blue kitchen bathroom household",
+    "visualTags": "lotus three 3 tier trolley storage rack organiser organizer plastic blue kitchen bathroom household"
+  },
+  {
+    "id": "batch19-zpl-4-tier-trolley",
+    "batch": "Batch 19",
+    "name": "ZPL 4-Tier Storage Trolley",
+    "price": 550,
+    "category": "Household",
+    "image": "assets/products/batch19/zpl-4-tier-trolley-1.webp",
+    "images": [
+      "assets/products/batch19/zpl-4-tier-trolley-1.webp",
+      "assets/products/batch19/zpl-4-tier-trolley-2.webp"
+    ],
+    "thumb": "assets/thumbs/batch19/zpl-4-tier-trolley-1.webp",
+    "caption": "ZPL 4-Tier Storage Trolley @ KSh 550",
+    "stockStatus": "in",
+    "searchKeywords": "zpl four 4 tier trolley storage rack organiser organizer plastic blue kitchen bathroom household",
+    "visualTags": "zpl four 4 tier trolley storage rack organiser organizer plastic blue kitchen bathroom household"
+  },
+  {
+    "id": "batch19-adix-royal-4-tier-trolley",
+    "batch": "Batch 19",
+    "name": "Adix Royal 4-Tier Storage Trolley",
+    "price": 550,
+    "category": "Household",
+    "image": "assets/products/batch19/adix-royal-4-tier-trolley-1.webp",
+    "images": [
+      "assets/products/batch19/adix-royal-4-tier-trolley-1.webp",
+      "assets/products/batch19/adix-royal-4-tier-trolley-2.webp"
+    ],
+    "thumb": "assets/thumbs/batch19/adix-royal-4-tier-trolley-1.webp",
+    "caption": "Adix Royal 4-Tier Storage Trolley @ KSh 550",
+    "stockStatus": "in",
+    "searchKeywords": "adix royal four 4 tier trolley storage rack organiser organizer plastic aqua green kitchen bathroom household",
+    "visualTags": "adix royal four 4 tier trolley storage rack organiser organizer plastic aqua green kitchen bathroom household"
   }
 ]
