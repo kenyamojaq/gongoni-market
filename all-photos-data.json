@@ -241,18 +241,12 @@
     "price": 6300,
     "category": "Baby & kids",
     "image": "assets/batches/batch-01/batch01_024.jpg",
+    "images": [
+      "assets/batches/batch-01/batch01_024.jpg",
+      "assets/batches/batch-01/batch01_025.jpg"
+    ],
     "caption": "Bicycle TC-170 @6,300/=",
     "thumb": "assets/thumbs/batches/batch-01/batch01_024.webp"
-  },
-  {
-    "id": 25,
-    "batch": "Batch 1",
-    "name": "General Goods Item 025",
-    "price": null,
-    "category": "General goods",
-    "image": "assets/batches/batch-01/batch01_025.jpg",
-    "caption": "",
-    "thumb": "assets/thumbs/batches/batch-01/batch01_025.webp"
   },
   {
     "id": 26,
