@@ -11639,5 +11639,23 @@
     "stockStatus": "in",
     "searchKeywords": "zpl round 3-tier storage trolley trolley storage rack organiser organizer shelf plastic kitchen bathroom household",
     "visualTags": "zpl round 3-tier storage trolley trolley storage rack organiser organizer shelf plastic kitchen bathroom household"
+  },
+  {
+    "id": "batch21-baby-carrier-stroller",
+    "batch": "Batch 21",
+    "name": "Baby Carrier Stroller",
+    "price": 6000,
+    "category": "Baby & kids",
+    "image": "assets/products/batch21/baby-carrier-stroller-1.webp",
+    "images": [
+      "assets/products/batch21/baby-carrier-stroller-1.webp",
+      "assets/products/batch21/baby-carrier-stroller-2.webp",
+      "assets/products/batch21/baby-carrier-stroller-3.webp"
+    ],
+    "thumb": "assets/thumbs/batch21/baby-carrier-stroller-1.webp",
+    "caption": "Baby Carrier Stroller @ KSh 6,000",
+    "stockStatus": "in",
+    "searchKeywords": "baby carrier stroller pushchair pram buggy folding baby transport blue canopy wheels baby and kids",
+    "visualTags": "blue baby stroller pushchair pram buggy canopy seat wheels folding baby carrier"
   }
 ]
