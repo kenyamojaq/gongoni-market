@@ -783,5 +783,47 @@
     "thumb": "assets/thumbs/batches/batch-14/batch14_025.webp",
     "caption": "Wooden Wardrobe 3 Column @4250/=",
     "stockStatus": "in"
-  }
+  },
+  {
+  "id": 1037,
+  "batch": "Batch 16",
+  "name": "Coffee Table 1270",
+  "price": 18000,
+  "category": "Furniture & chairs",
+  "image": "assets/batches/batch16_001.jpg",
+  "images": [
+    "assets/batches/batch16_001.jpg"
+  ],
+  "thumb": "assets/batches/batch16_001.jpg",
+  "caption": "Coffee Table 1270 @18000/=",
+  "stockStatus": "in"
+},
+{
+  "id": 1038,
+  "batch": "Batch 16",
+  "name": "G.F Dining Table DTC 1204 (6 Chairs)",
+  "price": 22000,
+  "category": "Furniture & chairs",
+  "image": "assets/batches/batch16_002.jpg",
+  "images": [
+    "assets/batches/batch16_002.jpg"
+  ],
+  "thumb": "assets/batches/batch16_002.jpg",
+  "caption": "G.F Dining Table DTC 1204 (6 Chairs) @22000/=",
+  "stockStatus": "in"
+},
+{
+  "id": 1039,
+  "batch": "Batch 16",
+  "name": "Coffee Table FCT 1245",
+  "price": 20000,
+  "category": "Furniture & chairs",
+  "image": "assets/batches/batch16_003.jpg",
+  "images": [
+    "assets/batches/batch16_003.jpg"
+  ],
+  "thumb": "assets/batches/batch16_003.jpg",
+  "caption": "Coffee Table FCT 1245 @20000/=",
+  "stockStatus": "in"
+}
 ]
