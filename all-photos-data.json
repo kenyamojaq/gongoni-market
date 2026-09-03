@@ -11640,8 +11640,8 @@
     "searchKeywords": "zpl round 3-tier storage trolley trolley storage rack organiser organizer shelf plastic kitchen bathroom household",
     "visualTags": "zpl round 3-tier storage trolley trolley storage rack organiser organizer shelf plastic kitchen bathroom household"
   },
-  {
-    "id": "batch21-baby-carrier-stroller",
+    {
+        "id": "batch21-baby-carrier-stroller",
     "batch": "Batch 21",
     "name": "Baby Carrier Stroller",
     "price": 6000,
@@ -11656,6 +11656,70 @@
     "caption": "Baby Carrier Stroller @ KSh 6,000",
     "stockStatus": "in",
     "searchKeywords": "baby carrier stroller pushchair pram buggy folding baby transport blue canopy wheels baby and kids",
-    "visualTags": "blue baby stroller pushchair pram buggy canopy seat wheels folding baby carrier"
-  }
+        "visualTags": "blue baby stroller pushchair pram buggy canopy seat wheels folding baby carrier"
+    },
+    {
+        "id": "batch22-coffee-table-fct-1245",
+        "batch": "Batch 22",
+        "name": "Coffee table fct 1245",
+        "price": 20000,
+        "category": "Furniture",
+        "image": "assets/products/batch22/coffee-table-fct-1245.jpg",
+        "images": [
+            "assets/products/batch22/coffee-table-fct-1245.jpg"
+        ],
+        "thumb": "assets/thumbs/batch22/coffee-table-fct-1245.jpg",
+        "caption": "Coffee table fct 1245 @ KSh 20,000",
+        "stockStatus": "in",
+        "searchKeywords": "coffee table fct 1245 furniture living room storage drawer marble finish",
+        "visualTags": "black white coffee table storage cabinet drawer marble finish furniture"
+    },
+    {
+        "id": "batch22-dinning-table-fdt-1513",
+        "batch": "Batch 22",
+        "name": "Dinning table FDT 1513",
+        "price": 35000,
+        "category": "Furniture",
+        "image": "assets/products/batch22/dinning-table-fdt-1513.jpg",
+        "images": [
+            "assets/products/batch22/dinning-table-fdt-1513.jpg"
+        ],
+        "thumb": "assets/thumbs/batch22/dinning-table-fdt-1513.jpg",
+        "caption": "Dinning table FDT 1513 @ KSh 35,000",
+        "stockStatus": "in",
+        "searchKeywords": "dinning dining table fdt 1513 six chairs furniture dining room",
+        "visualTags": "white rectangular dining table six grey chairs black legs furniture"
+    },
+    {
+        "id": "batch22-g-f-dinning-table-dtc-1204",
+        "batch": "Batch 22",
+        "name": "G.F Dinning table DTC 1204",
+        "price": 22000,
+        "category": "Furniture",
+        "image": "assets/products/batch22/g-f-dinning-table-dtc-1204.jpg",
+        "images": [
+            "assets/products/batch22/g-f-dinning-table-dtc-1204.jpg"
+        ],
+        "thumb": "assets/thumbs/batch22/g-f-dinning-table-dtc-1204.jpg",
+        "caption": "G.F Dinning table DTC 1204 @ KSh 22,000",
+        "stockStatus": "in",
+        "searchKeywords": "g.f dinning dining table dtc 1204 six chairs furniture dining room glass finish",
+        "visualTags": "black rectangular glass dining table six black chairs furniture"
+    },
+    {
+        "id": "batch22-coffee-table-1270",
+        "batch": "Batch 22",
+        "name": "Coffee table 1270",
+        "price": 18000,
+        "category": "Furniture",
+        "image": "assets/products/batch22/coffee-table-1270.jpg",
+        "images": [
+            "assets/products/batch22/coffee-table-1270.jpg"
+        ],
+        "thumb": "assets/thumbs/batch22/coffee-table-1270.jpg",
+        "caption": "Coffee table 1270 @ KSh 18,000",
+        "stockStatus": "in",
+        "searchKeywords": "coffee table 1270 furniture living room storage drawer glossy marble finish",
+        "visualTags": "brown black coffee table storage drawer gold handle glossy marble finish furniture"
+    }
 ]
