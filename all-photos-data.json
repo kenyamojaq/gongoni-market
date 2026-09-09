@@ -11943,5 +11943,56 @@
         "stockStatus": "in",
         "searchKeywords": "star super basin no.38 plastic wash basin kitchen household assorted colours",
         "visualTags": "star super basin no.38 plastic wash basin kitchen household assorted colours"
+    },
+    {
+        "id": "batch24-premier-watering-can",
+        "batch": "Batch 24",
+        "name": "Premier Watering Can",
+        "price": 270,
+        "category": "Household",
+        "image": "assets/products/batch24/premier-watering-can-1.jpg",
+        "images": [
+            "assets/products/batch24/premier-watering-can-1.jpg",
+            "assets/products/batch24/premier-watering-can-2.jpg"
+        ],
+        "thumb": "assets/thumbs/batch24/premier-watering-can-1.jpg",
+        "caption": "Premier Watering Can @ KSh 270",
+        "stockStatus": "in",
+        "searchKeywords": "premier watering can green garden plants flowers household plastic",
+        "visualTags": "green plastic watering can garden plants flowers household"
+    },
+    {
+        "id": "batch24-kenpoly-30ltrs-pedal-bin",
+        "batch": "Batch 24",
+        "name": "Kenpoly 30ltrs Pedal bin",
+        "price": 2000,
+        "category": "Household",
+        "image": "assets/products/batch24/kenpoly-30ltrs-pedal-bin-1.jpg",
+        "images": [
+            "assets/products/batch24/kenpoly-30ltrs-pedal-bin-1.jpg",
+            "assets/products/batch24/kenpoly-30ltrs-pedal-bin-2.jpg"
+        ],
+        "thumb": "assets/thumbs/batch24/kenpoly-30ltrs-pedal-bin-1.jpg",
+        "caption": "Kenpoly 30ltrs Pedal bin @ KSh 2,000",
+        "stockStatus": "in",
+        "searchKeywords": "kenpoly 30ltrs 30l pedal bin dustbin waste bin red household plastic",
+        "visualTags": "red kenpoly 30 litre pedal bin front back household plastic"
+    },
+    {
+        "id": "batch24-kenpoly-50ltrs-pedal-bin",
+        "batch": "Batch 24",
+        "name": "Kenpoly 50ltrs Pedal bin",
+        "price": 3000,
+        "category": "Household",
+        "image": "assets/products/batch24/kenpoly-50ltrs-pedal-bin-1.jpg",
+        "images": [
+            "assets/products/batch24/kenpoly-50ltrs-pedal-bin-1.jpg",
+            "assets/products/batch24/kenpoly-50ltrs-pedal-bin-2.jpg"
+        ],
+        "thumb": "assets/thumbs/batch24/kenpoly-50ltrs-pedal-bin-1.jpg",
+        "caption": "Kenpoly 50ltrs Pedal bin @ KSh 3,000",
+        "stockStatus": "in",
+        "searchKeywords": "kenpoly 50ltrs 50l pedal bin dustbin waste bin red household plastic",
+        "visualTags": "red kenpoly 50 litre pedal bin front back household plastic"
     }
 ]
