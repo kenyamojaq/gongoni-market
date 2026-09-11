@@ -11994,5 +11994,149 @@
         "stockStatus": "in",
         "searchKeywords": "kenpoly 50ltrs 50l pedal bin dustbin waste bin red household plastic",
         "visualTags": "red kenpoly 50 litre pedal bin front back household plastic"
+    },
+    {
+        "id": "batch25-pinnacle-4-5l-cooler-lime",
+        "batch": "Batch 25",
+        "name": "Pinnacle 4.75 QT/4.5L Cooler - Lime Green",
+        "price": 1200,
+        "category": "Flasks & bottles",
+        "image": "assets/products/batch25/pinnacle-4-5l-cooler-lime-1.jpg",
+        "images": [
+            "assets/products/batch25/pinnacle-4-5l-cooler-lime-1.jpg"
+        ],
+        "thumb": "assets/thumbs/batch25/pinnacle-4-5l-cooler-lime-1.jpg",
+        "caption": "Pinnacle 4.75 QT/4.5L Cooler - Lime Green @ KSh 1,200",
+        "stockStatus": "in",
+        "searchKeywords": "pinnacle 4.75 qt/4.5l cooler - lime green cooler box ice chest insulated portable drinks food outdoor picnic travel household",
+        "visualTags": "pinnacle 4.75 qt/4.5l cooler - lime green cooler box ice chest insulated portable drinks food outdoor picnic travel household"
+    },
+    {
+        "id": "batch25-pinnacle-34-5l-cooler-blue",
+        "batch": "Batch 25",
+        "name": "Pinnacle 36 QT/34.5L Cooler - Blue",
+        "price": 4300,
+        "category": "Flasks & bottles",
+        "image": "assets/products/batch25/pinnacle-34-5l-cooler-blue-1.jpg",
+        "images": [
+            "assets/products/batch25/pinnacle-34-5l-cooler-blue-1.jpg"
+        ],
+        "thumb": "assets/thumbs/batch25/pinnacle-34-5l-cooler-blue-1.jpg",
+        "caption": "Pinnacle 36 QT/34.5L Cooler - Blue @ KSh 4,300",
+        "stockStatus": "in",
+        "searchKeywords": "pinnacle 36 qt/34.5l cooler - blue cooler box ice chest insulated portable drinks food outdoor picnic travel household",
+        "visualTags": "pinnacle 36 qt/34.5l cooler - blue cooler box ice chest insulated portable drinks food outdoor picnic travel household"
+    },
+    {
+        "id": "batch25-pinnacle-10l-cooler-blue-handle",
+        "batch": "Batch 25",
+        "name": "Pinnacle 10.56 Qt/10L Cooler - Blue with Handle (48 Hours Chiller)",
+        "price": 2700,
+        "category": "Flasks & bottles",
+        "image": "assets/products/batch25/pinnacle-10l-cooler-blue-handle-1.jpg",
+        "images": [
+            "assets/products/batch25/pinnacle-10l-cooler-blue-handle-1.jpg"
+        ],
+        "thumb": "assets/thumbs/batch25/pinnacle-10l-cooler-blue-handle-1.jpg",
+        "caption": "Pinnacle 10.56 Qt/10L Cooler - Blue with Handle (48 Hours Chiller) @ KSh 2,700",
+        "stockStatus": "in",
+        "searchKeywords": "pinnacle 10.56 qt/10l cooler - blue with handle (48 hours chiller) cooler box ice chest insulated portable drinks food outdoor picnic travel household",
+        "visualTags": "pinnacle 10.56 qt/10l cooler - blue with handle (48 hours chiller) cooler box ice chest insulated portable drinks food outdoor picnic travel household"
+    },
+    {
+        "id": "batch25-pinnacle-32l-cooler-lime",
+        "batch": "Batch 25",
+        "name": "Pinnacle 33.8 QT/32L Cooler - Lime Green (72 Hours Chiller)",
+        "price": 4000,
+        "category": "Flasks & bottles",
+        "image": "assets/products/batch25/pinnacle-32l-cooler-lime-1.jpg",
+        "images": [
+            "assets/products/batch25/pinnacle-32l-cooler-lime-1.jpg"
+        ],
+        "thumb": "assets/thumbs/batch25/pinnacle-32l-cooler-lime-1.jpg",
+        "caption": "Pinnacle 33.8 QT/32L Cooler - Lime Green (72 Hours Chiller) @ KSh 4,000",
+        "stockStatus": "in",
+        "searchKeywords": "pinnacle 33.8 qt/32l cooler - lime green (72 hours chiller) cooler box ice chest insulated portable drinks food outdoor picnic travel household",
+        "visualTags": "pinnacle 33.8 qt/32l cooler - lime green (72 hours chiller) cooler box ice chest insulated portable drinks food outdoor picnic travel household"
+    },
+    {
+        "id": "batch25-pinnacle-57l-cooler",
+        "batch": "Batch 25",
+        "name": "Pinnacle 60 QT/57L Cooler",
+        "price": 8000,
+        "category": "Flasks & bottles",
+        "image": "assets/products/batch25/pinnacle-57l-cooler-1.jpg",
+        "images": [
+            "assets/products/batch25/pinnacle-57l-cooler-1.jpg"
+        ],
+        "thumb": "assets/thumbs/batch25/pinnacle-57l-cooler-1.jpg",
+        "caption": "Pinnacle 60 QT/57L Cooler @ KSh 8,000",
+        "stockStatus": "in",
+        "searchKeywords": "pinnacle 60 qt/57l cooler cooler box ice chest insulated portable drinks food outdoor picnic travel household",
+        "visualTags": "pinnacle 60 qt/57l cooler cooler box ice chest insulated portable drinks food outdoor picnic travel household"
+    },
+    {
+        "id": "batch25-pinnacle-30l-cooler",
+        "batch": "Batch 25",
+        "name": "Pinnacle 31.70 Qt/30L Cooler - 72 Hours Chiller",
+        "price": 5000,
+        "category": "Flasks & bottles",
+        "image": "assets/products/batch25/pinnacle-30l-cooler-1.jpg",
+        "images": [
+            "assets/products/batch25/pinnacle-30l-cooler-1.jpg"
+        ],
+        "thumb": "assets/thumbs/batch25/pinnacle-30l-cooler-1.jpg",
+        "caption": "Pinnacle 31.70 Qt/30L Cooler - 72 Hours Chiller @ KSh 5,000",
+        "stockStatus": "in",
+        "searchKeywords": "pinnacle 31.70 qt/30l cooler - 72 hours chiller cooler box ice chest insulated portable drinks food outdoor picnic travel household",
+        "visualTags": "pinnacle 31.70 qt/30l cooler - 72 hours chiller cooler box ice chest insulated portable drinks food outdoor picnic travel household"
+    },
+    {
+        "id": "batch25-pinnacle-25l-cooler",
+        "batch": "Batch 25",
+        "name": "Pinnacle 26.4 QT/25L Cooler - 60 Hours Chiller",
+        "price": 3700,
+        "category": "Flasks & bottles",
+        "image": "assets/products/batch25/pinnacle-25l-cooler-1.jpg",
+        "images": [
+            "assets/products/batch25/pinnacle-25l-cooler-1.jpg"
+        ],
+        "thumb": "assets/thumbs/batch25/pinnacle-25l-cooler-1.jpg",
+        "caption": "Pinnacle 26.4 QT/25L Cooler - 60 Hours Chiller @ KSh 3,700",
+        "stockStatus": "in",
+        "searchKeywords": "pinnacle 26.4 qt/25l cooler - 60 hours chiller cooler box ice chest insulated portable drinks food outdoor picnic travel household",
+        "visualTags": "pinnacle 26.4 qt/25l cooler - 60 hours chiller cooler box ice chest insulated portable drinks food outdoor picnic travel household"
+    },
+    {
+        "id": "batch25-pinnacle-10l-cooler-lime",
+        "batch": "Batch 25",
+        "name": "Pinnacle 10.5 QT/10L Cooler - 48 Hours Chiller",
+        "price": 2400,
+        "category": "Flasks & bottles",
+        "image": "assets/products/batch25/pinnacle-10l-cooler-lime-1.jpg",
+        "images": [
+            "assets/products/batch25/pinnacle-10l-cooler-lime-1.jpg"
+        ],
+        "thumb": "assets/thumbs/batch25/pinnacle-10l-cooler-lime-1.jpg",
+        "caption": "Pinnacle 10.5 QT/10L Cooler - 48 Hours Chiller @ KSh 2,400",
+        "stockStatus": "in",
+        "searchKeywords": "pinnacle 10.5 qt/10l cooler - 48 hours chiller cooler box ice chest insulated portable drinks food outdoor picnic travel household",
+        "visualTags": "pinnacle 10.5 qt/10l cooler - 48 hours chiller cooler box ice chest insulated portable drinks food outdoor picnic travel household"
+    },
+    {
+        "id": "batch25-pinnacle-20l-cooler",
+        "batch": "Batch 25",
+        "name": "Pinnacle 21.1 Qt/20L Cooler - 60 Hours Chiller",
+        "price": 4000,
+        "category": "Flasks & bottles",
+        "image": "assets/products/batch25/pinnacle-20l-cooler-1.jpg",
+        "images": [
+            "assets/products/batch25/pinnacle-20l-cooler-1.jpg"
+        ],
+        "thumb": "assets/thumbs/batch25/pinnacle-20l-cooler-1.jpg",
+        "caption": "Pinnacle 21.1 Qt/20L Cooler - 60 Hours Chiller @ KSh 4,000",
+        "stockStatus": "in",
+        "searchKeywords": "pinnacle 21.1 qt/20l cooler - 60 hours chiller cooler box ice chest insulated portable drinks food outdoor picnic travel household",
+        "visualTags": "pinnacle 21.1 qt/20l cooler - 60 hours chiller cooler box ice chest insulated portable drinks food outdoor picnic travel household"
     }
 ]
