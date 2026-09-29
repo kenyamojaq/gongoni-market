@@ -12138,5 +12138,152 @@
         "stockStatus": "in",
         "searchKeywords": "pinnacle 21.1 qt/20l cooler - 60 hours chiller cooler box ice chest insulated portable drinks food outdoor picnic travel household",
         "visualTags": "pinnacle 21.1 qt/20l cooler - 60 hours chiller cooler box ice chest insulated portable drinks food outdoor picnic travel household"
+    },
+    {
+        "id": "batch26-giamu-bicycle-white-black",
+        "name": "Giamu Bicycle - White/Black",
+        "price": 12500,
+        "category": "General goods",
+        "image": "assets/products/batch26/giamu-bicycle-white-black-1.jpg",
+        "images": [
+            "assets/products/batch26/giamu-bicycle-white-black-1.jpg"
+        ],
+        "thumb": "assets/thumbs/batch26/giamu-bicycle-white-black-1.jpg",
+        "caption": "Giamu Bicycle - White/Black @ KSh 12,500",
+        "stockStatus": "in",
+        "searchKeywords": "giamu bicycle white black mountain bike adult cycle outdoor transport",
+        "visualTags": "giamu bicycle white black mountain bike adult cycle outdoor transport",
+        "batch": "Batch 26"
+    },
+    {
+        "id": "batch26-victory-20-bicycle-red-blue",
+        "name": "Victory 20 Bicycle - Red/Blue",
+        "price": 10500,
+        "category": "Baby & kids",
+        "image": "assets/products/batch26/victory-20-bicycle-red-blue-1.jpg",
+        "images": [
+            "assets/products/batch26/victory-20-bicycle-red-blue-1.jpg"
+        ],
+        "thumb": "assets/thumbs/batch26/victory-20-bicycle-red-blue-1.jpg",
+        "caption": "Victory 20 Bicycle - Red/Blue @ KSh 10,500",
+        "stockStatus": "in",
+        "searchKeywords": "victory 20 bicycle red blue bike cycle kids outdoor transport",
+        "visualTags": "victory 20 bicycle red blue bike cycle kids outdoor transport",
+        "batch": "Batch 26"
+    },
+    {
+        "id": "batch26-reset-bicycle-2615-yellow",
+        "name": "Reset Bicycle Model 2615 - Yellow",
+        "price": 13000,
+        "category": "General goods",
+        "image": "assets/products/batch26/reset-bicycle-2615-yellow-1.jpg",
+        "images": [
+            "assets/products/batch26/reset-bicycle-2615-yellow-1.jpg"
+        ],
+        "thumb": "assets/thumbs/batch26/reset-bicycle-2615-yellow-1.jpg",
+        "caption": "Reset Bicycle Model 2615 - Yellow @ KSh 13,000",
+        "stockStatus": "in",
+        "searchKeywords": "reset bicycle model 2615 yellow mountain bike adult cycle outdoor transport",
+        "visualTags": "reset bicycle model 2615 yellow mountain bike adult cycle outdoor transport",
+        "batch": "Batch 26"
+    },
+    {
+        "id": "batch26-reset-bicycle-59800-black-red",
+        "name": "Reset Bicycle Model 59800 - Black/Red",
+        "price": 17000,
+        "category": "General goods",
+        "image": "assets/products/batch26/reset-bicycle-59800-black-red-1.jpg",
+        "images": [
+            "assets/products/batch26/reset-bicycle-59800-black-red-1.jpg"
+        ],
+        "thumb": "assets/thumbs/batch26/reset-bicycle-59800-black-red-1.jpg",
+        "caption": "Reset Bicycle Model 59800 - Black/Red @ KSh 17,000",
+        "stockStatus": "in",
+        "searchKeywords": "reset bicycle model 59800 black red mountain bike adult cycle outdoor transport",
+        "visualTags": "reset bicycle model 59800 black red mountain bike adult cycle outdoor transport",
+        "batch": "Batch 26"
+    },
+    {
+        "id": "batch26-red-mountain-bicycle-59700",
+        "name": "Red Mountain Bicycle Model 59700",
+        "price": 17000,
+        "category": "General goods",
+        "image": "assets/products/batch26/red-mountain-bicycle-59700-1.jpg",
+        "images": [
+            "assets/products/batch26/red-mountain-bicycle-59700-1.jpg"
+        ],
+        "thumb": "assets/thumbs/batch26/red-mountain-bicycle-59700-1.jpg",
+        "caption": "Red Mountain Bicycle Model 59700 @ KSh 17,000",
+        "stockStatus": "in",
+        "searchKeywords": "red mountain bicycle model 59700 reset bike adult cycle outdoor transport",
+        "visualTags": "red mountain bicycle model 59700 reset bike adult cycle outdoor transport",
+        "batch": "Batch 26"
+    },
+    {
+        "id": "batch26-white-cream-mountain-bicycle-29",
+        "name": "White/Cream Mountain Bicycle Model 29",
+        "price": 17000,
+        "category": "General goods",
+        "image": "assets/products/batch26/white-cream-mountain-bicycle-29-1.jpg",
+        "images": [
+            "assets/products/batch26/white-cream-mountain-bicycle-29-1.jpg"
+        ],
+        "thumb": "assets/thumbs/batch26/white-cream-mountain-bicycle-29-1.jpg",
+        "caption": "White/Cream Mountain Bicycle Model 29 @ KSh 17,000",
+        "stockStatus": "in",
+        "searchKeywords": "white cream mountain bicycle model 29 reset bike adult cycle outdoor transport",
+        "visualTags": "white cream mountain bicycle model 29 reset bike adult cycle outdoor transport",
+        "batch": "Batch 26"
+    },
+    {
+        "id": "batch26-white-mountain-bicycle-59900",
+        "name": "White Mountain Bicycle Model 59900",
+        "price": 17500,
+        "category": "General goods",
+        "image": "assets/products/batch26/white-mountain-bicycle-59900-1.jpg",
+        "images": [
+            "assets/products/batch26/white-mountain-bicycle-59900-1.jpg"
+        ],
+        "thumb": "assets/thumbs/batch26/white-mountain-bicycle-59900-1.jpg",
+        "caption": "White Mountain Bicycle Model 59900 @ KSh 17,500",
+        "stockStatus": "in",
+        "searchKeywords": "white mountain bicycle model 59900 reset bike adult cycle outdoor transport",
+        "visualTags": "white mountain bicycle model 59900 reset bike adult cycle outdoor transport",
+        "batch": "Batch 26"
+    },
+    {
+        "id": "batch26-black-metal-dish-rack",
+        "name": "Black Metal Dish Rack",
+        "price": 2000,
+        "category": "Kitchenware",
+        "image": "assets/products/batch26/black-metal-dish-rack-1.jpg",
+        "images": [
+            "assets/products/batch26/black-metal-dish-rack-1.jpg",
+            "assets/products/batch26/black-metal-dish-rack-2.jpg"
+        ],
+        "thumb": "assets/thumbs/batch26/black-metal-dish-rack-1.jpg",
+        "caption": "Black Metal Dish Rack @ KSh 2,000",
+        "stockStatus": "in",
+        "searchKeywords": "black metal dish rack three tier plate cup cutlery holder kitchen storage organizer",
+        "visualTags": "black metal dish rack three tier plate cup cutlery holder kitchen storage organizer",
+        "batch": "Batch 26"
+    },
+    {
+        "id": "batch26-black-gold-dish-rack",
+        "name": "3-Tier Black & Gold Dish Rack",
+        "price": 2500,
+        "category": "Kitchenware",
+        "image": "assets/products/batch26/black-gold-dish-rack-1.jpg",
+        "images": [
+            "assets/products/batch26/black-gold-dish-rack-1.jpg",
+            "assets/products/batch26/black-gold-dish-rack-2.jpg"
+        ],
+        "thumb": "assets/thumbs/batch26/black-gold-dish-rack-1.jpg",
+        "caption": "3-Tier Black & Gold Dish Rack @ KSh 2,500",
+        "stockStatus": "in",
+        "searchKeywords": "3 tier black gold dish rack plate cup cutlery holder kitchen storage organizer",
+        "visualTags": "3 tier black gold dish rack plate cup cutlery holder kitchen storage organizer",
+        "batch": "Batch 26"
     }
+
 ]
