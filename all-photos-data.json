@@ -12285,5 +12285,182 @@
         "visualTags": "3 tier black gold dish rack plate cup cutlery holder kitchen storage organizer",
         "batch": "Batch 26"
     }
+,
+    {
+        "id": "batch27-kids-bicycle-b4-12",
+        "batch": "Batch 27",
+        "name": "Kids Bicycle B4 12 Inch",
+        "price": 6000,
+        "category": "Baby & kids",
+        "image": "assets/products/batch27/kids-bicycle-b4-12-inch.jpg",
+        "images": [
+            "assets/products/batch27/kids-bicycle-b4-12-inch.jpg"
+        ],
+        "thumb": "assets/thumbs/batch27/kids-bicycle-b4-12-inch.jpg",
+        "caption": "Kids Bicycle B4 12 Inch @ KSh 6,000",
+        "stockStatus": "in",
+        "searchKeywords": "blue green kids bicycle b4 12 inch training wheels plastic front basket rear rack",
+        "visualTags": "blue green kids bicycle b4 12 inch training wheels plastic front basket rear rack"
+    },
+    {
+        "id": "batch27-tc-169-16",
+        "batch": "Batch 27",
+        "name": "TC-169 16 Inch Bicycle",
+        "price": 7800,
+        "category": "Baby & kids",
+        "image": "assets/products/batch27/tc-169-16-inch-bicycle.jpg",
+        "images": [
+            "assets/products/batch27/tc-169-16-inch-bicycle.jpg"
+        ],
+        "thumb": "assets/thumbs/batch27/tc-169-16-inch-bicycle.jpg",
+        "caption": "TC-169 16 Inch Bicycle @ KSh 7,800",
+        "stockStatus": "in",
+        "searchKeywords": "tc 169 16 inch blue kids bicycle training wheels wire front basket rear rack",
+        "visualTags": "tc 169 16 inch blue kids bicycle training wheels wire front basket rear rack"
+    },
+    {
+        "id": "batch27-sky-fly-16",
+        "batch": "Batch 27",
+        "name": "Sky Fly 16 Inch Bicycle",
+        "price": 7000,
+        "category": "Baby & kids",
+        "image": "assets/products/batch27/sky-fly-16-inch-bicycle.jpg",
+        "images": [
+            "assets/products/batch27/sky-fly-16-inch-bicycle.jpg"
+        ],
+        "thumb": "assets/thumbs/batch27/sky-fly-16-inch-bicycle.jpg",
+        "caption": "Sky Fly 16 Inch Bicycle @ KSh 7,000",
+        "stockStatus": "in",
+        "searchKeywords": "sky fly 16 inch red black kids bicycle training wheels wire front basket rear rack",
+        "visualTags": "sky fly 16 inch red black kids bicycle training wheels wire front basket rear rack"
+    },
+    {
+        "id": "batch27-f12-bicycle",
+        "batch": "Batch 27",
+        "name": "F12 Bicycle",
+        "price": 5800,
+        "category": "Baby & kids",
+        "image": "assets/products/batch27/f12-bicycle.jpg",
+        "images": [
+            "assets/products/batch27/f12-bicycle.jpg"
+        ],
+        "thumb": "assets/thumbs/batch27/f12-bicycle.jpg",
+        "caption": "F12 Bicycle @ KSh 5,800",
+        "stockStatus": "in",
+        "searchKeywords": "f12 black red kids bicycle training wheels plastic front basket",
+        "visualTags": "f12 black red kids bicycle training wheels plastic front basket"
+    },
+    {
+        "id": "batch27-sky-fly-12",
+        "batch": "Batch 27",
+        "name": "Sky Fly 12 Inch Bicycle",
+        "price": 6500,
+        "category": "Baby & kids",
+        "image": "assets/products/batch27/sky-fly-12-inch-bicycle.jpg",
+        "images": [
+            "assets/products/batch27/sky-fly-12-inch-bicycle.jpg"
+        ],
+        "thumb": "assets/thumbs/batch27/sky-fly-12-inch-bicycle.jpg",
+        "caption": "Sky Fly 12 Inch Bicycle @ KSh 6,500",
+        "stockStatus": "in",
+        "searchKeywords": "sky fly 12 inch blue black kids bicycle training wheels wire front basket rear rack",
+        "visualTags": "sky fly 12 inch blue black kids bicycle training wheels wire front basket rear rack"
+    },
+    {
+        "id": "batch27-victory-v12",
+        "batch": "Batch 27",
+        "name": "Victory Bicycle V12",
+        "price": 6500,
+        "category": "Baby & kids",
+        "image": "assets/products/batch27/victory-bicycle-v12.jpg",
+        "images": [
+            "assets/products/batch27/victory-bicycle-v12.jpg"
+        ],
+        "thumb": "assets/thumbs/batch27/victory-bicycle-v12.jpg",
+        "caption": "Victory Bicycle V12 @ KSh 6,500",
+        "stockStatus": "in",
+        "searchKeywords": "victory v12 red chrome kids bicycle training wheels wire front basket rear rack",
+        "visualTags": "victory v12 red chrome kids bicycle training wheels wire front basket rear rack"
+    },
+    {
+        "id": "batch27-victory-v20",
+        "batch": "Batch 27",
+        "name": "Victory Bicycle V20",
+        "price": 7000,
+        "category": "Baby & kids",
+        "image": "assets/products/batch27/victory-bicycle-v20.jpg",
+        "images": [
+            "assets/products/batch27/victory-bicycle-v20.jpg"
+        ],
+        "thumb": "assets/thumbs/batch27/victory-bicycle-v20.jpg",
+        "caption": "Victory Bicycle V20 @ KSh 7,000",
+        "stockStatus": "in",
+        "searchKeywords": "victory v20 red kids bicycle wire front basket rear rack",
+        "visualTags": "victory v20 red kids bicycle wire front basket rear rack"
+    },
+    {
+        "id": "batch27-falcon-f16",
+        "batch": "Batch 27",
+        "name": "Falcon Bicycle F16",
+        "price": 6000,
+        "category": "Baby & kids",
+        "image": "assets/products/batch27/falcon-bicycle-f16.jpg",
+        "images": [
+            "assets/products/batch27/falcon-bicycle-f16.jpg"
+        ],
+        "thumb": "assets/thumbs/batch27/falcon-bicycle-f16.jpg",
+        "caption": "Falcon Bicycle F16 @ KSh 6,000",
+        "stockStatus": "in",
+        "searchKeywords": "power falcon f16 green kids bicycle training wheels wire front basket rear rack",
+        "visualTags": "power falcon f16 green kids bicycle training wheels wire front basket rear rack"
+    },
+    {
+        "id": "batch27-falcon-f20",
+        "batch": "Batch 27",
+        "name": "Falcon Bicycle F20",
+        "price": 6300,
+        "category": "Baby & kids",
+        "image": "assets/products/batch27/falcon-bicycle-f20.jpg",
+        "images": [
+            "assets/products/batch27/falcon-bicycle-f20.jpg"
+        ],
+        "thumb": "assets/thumbs/batch27/falcon-bicycle-f20.jpg",
+        "caption": "Falcon Bicycle F20 @ KSh 6,300",
+        "stockStatus": "in",
+        "searchKeywords": "power falcon f20 red kids bicycle training wheels wire front basket rear rack",
+        "visualTags": "power falcon f20 red kids bicycle training wheels wire front basket rear rack"
+    },
+    {
+        "id": "batch27-three-gun-20",
+        "batch": "Batch 27",
+        "name": "Three Gun Bicycle 20 Inch",
+        "price": 7500,
+        "category": "Baby & kids",
+        "image": "assets/products/batch27/three-gun-bicycle-20-inch.jpg",
+        "images": [
+            "assets/products/batch27/three-gun-bicycle-20-inch.jpg"
+        ],
+        "thumb": "assets/thumbs/batch27/three-gun-bicycle-20-inch.jpg",
+        "caption": "Three Gun Bicycle 20 Inch @ KSh 7,500",
+        "stockStatus": "in",
+        "searchKeywords": "three gun 20 inch blue kids bicycle front basket rear rack",
+        "visualTags": "three gun 20 inch blue kids bicycle front basket rear rack"
+    },
+    {
+        "id": "batch27-sky-fly-20",
+        "batch": "Batch 27",
+        "name": "Sky Fly Bicycle 20 Inch",
+        "price": 8000,
+        "category": "Baby & kids",
+        "image": "assets/products/batch27/sky-fly-bicycle-20-inch.jpg",
+        "images": [
+            "assets/products/batch27/sky-fly-bicycle-20-inch.jpg"
+        ],
+        "thumb": "assets/thumbs/batch27/sky-fly-bicycle-20-inch.jpg",
+        "caption": "Sky Fly Bicycle 20 Inch @ KSh 8,000",
+        "stockStatus": "in",
+        "searchKeywords": "sky fly 20 inch black silver kids bicycle training wheels wire front basket rear rack",
+        "visualTags": "sky fly 20 inch black silver kids bicycle training wheels wire front basket rear rack"
+    }
 
 ]
