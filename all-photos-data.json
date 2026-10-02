@@ -12463,4 +12463,375 @@
         "visualTags": "sky fly 20 inch black silver kids bicycle training wheels wire front basket rear rack"
     }
 
+,
+{
+  "id": "batch28-bluetooth-bathing-scale",
+  "batch": "Batch 28",
+  "name": "Bluetoth Bathing Scale",
+  "price": 1500,
+  "category": "Appliances & electronics",
+  "image": "assets/products/batch28/bluetooth-bathing-scale-1.jpg",
+  "images": [
+    "assets/products/batch28/bluetooth-bathing-scale-1.jpg",
+    "assets/products/batch28/bluetooth-bathing-scale-2.jpg"
+  ],
+  "thumb": "assets/thumbs/batch28/bluetooth-bathing-scale-1.jpg",
+  "caption": "Bluetoth Bathing Scale @ KSh 1,500",
+  "stockStatus": "in",
+  "searchKeywords": "digital bathroom body weight scale model 2003A max 180 kg LCD bluetooth bathing scale",
+  "visualTags": "digital bathroom body weight scale model 2003A max 180 kg LCD bluetooth bathing scale"
+},
+{
+  "id": "batch28-electromate-compiting-scale",
+  "batch": "Batch 28",
+  "name": "Electromate Compiting Scale",
+  "price": 4000,
+  "category": "Appliances & electronics",
+  "image": "assets/products/batch28/electromate-compiting-scale-1.jpg",
+  "images": [
+    "assets/products/batch28/electromate-compiting-scale-1.jpg"
+  ],
+  "thumb": "assets/thumbs/batch28/electromate-compiting-scale-1.jpg",
+  "caption": "Electromate Compiting Scale @ KSh 4,000",
+  "stockStatus": "in",
+  "searchKeywords": "electromate computing counting shop scale 40 kg keypad tare zero",
+  "visualTags": "electromate computing counting shop scale 40 kg keypad tare zero"
+},
+{
+  "id": "batch28-hair-curling-stick",
+  "batch": "Batch 28",
+  "name": "Hair Curling Stick",
+  "price": 1500,
+  "category": "Beauty & care",
+  "image": "assets/products/batch28/hair-curling-stick-1.jpg",
+  "images": [
+    "assets/products/batch28/hair-curling-stick-1.jpg"
+  ],
+  "thumb": "assets/thumbs/batch28/hair-curling-stick-1.jpg",
+  "caption": "Hair Curling Stick @ KSh 1,500",
+  "stockStatus": "in",
+  "searchKeywords": "hair curling stick iron wand model XH-13 styling tool",
+  "visualTags": "hair curling stick iron wand model XH-13 styling tool"
+},
+{
+  "id": "batch28-professional-press-comb",
+  "batch": "Batch 28",
+  "name": "Professional Press Comb",
+  "price": 800,
+  "category": "Beauty & care",
+  "image": "assets/products/batch28/professional-press-comb-1.jpg",
+  "images": [
+    "assets/products/batch28/professional-press-comb-1.jpg"
+  ],
+  "thumb": "assets/thumbs/batch28/professional-press-comb-1.jpg",
+  "caption": "Professional Press Comb @ KSh 800",
+  "stockStatus": "in",
+  "searchKeywords": "professional electric press comb hot comb 45W hair styling",
+  "visualTags": "professional electric press comb hot comb 45W hair styling"
+},
+{
+  "id": "batch28-hair-strengthner",
+  "batch": "Batch 28",
+  "name": "Hair Strengthner",
+  "price": 800,
+  "category": "Beauty & care",
+  "image": "assets/products/batch28/hair-strengthner-1.jpg",
+  "images": [
+    "assets/products/batch28/hair-strengthner-1.jpg"
+  ],
+  "thumb": "assets/thumbs/batch28/hair-strengthner-1.jpg",
+  "caption": "Hair Strengthner @ KSh 800",
+  "stockStatus": "in",
+  "searchKeywords": "hair strengthner straightener flat iron ceramic temperature control RE-2523",
+  "visualTags": "hair strengthner straightener flat iron ceramic temperature control RE-2523"
+},
+{
+  "id": "batch28-nail-lamp",
+  "batch": "Batch 28",
+  "name": "Nail Lamp",
+  "price": 2000,
+  "category": "Beauty & care",
+  "image": "assets/products/batch28/nail-lamp-1.jpg",
+  "images": [
+    "assets/products/batch28/nail-lamp-1.jpg"
+  ],
+  "thumb": "assets/thumbs/batch28/nail-lamp-1.jpg",
+  "caption": "Nail Lamp @ KSh 2,000",
+  "stockStatus": "in",
+  "searchKeywords": "professional nail lamp UV LED manicure pedicure white rose gold",
+  "visualTags": "professional nail lamp UV LED manicure pedicure white rose gold"
+},
+{
+  "id": "batch28-wahl-detailer",
+  "batch": "Batch 28",
+  "name": "WAHL Detailer",
+  "price": 2500,
+  "category": "Beauty & care",
+  "image": "assets/products/batch28/wahl-detailer-1.jpg",
+  "images": [
+    "assets/products/batch28/wahl-detailer-1.jpg"
+  ],
+  "thumb": "assets/thumbs/batch28/wahl-detailer-1.jpg",
+  "caption": "WAHL Detailer @ KSh 2,500",
+  "stockStatus": "in",
+  "searchKeywords": "WAHL 5 Star detailer hair trimmer extra wide T blade corded guards",
+  "visualTags": "WAHL 5 Star detailer hair trimmer extra wide T blade corded guards"
+},
+{
+  "id": "batch28-sun-nail-lamp",
+  "batch": "Batch 28",
+  "name": "Sun Nail Lamp",
+  "price": 2000,
+  "category": "Beauty & care",
+  "image": "assets/products/batch28/sun-nail-lamp-1.jpg",
+  "images": [
+    "assets/products/batch28/sun-nail-lamp-1.jpg"
+  ],
+  "thumb": "assets/thumbs/batch28/sun-nail-lamp-1.jpg",
+  "caption": "Sun Nail Lamp @ KSh 2,000",
+  "stockStatus": "in",
+  "searchKeywords": "SUN TECH nail lamp 200W UV LED timer display manicure pedicure",
+  "visualTags": "SUN TECH nail lamp 200W UV LED timer display manicure pedicure"
+},
+{
+  "id": "batch28-handheld-fan",
+  "batch": "Batch 28",
+  "name": "Handheld Fan",
+  "price": 500,
+  "category": "Appliances & electronics",
+  "image": "assets/products/batch28/handheld-fan-1.jpg",
+  "images": [
+    "assets/products/batch28/handheld-fan-1.jpg"
+  ],
+  "thumb": "assets/thumbs/batch28/handheld-fan-1.jpg",
+  "caption": "Handheld Fan @ KSh 500",
+  "stockStatus": "in",
+  "searchKeywords": "purple handheld rechargeable fan USB-C phone stand portable",
+  "visualTags": "purple handheld rechargeable fan USB-C phone stand portable"
+},
+{
+  "id": "batch28-patent-bow-heeled-sandal",
+  "batch": "Batch 28",
+  "name": "Patent Bow Heeled Sandal",
+  "price": 750,
+  "category": "Fashion & shoes",
+  "image": "assets/products/batch28/patent-bow-heeled-sandal-1.jpg",
+  "images": [
+    "assets/products/batch28/patent-bow-heeled-sandal-1.jpg"
+  ],
+  "thumb": "assets/thumbs/batch28/patent-bow-heeled-sandal-1.jpg",
+  "caption": "Patent Bow Heeled Sandal @ KSh 750",
+  "stockStatus": "in",
+  "searchKeywords": "black patent bow heeled sandal ankle strap buckle women shoes",
+  "visualTags": "black patent bow heeled sandal ankle strap buckle women shoes"
+},
+{
+  "id": "batch28-suede-buckle-clog-mule",
+  "batch": "Batch 28",
+  "name": "Suede Buckle Clog Mule",
+  "price": 750,
+  "category": "Fashion & shoes",
+  "image": "assets/products/batch28/suede-buckle-clog-mule-1.jpg",
+  "images": [
+    "assets/products/batch28/suede-buckle-clog-mule-1.jpg"
+  ],
+  "thumb": "assets/thumbs/batch28/suede-buckle-clog-mule-1.jpg",
+  "caption": "Suede Buckle Clog Mule @ KSh 750",
+  "stockStatus": "in",
+  "searchKeywords": "black suede clog mule single buckle strap tan cork footbed women shoes",
+  "visualTags": "black suede clog mule single buckle strap tan cork footbed women shoes"
+},
+{
+  "id": "batch28-triple-strap-buckle-slide",
+  "batch": "Batch 28",
+  "name": "Triple-Strap Buckle Slide",
+  "price": 500,
+  "category": "Fashion & shoes",
+  "image": "assets/products/batch28/triple-strap-buckle-slide-1.jpg",
+  "images": [
+    "assets/products/batch28/triple-strap-buckle-slide-1.jpg"
+  ],
+  "thumb": "assets/thumbs/batch28/triple-strap-buckle-slide-1.jpg",
+  "caption": "Triple-Strap Buckle Slide @ KSh 500",
+  "stockStatus": "in",
+  "searchKeywords": "brown triple strap slide three brass buckles women sandals shoes",
+  "visualTags": "brown triple strap slide three brass buckles women sandals shoes"
+},
+{
+  "id": "batch28-bibas-quilted-ballet-flat-38",
+  "batch": "Batch 28",
+  "name": "BiBas Quilted Ballet Flat Size 38",
+  "price": 500,
+  "category": "Fashion & shoes",
+  "image": "assets/products/batch28/bibas-quilted-ballet-flat-38-1.jpg",
+  "images": [
+    "assets/products/batch28/bibas-quilted-ballet-flat-38-1.jpg"
+  ],
+  "thumb": "assets/thumbs/batch28/bibas-quilted-ballet-flat-38-1.jpg",
+  "caption": "BiBas Quilted Ballet Flat Size 38 @ KSh 500",
+  "stockStatus": "in",
+  "searchKeywords": "BiBas black quilted ballet flat toe bow gold tip size 38 women shoes",
+  "visualTags": "BiBas black quilted ballet flat toe bow gold tip size 38 women shoes"
+},
+{
+  "id": "batch28-zara-two-strap-buckle-slide",
+  "batch": "Batch 28",
+  "name": "ZARA Two-Strap Buckle Slide",
+  "price": 500,
+  "category": "Fashion & shoes",
+  "image": "assets/products/batch28/zara-two-strap-buckle-slide-1.jpg",
+  "images": [
+    "assets/products/batch28/zara-two-strap-buckle-slide-1.jpg"
+  ],
+  "thumb": "assets/thumbs/batch28/zara-two-strap-buckle-slide-1.jpg",
+  "caption": "ZARA Two-Strap Buckle Slide @ KSh 500",
+  "stockStatus": "in",
+  "searchKeywords": "ZARA black two strap slide brass buckle women sandals shoes",
+  "visualTags": "ZARA black two strap slide brass buckle women sandals shoes"
+},
+{
+  "id": "batch28-bibas-quilted-ballet-flat-39",
+  "batch": "Batch 28",
+  "name": "BiBas Quilted Ballet Flat Size 39",
+  "price": 450,
+  "category": "Fashion & shoes",
+  "image": "assets/products/batch28/bibas-quilted-ballet-flat-39-1.jpg",
+  "images": [
+    "assets/products/batch28/bibas-quilted-ballet-flat-39-1.jpg"
+  ],
+  "thumb": "assets/thumbs/batch28/bibas-quilted-ballet-flat-39-1.jpg",
+  "caption": "BiBas Quilted Ballet Flat Size 39 @ KSh 450",
+  "stockStatus": "in",
+  "searchKeywords": "BiBas black quilted ballet flat toe bow gold tip size 39 women shoes",
+  "visualTags": "BiBas black quilted ballet flat toe bow gold tip size 39 women shoes"
+},
+{
+  "id": "batch28-bibas-horsebit-loafer-38",
+  "batch": "Batch 28",
+  "name": "BiBas Horsebit Loafer Size 38",
+  "price": 400,
+  "category": "Fashion & shoes",
+  "image": "assets/products/batch28/bibas-horsebit-loafer-38-1.jpg",
+  "images": [
+    "assets/products/batch28/bibas-horsebit-loafer-38-1.jpg"
+  ],
+  "thumb": "assets/thumbs/batch28/bibas-horsebit-loafer-38-1.jpg",
+  "caption": "BiBas Horsebit Loafer Size 38 @ KSh 400",
+  "stockStatus": "in",
+  "searchKeywords": "BiBas black textured patent horsebit loafer size 38 women shoes",
+  "visualTags": "BiBas black textured patent horsebit loafer size 38 women shoes"
+},
+{
+  "id": "batch28-gold-crystal-monogram-slide",
+  "batch": "Batch 28",
+  "name": "Gold Crystal-Monogram Slide",
+  "price": 400,
+  "category": "Fashion & shoes",
+  "image": "assets/products/batch28/gold-crystal-monogram-slide-1.jpg",
+  "images": [
+    "assets/products/batch28/gold-crystal-monogram-slide-1.jpg",
+    "assets/products/batch28/gold-crystal-monogram-slide-2.jpg"
+  ],
+  "thumb": "assets/thumbs/batch28/gold-crystal-monogram-slide-1.jpg",
+  "caption": "Gold Crystal-Monogram Slide @ KSh 400",
+  "stockStatus": "in",
+  "searchKeywords": "gold crystal monogram slide brown trim women sandals shoes",
+  "visualTags": "gold crystal monogram slide brown trim women sandals shoes"
+},
+{
+  "id": "batch28-zara-white-strap-ring-charm-slide",
+  "batch": "Batch 28",
+  "name": "ZARA White-Strap Ring Charm Slide",
+  "price": 500,
+  "category": "Fashion & shoes",
+  "image": "assets/products/batch28/zara-white-strap-ring-charm-slide-1.jpg",
+  "images": [
+    "assets/products/batch28/zara-white-strap-ring-charm-slide-1.jpg"
+  ],
+  "thumb": "assets/thumbs/batch28/zara-white-strap-ring-charm-slide-1.jpg",
+  "caption": "ZARA White-Strap Ring Charm Slide @ KSh 500",
+  "stockStatus": "in",
+  "searchKeywords": "ZARA black slide white strap gold ring charm women sandals shoes",
+  "visualTags": "ZARA black slide white strap gold ring charm women sandals shoes"
+},
+{
+  "id": "batch28-zara-grey-fabric-two-buckle-slide",
+  "batch": "Batch 28",
+  "name": "ZARA Grey Fabric Two-Buckle Slide",
+  "price": 500,
+  "category": "Fashion & shoes",
+  "image": "assets/products/batch28/zara-grey-fabric-two-buckle-slide-1.jpg",
+  "images": [
+    "assets/products/batch28/zara-grey-fabric-two-buckle-slide-1.jpg"
+  ],
+  "thumb": "assets/thumbs/batch28/zara-grey-fabric-two-buckle-slide-1.jpg",
+  "caption": "ZARA Grey Fabric Two-Buckle Slide @ KSh 500",
+  "stockStatus": "in",
+  "searchKeywords": "ZARA grey fabric two buckle slide women sandals shoes",
+  "visualTags": "ZARA grey fabric two buckle slide women sandals shoes"
+},
+{
+  "id": "batch28-brown-h-cutout-studded-slide",
+  "batch": "Batch 28",
+  "name": "Brown H Cut-Out Studded Slide",
+  "price": 400,
+  "category": "Fashion & shoes",
+  "image": "assets/products/batch28/brown-h-cutout-studded-slide-1.jpg",
+  "images": [
+    "assets/products/batch28/brown-h-cutout-studded-slide-1.jpg"
+  ],
+  "thumb": "assets/thumbs/batch28/brown-h-cutout-studded-slide-1.jpg",
+  "caption": "Brown H Cut-Out Studded Slide @ KSh 400",
+  "stockStatus": "in",
+  "searchKeywords": "brown H cut out studded slide square toe women sandals shoes",
+  "visualTags": "brown H cut out studded slide square toe women sandals shoes"
+},
+{
+  "id": "batch28-bibas-black-mesh-toe-mule-39",
+  "batch": "Batch 28",
+  "name": "BiBas Black Mesh-Toe Mule Size 39",
+  "price": 750,
+  "category": "Fashion & shoes",
+  "image": "assets/products/batch28/bibas-black-mesh-toe-mule-39-1.jpg",
+  "images": [
+    "assets/products/batch28/bibas-black-mesh-toe-mule-39-1.jpg"
+  ],
+  "thumb": "assets/thumbs/batch28/bibas-black-mesh-toe-mule-39-1.jpg",
+  "caption": "BiBas Black Mesh-Toe Mule Size 39 @ KSh 750",
+  "stockStatus": "in",
+  "searchKeywords": "BiBas black mesh toe mule gold G hardware size 39 women shoes",
+  "visualTags": "BiBas black mesh toe mule gold G hardware size 39 women shoes"
+},
+{
+  "id": "batch28-mauve-glitter-block-heel-sandal",
+  "batch": "Batch 28",
+  "name": "Mauve Glitter Block-Heel Sandal",
+  "price": 750,
+  "category": "Fashion & shoes",
+  "image": "assets/products/batch28/mauve-glitter-block-heel-sandal-1.jpg",
+  "images": [
+    "assets/products/batch28/mauve-glitter-block-heel-sandal-1.jpg"
+  ],
+  "thumb": "assets/thumbs/batch28/mauve-glitter-block-heel-sandal-1.jpg",
+  "caption": "Mauve Glitter Block-Heel Sandal @ KSh 750",
+  "stockStatus": "in",
+  "searchKeywords": "mauve glitter block heel ankle strap sandal peep toe women shoes",
+  "visualTags": "mauve glitter block heel ankle strap sandal peep toe women shoes"
+},
+{
+  "id": "batch28-zara-silver-rhinestone-multi-buckle-slide",
+  "batch": "Batch 28",
+  "name": "ZARA Silver Rhinestone Multi-Buckle Slide",
+  "price": 500,
+  "category": "Fashion & shoes",
+  "image": "assets/products/batch28/zara-silver-rhinestone-multi-buckle-slide-1.jpg",
+  "images": [
+    "assets/products/batch28/zara-silver-rhinestone-multi-buckle-slide-1.jpg"
+  ],
+  "thumb": "assets/thumbs/batch28/zara-silver-rhinestone-multi-buckle-slide-1.jpg",
+  "caption": "ZARA Silver Rhinestone Multi-Buckle Slide @ KSh 500",
+  "stockStatus": "in",
+  "searchKeywords": "ZARA silver rhinestone multi buckle slide women sandals shoes",
+  "visualTags": "ZARA silver rhinestone multi buckle slide women sandals shoes"
+}
 ]
