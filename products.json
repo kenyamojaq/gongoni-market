@@ -785,45 +785,523 @@
     "stockStatus": "in"
   },
   {
-  "id": 1037,
-  "batch": "Batch 16",
-  "name": "Coffee Table 1270",
-  "price": 18000,
-  "category": "Furniture & chairs",
-  "image": "assets/batches/batch16_001.jpg",
-  "images": [
-    "assets/batches/batch16_001.jpg"
-  ],
-  "thumb": "assets/batches/batch16_001.jpg",
-  "caption": "Coffee Table 1270 @18000/=",
-  "stockStatus": "in"
-},
-{
-  "id": 1038,
-  "batch": "Batch 16",
-  "name": "G.F Dining Table DTC 1204 (6 Chairs)",
-  "price": 22000,
-  "category": "Furniture & chairs",
-  "image": "assets/batches/batch16_002.jpg",
-  "images": [
-    "assets/batches/batch16_002.jpg"
-  ],
-  "thumb": "assets/batches/batch16_002.jpg",
-  "caption": "G.F Dining Table DTC 1204 (6 Chairs) @22000/=",
-  "stockStatus": "in"
-},
-{
-  "id": 1039,
-  "batch": "Batch 16",
-  "name": "Coffee Table FCT 1245",
-  "price": 20000,
-  "category": "Furniture & chairs",
-  "image": "assets/batches/batch16_003.jpg",
-  "images": [
-    "assets/batches/batch16_003.jpg"
-  ],
-  "thumb": "assets/batches/batch16_003.jpg",
-  "caption": "Coffee Table FCT 1245 @20000/=",
-  "stockStatus": "in"
-}
+    "id": 1037,
+    "batch": "Batch 16",
+    "name": "Coffee Table 1270",
+    "price": 18000,
+    "category": "Furniture & chairs",
+    "image": "assets/batches/batch16_001.jpg",
+    "images": [
+      "assets/batches/batch16_001.jpg"
+    ],
+    "thumb": "assets/batches/batch16_001.jpg",
+    "caption": "Coffee Table 1270 @18000/=",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1038,
+    "batch": "Batch 16",
+    "name": "G.F Dining Table DTC 1204 (6 Chairs)",
+    "price": 22000,
+    "category": "Furniture & chairs",
+    "image": "assets/batches/batch16_002.jpg",
+    "images": [
+      "assets/batches/batch16_002.jpg"
+    ],
+    "thumb": "assets/batches/batch16_002.jpg",
+    "caption": "G.F Dining Table DTC 1204 (6 Chairs) @22000/=",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1039,
+    "batch": "Batch 16",
+    "name": "Coffee Table FCT 1245",
+    "price": 20000,
+    "category": "Furniture & chairs",
+    "image": "assets/batches/batch16_003.jpg",
+    "images": [
+      "assets/batches/batch16_003.jpg"
+    ],
+    "thumb": "assets/batches/batch16_003.jpg",
+    "caption": "Coffee Table FCT 1245 @20000/=",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1040,
+    "batch": "Batch 27",
+    "name": "F12 Bicycle",
+    "price": null,
+    "category": "Bicycles",
+    "image": "assets/products/batch27/f12-bicycle.jpg",
+    "images": [
+      "assets/products/batch27/f12-bicycle.jpg"
+    ],
+    "thumb": "assets/thumbs/batch27/f12-bicycle.jpg",
+    "caption": "F12 Bicycle",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1041,
+    "batch": "Batch 27",
+    "name": "Falcon Bicycle F16",
+    "price": null,
+    "category": "Bicycles",
+    "image": "assets/products/batch27/falcon-bicycle-f16.jpg",
+    "images": [
+      "assets/products/batch27/falcon-bicycle-f16.jpg"
+    ],
+    "thumb": "assets/thumbs/batch27/falcon-bicycle-f16.jpg",
+    "caption": "Falcon Bicycle F16",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1042,
+    "batch": "Batch 27",
+    "name": "Falcon Bicycle F20",
+    "price": null,
+    "category": "Bicycles",
+    "image": "assets/products/batch27/falcon-bicycle-f20.jpg",
+    "images": [
+      "assets/products/batch27/falcon-bicycle-f20.jpg"
+    ],
+    "thumb": "assets/thumbs/batch27/falcon-bicycle-f20.jpg",
+    "caption": "Falcon Bicycle F20",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1043,
+    "batch": "Batch 27",
+    "name": "Kids Bicycle B4 (12-inch)",
+    "price": null,
+    "category": "Bicycles",
+    "image": "assets/products/batch27/kids-bicycle-b4-12-inch.jpg",
+    "images": [
+      "assets/products/batch27/kids-bicycle-b4-12-inch.jpg"
+    ],
+    "thumb": "assets/thumbs/batch27/kids-bicycle-b4-12-inch.jpg",
+    "caption": "Kids Bicycle B4 (12-inch)",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1044,
+    "batch": "Batch 27",
+    "name": "Sky Fly Bicycle 12-inch",
+    "price": null,
+    "category": "Bicycles",
+    "image": "assets/products/batch27/sky-fly-12-inch-bicycle.jpg",
+    "images": [
+      "assets/products/batch27/sky-fly-12-inch-bicycle.jpg"
+    ],
+    "thumb": "assets/thumbs/batch27/sky-fly-12-inch-bicycle.jpg",
+    "caption": "Sky Fly Bicycle 12-inch",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1045,
+    "batch": "Batch 27",
+    "name": "Sky Fly Bicycle 16-inch",
+    "price": null,
+    "category": "Bicycles",
+    "image": "assets/products/batch27/sky-fly-16-inch-bicycle.jpg",
+    "images": [
+      "assets/products/batch27/sky-fly-16-inch-bicycle.jpg"
+    ],
+    "thumb": "assets/thumbs/batch27/sky-fly-16-inch-bicycle.jpg",
+    "caption": "Sky Fly Bicycle 16-inch",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1046,
+    "batch": "Batch 27",
+    "name": "Sky Fly Bicycle 20-inch",
+    "price": null,
+    "category": "Bicycles",
+    "image": "assets/products/batch27/sky-fly-bicycle-20-inch.jpg",
+    "images": [
+      "assets/products/batch27/sky-fly-bicycle-20-inch.jpg"
+    ],
+    "thumb": "assets/thumbs/batch27/sky-fly-bicycle-20-inch.jpg",
+    "caption": "Sky Fly Bicycle 20-inch",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1047,
+    "batch": "Batch 27",
+    "name": "TC-169 Bicycle 16-inch",
+    "price": null,
+    "category": "Bicycles",
+    "image": "assets/products/batch27/tc-169-16-inch-bicycle.jpg",
+    "images": [
+      "assets/products/batch27/tc-169-16-inch-bicycle.jpg"
+    ],
+    "thumb": "assets/thumbs/batch27/tc-169-16-inch-bicycle.jpg",
+    "caption": "TC-169 Bicycle 16-inch",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1048,
+    "batch": "Batch 27",
+    "name": "Three Gun Bicycle 20-inch",
+    "price": null,
+    "category": "Bicycles",
+    "image": "assets/products/batch27/three-gun-bicycle-20-inch.jpg",
+    "images": [
+      "assets/products/batch27/three-gun-bicycle-20-inch.jpg"
+    ],
+    "thumb": "assets/thumbs/batch27/three-gun-bicycle-20-inch.jpg",
+    "caption": "Three Gun Bicycle 20-inch",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1049,
+    "batch": "Batch 27",
+    "name": "Victory Bicycle V12",
+    "price": null,
+    "category": "Bicycles",
+    "image": "assets/products/batch27/victory-bicycle-v12.jpg",
+    "images": [
+      "assets/products/batch27/victory-bicycle-v12.jpg"
+    ],
+    "thumb": "assets/thumbs/batch27/victory-bicycle-v12.jpg",
+    "caption": "Victory Bicycle V12",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1050,
+    "batch": "Batch 27",
+    "name": "Victory Bicycle V20",
+    "price": null,
+    "category": "Bicycles",
+    "image": "assets/products/batch27/victory-bicycle-v20.jpg",
+    "images": [
+      "assets/products/batch27/victory-bicycle-v20.jpg"
+    ],
+    "thumb": "assets/thumbs/batch27/victory-bicycle-v20.jpg",
+    "caption": "Victory Bicycle V20",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1051,
+    "batch": "Batch 28",
+    "name": "Bibas Black Mesh Toe Mule (Size 39)",
+    "price": null,
+    "category": "Footwear",
+    "image": "assets/products/batch28/bibas-black-mesh-toe-mule-39-1.jpg",
+    "images": [
+      "assets/products/batch28/bibas-black-mesh-toe-mule-39-1.jpg"
+    ],
+    "thumb": "assets/thumbs/batch28/bibas-black-mesh-toe-mule-39-1.jpg",
+    "caption": "Bibas Black Mesh Toe Mule (Size 39)",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1052,
+    "batch": "Batch 28",
+    "name": "Bibas Horsebit Loafer (Size 38)",
+    "price": null,
+    "category": "Footwear",
+    "image": "assets/products/batch28/bibas-horsebit-loafer-38-1.jpg",
+    "images": [
+      "assets/products/batch28/bibas-horsebit-loafer-38-1.jpg"
+    ],
+    "thumb": "assets/thumbs/batch28/bibas-horsebit-loafer-38-1.jpg",
+    "caption": "Bibas Horsebit Loafer (Size 38)",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1053,
+    "batch": "Batch 28",
+    "name": "Bibas Quilted Ballet Flat (Size 38)",
+    "price": null,
+    "category": "Footwear",
+    "image": "assets/products/batch28/bibas-quilted-ballet-flat-38-1.jpg",
+    "images": [
+      "assets/products/batch28/bibas-quilted-ballet-flat-38-1.jpg"
+    ],
+    "thumb": "assets/thumbs/batch28/bibas-quilted-ballet-flat-38-1.jpg",
+    "caption": "Bibas Quilted Ballet Flat (Size 38)",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1054,
+    "batch": "Batch 28",
+    "name": "Bibas Quilted Ballet Flat (Size 39)",
+    "price": null,
+    "category": "Footwear",
+    "image": "assets/products/batch28/bibas-quilted-ballet-flat-39-1.jpg",
+    "images": [
+      "assets/products/batch28/bibas-quilted-ballet-flat-39-1.jpg"
+    ],
+    "thumb": "assets/thumbs/batch28/bibas-quilted-ballet-flat-39-1.jpg",
+    "caption": "Bibas Quilted Ballet Flat (Size 39)",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1055,
+    "batch": "Batch 28",
+    "name": "Bluetooth Bathing Scale",
+    "price": null,
+    "category": "Bathroom scales",
+    "image": "assets/products/batch28/bluetooth-bathing-scale-1.jpg",
+    "images": [
+      "assets/products/batch28/bluetooth-bathing-scale-1.jpg",
+      "assets/products/batch28/bluetooth-bathing-scale-2.jpg"
+    ],
+    "thumb": "assets/thumbs/batch28/bluetooth-bathing-scale-1.jpg",
+    "caption": "Bluetooth Bathing Scale",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1056,
+    "batch": "Batch 28",
+    "name": "Brown H-Cutout Studded Slide",
+    "price": null,
+    "category": "Footwear",
+    "image": "assets/products/batch28/brown-h-cutout-studded-slide-1.jpg",
+    "images": [
+      "assets/products/batch28/brown-h-cutout-studded-slide-1.jpg"
+    ],
+    "thumb": "assets/thumbs/batch28/brown-h-cutout-studded-slide-1.jpg",
+    "caption": "Brown H-Cutout Studded Slide",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1057,
+    "batch": "Batch 28",
+    "name": "Electromate Computing Scale",
+    "price": null,
+    "category": "Bathroom scales",
+    "image": "assets/products/batch28/electromate-compiting-scale-1.jpg",
+    "images": [
+      "assets/products/batch28/electromate-compiting-scale-1.jpg"
+    ],
+    "thumb": "assets/thumbs/batch28/electromate-compiting-scale-1.jpg",
+    "caption": "Electromate Computing Scale",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1058,
+    "batch": "Batch 28",
+    "name": "Gold Crystal Monogram Slide",
+    "price": null,
+    "category": "Footwear",
+    "image": "assets/products/batch28/gold-crystal-monogram-slide-1.jpg",
+    "images": [
+      "assets/products/batch28/gold-crystal-monogram-slide-1.jpg",
+      "assets/products/batch28/gold-crystal-monogram-slide-2.jpg"
+    ],
+    "thumb": "assets/thumbs/batch28/gold-crystal-monogram-slide-1.jpg",
+    "caption": "Gold Crystal Monogram Slide",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1059,
+    "batch": "Batch 28",
+    "name": "Hair Curling Stick",
+    "price": null,
+    "category": "Beauty & care",
+    "image": "assets/products/batch28/hair-curling-stick-1.jpg",
+    "images": [
+      "assets/products/batch28/hair-curling-stick-1.jpg"
+    ],
+    "thumb": "assets/thumbs/batch28/hair-curling-stick-1.jpg",
+    "caption": "Hair Curling Stick",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1060,
+    "batch": "Batch 28",
+    "name": "Hair Strengthener",
+    "price": null,
+    "category": "Beauty & care",
+    "image": "assets/products/batch28/hair-strengthner-1.jpg",
+    "images": [
+      "assets/products/batch28/hair-strengthner-1.jpg"
+    ],
+    "thumb": "assets/thumbs/batch28/hair-strengthner-1.jpg",
+    "caption": "Hair Strengthener",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1061,
+    "batch": "Batch 28",
+    "name": "Handheld Fan",
+    "price": null,
+    "category": "Appliances & electronics",
+    "image": "assets/products/batch28/handheld-fan-1.jpg",
+    "images": [
+      "assets/products/batch28/handheld-fan-1.jpg"
+    ],
+    "thumb": "assets/thumbs/batch28/handheld-fan-1.jpg",
+    "caption": "Handheld Fan",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1062,
+    "batch": "Batch 28",
+    "name": "Mauve Glitter Block Heel Sandal",
+    "price": null,
+    "category": "Footwear",
+    "image": "assets/products/batch28/mauve-glitter-block-heel-sandal-1.jpg",
+    "images": [
+      "assets/products/batch28/mauve-glitter-block-heel-sandal-1.jpg"
+    ],
+    "thumb": "assets/thumbs/batch28/mauve-glitter-block-heel-sandal-1.jpg",
+    "caption": "Mauve Glitter Block Heel Sandal",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1063,
+    "batch": "Batch 28",
+    "name": "Nail Lamp",
+    "price": null,
+    "category": "Beauty & care",
+    "image": "assets/products/batch28/nail-lamp-1.jpg",
+    "images": [
+      "assets/products/batch28/nail-lamp-1.jpg"
+    ],
+    "thumb": "assets/thumbs/batch28/nail-lamp-1.jpg",
+    "caption": "Nail Lamp",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1064,
+    "batch": "Batch 28",
+    "name": "Patent Bow Heeled Sandal",
+    "price": null,
+    "category": "Footwear",
+    "image": "assets/products/batch28/patent-bow-heeled-sandal-1.jpg",
+    "images": [
+      "assets/products/batch28/patent-bow-heeled-sandal-1.jpg"
+    ],
+    "thumb": "assets/thumbs/batch28/patent-bow-heeled-sandal-1.jpg",
+    "caption": "Patent Bow Heeled Sandal",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1065,
+    "batch": "Batch 28",
+    "name": "Professional Press Comb",
+    "price": null,
+    "category": "Beauty & care",
+    "image": "assets/products/batch28/professional-press-comb-1.jpg",
+    "images": [
+      "assets/products/batch28/professional-press-comb-1.jpg"
+    ],
+    "thumb": "assets/thumbs/batch28/professional-press-comb-1.jpg",
+    "caption": "Professional Press Comb",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1066,
+    "batch": "Batch 28",
+    "name": "Suede Buckle Clog Mule",
+    "price": null,
+    "category": "Footwear",
+    "image": "assets/products/batch28/suede-buckle-clog-mule-1.jpg",
+    "images": [
+      "assets/products/batch28/suede-buckle-clog-mule-1.jpg"
+    ],
+    "thumb": "assets/thumbs/batch28/suede-buckle-clog-mule-1.jpg",
+    "caption": "Suede Buckle Clog Mule",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1067,
+    "batch": "Batch 28",
+    "name": "Sun Nail Lamp",
+    "price": null,
+    "category": "Beauty & care",
+    "image": "assets/products/batch28/sun-nail-lamp-1.jpg",
+    "images": [
+      "assets/products/batch28/sun-nail-lamp-1.jpg"
+    ],
+    "thumb": "assets/thumbs/batch28/sun-nail-lamp-1.jpg",
+    "caption": "Sun Nail Lamp",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1068,
+    "batch": "Batch 28",
+    "name": "Triple-Strap Buckle Slide",
+    "price": null,
+    "category": "Footwear",
+    "image": "assets/products/batch28/triple-strap-buckle-slide-1.jpg",
+    "images": [
+      "assets/products/batch28/triple-strap-buckle-slide-1.jpg"
+    ],
+    "thumb": "assets/thumbs/batch28/triple-strap-buckle-slide-1.jpg",
+    "caption": "Triple-Strap Buckle Slide",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1069,
+    "batch": "Batch 28",
+    "name": "Wahl Detailer Hair Trimmer",
+    "price": null,
+    "category": "Beauty & care",
+    "image": "assets/products/batch28/wahl-detailer-1.jpg",
+    "images": [
+      "assets/products/batch28/wahl-detailer-1.jpg"
+    ],
+    "thumb": "assets/thumbs/batch28/wahl-detailer-1.jpg",
+    "caption": "Wahl Detailer Hair Trimmer",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1070,
+    "batch": "Batch 28",
+    "name": "Zara Grey Fabric Two-Buckle Slide",
+    "price": null,
+    "category": "Footwear",
+    "image": "assets/products/batch28/zara-grey-fabric-two-buckle-slide-1.jpg",
+    "images": [
+      "assets/products/batch28/zara-grey-fabric-two-buckle-slide-1.jpg"
+    ],
+    "thumb": "assets/thumbs/batch28/zara-grey-fabric-two-buckle-slide-1.jpg",
+    "caption": "Zara Grey Fabric Two-Buckle Slide",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1071,
+    "batch": "Batch 28",
+    "name": "Zara Silver Rhinestone Multi-Buckle Slide",
+    "price": null,
+    "category": "Footwear",
+    "image": "assets/products/batch28/zara-silver-rhinestone-multi-buckle-slide-1.jpg",
+    "images": [
+      "assets/products/batch28/zara-silver-rhinestone-multi-buckle-slide-1.jpg"
+    ],
+    "thumb": "assets/thumbs/batch28/zara-silver-rhinestone-multi-buckle-slide-1.jpg",
+    "caption": "Zara Silver Rhinestone Multi-Buckle Slide",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1072,
+    "batch": "Batch 28",
+    "name": "Zara Two-Strap Buckle Slide",
+    "price": null,
+    "category": "Footwear",
+    "image": "assets/products/batch28/zara-two-strap-buckle-slide-1.jpg",
+    "images": [
+      "assets/products/batch28/zara-two-strap-buckle-slide-1.jpg"
+    ],
+    "thumb": "assets/thumbs/batch28/zara-two-strap-buckle-slide-1.jpg",
+    "caption": "Zara Two-Strap Buckle Slide",
+    "stockStatus": "in"
+  },
+  {
+    "id": 1073,
+    "batch": "Batch 28",
+    "name": "Zara White Strap Ring-Charm Slide",
+    "price": null,
+    "category": "Footwear",
+    "image": "assets/products/batch28/zara-white-strap-ring-charm-slide-1.jpg",
+    "images": [
+      "assets/products/batch28/zara-white-strap-ring-charm-slide-1.jpg"
+    ],
+    "thumb": "assets/thumbs/batch28/zara-white-strap-ring-charm-slide-1.jpg",
+    "caption": "Zara White Strap Ring-Charm Slide",
+    "stockStatus": "in"
+  }
 ]
